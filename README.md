@@ -1,5 +1,5 @@
-# Emacs config on Ubuntu 14.04
-===
+# Emacs 24.3 config on Ubuntu 14.04
+---
 <br>
 ## Language Support
 * None
