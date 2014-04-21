@@ -10,9 +10,6 @@
 ;; Set semanticdb save directory
 (setq semanticdb-default-save-directory (concat cache-root-path "semanticdb"))
 
-;; Activate semantic
-(semantic-mode 1)
-
 ;; Select submodes
 (add-to-list 'semantic-default-submodes 'global-semanticdb-minor-mode)
 (add-to-list 'semantic-default-submodes 'global-semantic-mru-bookmark-mode)
@@ -22,6 +19,9 @@
 (add-to-list 'semantic-default-submodes 'global-semantic-decoration-mode)
 (add-to-list 'semantic-default-submodes 'global-semantic-idle-scheduler-mode)
 
+;; Activate semantic
+(semantic-mode 1)
+
 ;; https://github.com/alexott/emacs-configs/blob/master/rc/emacs-rc-cedet.el
 ;; semantic/ia
 ;; semantic ctag ectag
@@ -30,10 +30,15 @@
 ;; http://cxwangyi.wordpress.com/2010/08/21/using-cedet-with-emacs/
 ;; semantic-tag-folding-mode
 ;; semantic gnu support
-;; srecode
 
 ;; keybinding
 ;; http://daftcoder.egloos.com/2886869
+
+;; Enable srecode
+(global-srecode-minor-mode 1)
+
+;; Enable tag folding
+(global-semantic-tag-folding-mode)
 
 ;; Load contrib library
 (require 'eassist)

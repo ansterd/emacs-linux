@@ -1,5 +1,9 @@
 (setq cache-directory (concat user-emacs-directory "cache/"))
 
+;; Setup Keyboard, Language
+(set-language-environment "Korean")
+(prefer-coding-system 'utf-8)
+
 ;; Disable toolbar, scrollbar
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))

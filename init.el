@@ -12,7 +12,8 @@
 ;; Install packages from MELPA
 (defun init-packages ()
   (packages-install
-   'evil))
+   '(evil
+     markdown-mode)))
 
 (condition-case nil
     (init-packages)
@@ -23,7 +24,9 @@
 ;; Setup packages, builtin libraries
 (mapc 'require '(setup-evil
 		 setup-ido
-		 setup-icomplete-mode))
+		 setup-icomplete-mode
+		 setup-dropbox
+		 setup-font))
 
 ;; TODO : save desktop, session, windows
 ;; TODO : semantic
