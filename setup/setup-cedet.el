@@ -22,26 +22,15 @@
 ;; Activate semantic
 (semantic-mode 1)
 
-;; https://github.com/alexott/emacs-configs/blob/master/rc/emacs-rc-cedet.el
-;; semantic/ia
-;; semantic ctag ectag
-;; http://www.randomsample.de/cedetdocs/semantic/Canned-Configuration.html
-;; semanticdb-ectag
-;; http://cxwangyi.wordpress.com/2010/08/21/using-cedet-with-emacs/
-;; semantic-tag-folding-mode
-;; semantic gnu support
-
 ;; keybinding
-;; http://daftcoder.egloos.com/2886869
 
 ;; Enable srecode
 (global-srecode-minor-mode 1)
 
 ;; Enable tag folding
-(global-semantic-tag-folding-mode)
+(global-semantic-tag-folding-mode t)
 
 ;; Load contrib library
 (require 'eassist)
-
 
 (provide 'setup-cedet)

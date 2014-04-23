@@ -13,7 +13,12 @@
 (defun init-packages ()
   (packages-install
    '(evil
-     markdown-mode)))
+     markdown-mode
+     ace-jump-mode
+     icicles
+     ido-vertical-mode
+     ido-at-point
+     smex)))
 
 (condition-case nil
     (init-packages)
@@ -26,7 +31,12 @@
 		 setup-ido
 		 setup-icomplete-mode
 		 setup-dropbox
-		 setup-font))
+		 setup-font
+		 setup-ace-jump-mode
+		 setup-smex
+		 ))
+
+;; setup-icicles
 
 ;; TODO : save desktop, session, windows
 ;; TODO : semantic

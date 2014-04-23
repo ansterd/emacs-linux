@@ -22,4 +22,8 @@
 ;; No start-up message
 (setq inhibit-startup-message t)
 
+;; Disable transient-mark-mode
+(setq transient-mark-mode t)
+(transient-mark-mode 1)
+
 (provide 'setup-default)
