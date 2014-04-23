@@ -18,6 +18,8 @@
      icicles
      ido-vertical-mode
      ido-at-point
+     ido-ubiquitous
+     flx-ido
      smex)))
 
 (condition-case nil

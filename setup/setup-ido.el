@@ -11,6 +11,11 @@
 (require 'ido-at-point)
 
 
+;; flx-ido
+(require 'flx-ido)
+(flx-ido-mode 1)
+
+
 ;; go to symbol like imenu [C-c i]
 (defun ido-goto-symbol (&optional symbol-list)
   "Refresh imenu and jump to a place in the buffer using Ido."

@@ -7,8 +7,11 @@ Last Update : 2014-04-21
 ### 2.Extensions
 - cedet
 - evil
-- ido
+- ido (vertical, at-point, ubiquitous, flx-ido)
 - icomplete-mode
+- icicles
+- ace-jump-mode
+- smex
 
 ## Todo
 1. semantic/ia
