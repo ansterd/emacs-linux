@@ -23,6 +23,7 @@
      smex
      expand-region
      helm
+     powerline
      )))
 
 (condition-case nil
@@ -42,6 +43,7 @@
 		 setup-expand-region
 		 setup-helm
 		 setup-thingatpt
+		 setup-powerline
 		 ))
 
 ;; setup-icicles
