@@ -22,6 +22,7 @@
      flx-ido
      smex
      expand-region
+     helm
      )))
 
 (condition-case nil
@@ -39,6 +40,7 @@
 		 setup-ace-jump-mode
 		 setup-smex
 		 setup-expand-region
+		 setup-helm
 		 ))
 
 ;; setup-icicles
