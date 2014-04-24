@@ -26,4 +26,7 @@
 (setq transient-mark-mode t)
 (transient-mark-mode 1)
 
+;; Enable delete-selection-mode
+(delete-selection-mode 1)
+
 (provide 'setup-default)

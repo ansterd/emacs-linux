@@ -20,7 +20,9 @@
      ido-at-point
      ido-ubiquitous
      flx-ido
-     smex)))
+     smex
+     expand-region
+     )))
 
 (condition-case nil
     (init-packages)
@@ -36,6 +38,7 @@
 		 setup-font
 		 setup-ace-jump-mode
 		 setup-smex
+		 setup-expand-region
 		 ))
 
 ;; setup-icicles
