@@ -4,7 +4,7 @@ Last Update : 2014-04-21
 ### 1. Language Support
 * None
 
-### 2.Extensions
+### 2. Extensions
 - cedet
 - evil
 - ido (vertical, at-point, ubiquitous, flx-ido)
@@ -13,6 +13,10 @@ Last Update : 2014-04-21
 - ace-jump-mode
 - smex
 - exand-region
+
+### 3. Things You Should Need To Know
+- `caps lock` key binded `ESC` because I use **EVIL**
+
 
 ## Todo
 1. semantic/ia
