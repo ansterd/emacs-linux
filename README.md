@@ -13,9 +13,12 @@ Last Update : 2014-04-21
 - ace-jump-mode
 - smex
 - exand-region
+- helm
+- thingatpt
 
 ### 3. Things You Should Need To Know
 - `caps lock` key binded `ESC` because I use **EVIL**
+- regarding to `helm` I only use helm-mini function **C-c h**
 
 
 ## Todo

@@ -41,6 +41,7 @@
 		 setup-smex
 		 setup-expand-region
 		 setup-helm
+		 setup-thingatpt
 		 ))
 
 ;; setup-icicles
