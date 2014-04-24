@@ -12,6 +12,7 @@ Last Update : 2014-04-21
 - icicles
 - ace-jump-mode
 - smex
+- exand-region
 
 ## Todo
 1. semantic/ia
