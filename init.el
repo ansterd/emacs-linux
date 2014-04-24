@@ -44,6 +44,7 @@
 		 setup-helm
 		 setup-thingatpt
 		 setup-powerline
+		 setup-uniquify
 		 ))
 
 ;; setup-icicles

@@ -15,6 +15,8 @@ Last Update : 2014-04-21
 - exand-region
 - helm
 - thingatpt
+- powerline
+- uniquify
 
 ### 3. Things You Should Need To Know
 - `caps lock` key binded `ESC` because I use **EVIL**
