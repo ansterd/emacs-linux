@@ -7,6 +7,9 @@ cache/frame/*
 !cache/desktop/
 cache/desktop/*
 !cache/desktop/.gitkeep
+!cache/bookmark/
+cache/bookmark/*
+!cache/bookmark/.gitkeep
 
 packages/
 url/
