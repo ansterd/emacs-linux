@@ -1,8 +1,10 @@
 *.elc
 
 cache/*
+!cache/frame/
 cache/frame/*
 !cache/frame/.gitkeep
+!cache/desktop/
 cache/desktop/*
 !cache/desktop/.gitkeep
 
