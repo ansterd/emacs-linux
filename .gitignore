@@ -1,6 +1,9 @@
 *.elc
 cache/*
-!.gitkeep
+!cache/.gitkeep
+!cache/frame/.gitkeep
+!cache/desktop/.gitkeep
 packages/
 url/
 .session
+!.gitkeep

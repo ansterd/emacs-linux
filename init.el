@@ -49,6 +49,7 @@
 		 setup-uniquify
 		 setup-desktop
 		 setup-frame
+		 setup-bookmark
 		 ))
 
 ;; setup-icicles
