@@ -1,0 +1,17 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(#1=(#("Sample" 0 6
+      (bmkp-full-record #1#))
+    (filename . "~/Dropbox/Todo/List.org")
+    (buffer-name . "List.org")
+    (front-context-string . "* Git\n** git ali")
+    (rear-context-string)
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21338 47020 283441 443000))
+    (created . #2#)
+    (position . 1))
+)
