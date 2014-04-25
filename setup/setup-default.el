@@ -29,13 +29,9 @@
 ;; Enable delete-selection-mode
 (delete-selection-mode 1)
 
-;; Automatically save when lose focus
-(defun save-all ()
-  (interactive)
-  (save-some-buffers t))
-(add-hook 'focus-out-hook 'save-all)
-
-
+;; Set cookie directory
+(setq url-configuration-directory 
+      (concat user-emacs-directory "cache/"))
 
 
 
