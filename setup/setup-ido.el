@@ -14,8 +14,40 @@
 (require 'flx-ido)
 (flx-ido-mode 1)
 
+;; recentf with ido
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+
+;; find recent file using ido
+(global-set-key (kbd "C-c f") 'recentf-ido-find-file)
+
 ;; go to symbol like imenu [C-c i]
 (global-set-key (kbd "C-c i") 'ido-goto-symbol) 
+
+;;;
+;;; custom-function
+;;;
+
+(defun recentf-ido-find-file ()
+  "Find a recent file using Ido."
+  (interactive)
+  (let* ((file-assoc-list
+	  (mapcar (lambda (x)
+		    (cons (file-name-nondirectory x)
+			  x))
+		  recentf-list))
+	 (filename-list
+	  (remove-duplicates (mapcar #'car file-assoc-list)
+			     :test #'string=))
+	 (filename (ido-completing-read "Choose recent file: "
+					filename-list
+					nil
+					t)))
+    (when filename
+      (find-file (cdr (assoc filename
+			     file-assoc-list))))))
+
 
 (defun ido-goto-symbol (&optional symbol-list)
   "Refresh imenu and jump to a place in the buffer using Ido."
