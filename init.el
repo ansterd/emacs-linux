@@ -26,6 +26,7 @@
      powerline
      f
      frame-restore
+     bookmark+
      )))
 
 (condition-case nil
