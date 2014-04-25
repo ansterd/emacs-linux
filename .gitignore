@@ -7,8 +7,8 @@ cache/frame/*
 !cache/desktop/
 cache/desktop/*
 !cache/desktop/.gitkeep
-!cache/bookmark/
 cache/bookmark/*
+!cache/bookmark/bookmarks
 !cache/bookmark/.gitkeep
 
 packages/
