@@ -24,11 +24,11 @@ Last Update : 2014-04-21
 - **[C-c i]**: ido-goto-symbol
 - [C-M-i] : **ido-at-point**
 
-#### ace-jump-mode
+#### - ace-jump-mode
 - [C-c SPC] : ace-jump-mode
 - [C-u SPC] : ace-jump-char
 
-#### evil
+- #### evil
 - [capslock] : evil-force-normal-state
 
 #### expand-region
