@@ -1,6 +1,14 @@
 (require 'bookmark)
 (setq enable-recursive-minibuffers t)
 
+
+;; Set bookmark save path
+(setq bookmark-save-path 
+      (concat user-emacs-directory "cache/bookmark/"))
+;; (setq bookmark-default-file
+      ;; (concat bookmark-save-path "bookmarks"))
+(setq bookmark-default-file "~/.emacs.d/cache/bookmark/bookmarks")
+
 ;; Use bookmark with ido
 (global-set-key (kbd "C-x r b") 'ido-bookmark-jump)
 
