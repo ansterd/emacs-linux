@@ -20,22 +20,22 @@ Last Update : 2014-04-21
 
 ### 3. Key Bindings
 
-#### ido
-- **[C-c i]**: ido-goto-symbol
-- [C-M-i] : **ido-at-point**
+- #### ido
+  - [C-c i]: **ido-goto-symbol**
+  - [C-M-i] : **ido-at-point**
 
-#### - ace-jump-mode
-- [C-c SPC] : ace-jump-mode
-- [C-u SPC] : ace-jump-char
+- #### ace-jump-mode
+	- [C-c SPC] : **ace-jump-mode**
+	- [C-u SPC] : **ace-jump-char**
 
 - #### evil
-- [capslock] : evil-force-normal-state
+  - [capslock] : **evil-force-normal-state**
 
-#### expand-region
-- [C-=] : er/expand-region
+- #### expand-region
+  - [C-=] : **er/expand-region**
 
-#### helm
-- [C-c h] : helm-mini
+- #### helm
+  - [C-c h] : **helm-mini**
 
 ### 4. Things You Should Need To Know
 - `caps lock` key binded `ESC` because I use **EVIL**
