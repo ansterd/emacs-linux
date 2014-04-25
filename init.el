@@ -46,10 +46,12 @@
 		 setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
-		 setup-session
+	;;	 setup-session
 		 ))
 
 ;; setup-icicles
+;;
+;;
 
 ;; TODO : save desktop, session, windows
 ;; TODO : semantic
