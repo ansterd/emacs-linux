@@ -24,6 +24,7 @@
      expand-region
      helm
      powerline
+     session
      )))
 
 (condition-case nil
@@ -45,6 +46,7 @@
 		 setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
+		 setup-session
 		 ))
 
 ;; setup-icicles
