@@ -1,5 +1,6 @@
 *.elc
-cache/
+cache/*
+!.gitkeep
 packages/
 url/
 .session

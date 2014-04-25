@@ -18,6 +18,8 @@ Last Update : 2014-04-21
 - **powerline**
 - **uniquify**
 - **recentf** (with ido)
+- **desktop**
+- **frame-restore**
 
 ### 3. Key Bindings
 - ido
