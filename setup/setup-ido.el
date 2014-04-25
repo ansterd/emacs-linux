@@ -10,13 +10,13 @@
 ;; ido at point mode [C-M-i]
 (require 'ido-at-point)
 
-
 ;; flx-ido
 (require 'flx-ido)
 (flx-ido-mode 1)
 
-
 ;; go to symbol like imenu [C-c i]
+(global-set-key (kbd "C-c i") 'ido-goto-symbol) 
+
 (defun ido-goto-symbol (&optional symbol-list)
   "Refresh imenu and jump to a place in the buffer using Ido."
   (interactive)
@@ -65,7 +65,6 @@
 	  (add-to-list 'symbol-names name)
 	  (add-to-list 'name-and-pos (cons name position))))))))
 
-(global-set-key "\C-ci" 'ido-goto-symbol) ; or any key you see fit
 
 (provide 'setup-ido)
 
