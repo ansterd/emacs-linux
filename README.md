@@ -21,7 +21,8 @@ Last Update : 2014-04-21
 - **desktop**
 - **frame-restore**
 - **bookmark+** (with ido)
-- **windmove**
+- **windmove** 
+- **windcycle**
 
 ### 3. Key Bindings
 - ido
