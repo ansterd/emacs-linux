@@ -52,6 +52,7 @@
 		 setup-frame
 		 setup-bookmark
 		 setup-recentf
+		 setup-windmove
 		 ))
 
 ;; setup-icicles

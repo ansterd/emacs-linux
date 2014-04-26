@@ -21,6 +21,7 @@ Last Update : 2014-04-21
 - **desktop**
 - **frame-restore**
 - **bookmark+** (with ido)
+- **windmove**
 
 ### 3. Key Bindings
 - ido
@@ -42,6 +43,12 @@ Last Update : 2014-04-21
 
 - recentf
   - [C-c f] : **recent-ido-find-file**
+
+- windmove
+  - [M-<left>] : **windmove-left**
+  - [M-<right>] : **windmove-right**
+  - [M-<up>] : **windmove-up**
+  - [M-<down>] : **windmove-down**
 
 ### 4. Things You Should Need To Know
 - `caps lock` key binded `ESC` because I use **EVIL**
