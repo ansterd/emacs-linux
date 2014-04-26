@@ -19,6 +19,11 @@
 (add-to-list 'semantic-default-submodes 'global-semantic-decoration-mode)
 (add-to-list 'semantic-default-submodes 'global-semantic-idle-scheduler-mode)
 
+;; Add include directory
+(setq emacs-builtin-package-directory "/usr/share/emacs/24.3/lisp")
+(semantic-add-system-include emacs-builtin-package-directory 'emacs-lisp-mode)
+
+
 ;; Activate semantic
 (semantic-mode 1)
 
