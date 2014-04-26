@@ -5,7 +5,9 @@
 (require 'cl)
 
 ;; Setup site-lisp
-(mapc 'require '(setup-default
+(mapc 'require '(
+		 setup-default
+		 setup-function
 		 setup-cedet
 		 setup-package))
 
