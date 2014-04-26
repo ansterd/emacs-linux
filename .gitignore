@@ -15,4 +15,5 @@ cache/bookmark/*
 packages/
 url/
 .session
+tramp
 !.gitkeep
