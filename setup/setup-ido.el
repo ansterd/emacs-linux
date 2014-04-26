@@ -14,39 +14,17 @@
 (require 'flx-ido)
 (flx-ido-mode 1)
 
-;; recentf with ido
-(require 'recentf)
-(recentf-mode 1)
-(setq recentf-max-menu-items 25)
-
-;; find recent file using ido
-(global-set-key (kbd "C-c f") 'recentf-ido-find-file)
 
 ;; go to symbol like imenu [C-c i]
 (global-set-key (kbd "C-c i") 'ido-goto-symbol) 
 
+;; sort ido filelist by mtime instead of alphabetically
+(add-hook 'ido-make-file-list-hook 'ido-sort-mtime)
+(add-hook 'ido-make-dir-list-hook 'ido-sort-mtime)
+
 ;;;
 ;;; custom-function
 ;;;
-
-(defun recentf-ido-find-file ()
-  "Find a recent file using Ido."
-  (interactive)
-  (let* ((file-assoc-list
-	  (mapcar (lambda (x)
-		    (cons (file-name-nondirectory x)
-			  x))
-		  recentf-list))
-	 (filename-list
-	  (remove-duplicates (mapcar #'car file-assoc-list)
-			     :test #'string=))
-	 (filename (ido-completing-read "Choose recent file: "
-					filename-list
-					nil
-					t)))
-    (when filename
-      (find-file (cdr (assoc filename
-			     file-assoc-list))))))
 
 
 (defun ido-goto-symbol (&optional symbol-list)
@@ -97,6 +75,17 @@
 	  (add-to-list 'symbol-names name)
 	  (add-to-list 'name-and-pos (cons name position))))))))
 
+(defun ido-sort-mtime ()
+  (setq ido-temp-list
+	(sort ido-temp-list 
+	      (lambda (a b)
+		(time-less-p
+		 (sixth (file-attributes (concat ido-current-directory b)))
+		 (sixth (file-attributes (concat ido-current-directory a)))))))
+  (ido-to-end  ;; move . files to end (again)
+   (delq nil (mapcar
+	      (lambda (x) (and (char-equal (string-to-char x) ?.) x))
+	      ido-temp-list))))
 
 (provide 'setup-ido)
 

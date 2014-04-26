@@ -24,7 +24,9 @@
      expand-region
      helm
      powerline
-     session
+     f
+     frame-restore
+     bookmark+
      )))
 
 (condition-case nil
@@ -46,7 +48,10 @@
 		 setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
-	;;	 setup-session
+		 setup-desktop
+		 setup-frame
+		 setup-bookmark
+		 setup-recentf
 		 ))
 
 ;; setup-icicles

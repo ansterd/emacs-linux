@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002, 2003, 2009 David Ponce
 
-;; Author: anster <anster@labtop-virtual>
-;; Created: 2014-04-24 10:02:14+0900
+;; Author: anster <anster@anster>
+;; Created: 2014-04-26 00:03:44+0900
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
