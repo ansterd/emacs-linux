@@ -50,17 +50,15 @@
 		 setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
-		 setup-desktop
-		 setup-frame
 		 setup-bookmark
 		 setup-recentf
 		 setup-windmove
 		 setup-buffcycle
+		 setup-windows
 		 ))
 
 ;; setup-icicles
-;;
-;;
+;; setup-frame
+;; setup-desktop
 
-;; TODO : save desktop, session, windows
 ;; TODO : semantic

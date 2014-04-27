@@ -24,9 +24,11 @@ Last Update : 2014-04-21
 - **windmove** 
 - **windcycle**
 - **buffcycle**
+- **windows**
+- **revive**
 
 ### 3. Things You Should Need To Know
-- `caps lock` key bind with`ESC` because of **EVIL**
+- `caps lock` key bind with `ESC` because of **EVIL**
 
 ### 4. Key Bindings
 - ido
@@ -50,10 +52,8 @@ Last Update : 2014-04-21
   - [C-c f] : **recent-ido-find-file**
 
 - windmove
-  - [M-left] : **windmove-left**
-  - [M-right] : **windmove-right**
-  - [M-up] : **windmove-up**
-  - [M-down] : **windmove-down**
+  - [M-\<arrow\>] : **switch window**
+  - [C-x \<arrow\>] : **switch window**
 
 - windcycle
   - [M-S-\<arrow\>] : **swap buffer**
@@ -65,6 +65,13 @@ Last Update : 2014-04-21
 - buffcycle
   - [C-q] : **kill-this-buffer-if-not-scratch**
   - [C-Tab] : **next-buffer-cycle**
+
+- windows
+  - [C-c C-w 1~9] : **Switch to window 1~9**
+  - [C-c C-w SPC] : **Switch to window previously shown**
+  - [C-c C-w C-n] : **Switch to next window**
+  - [C-c C-w C-p] : **Switch to previous window**
+  - [C-c C-w !] : **Delete current window**
 
 ## Todo
 1. semantic/ia
