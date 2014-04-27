@@ -56,8 +56,8 @@ Last Update : 2014-04-21
   - [M-down] : **windmove-down**
 
 - windcycle
-  - [M-S-<arrow>] : **swap buffer**
-  - [S-C-<arrow>] : **shrink, enlarge window**
+  - [M-S-\<arrow\>] : **swap buffer**
+  - [S-C-\<arrow\>] : **shrink, enlarge window**
   - [C-x x] : **delete-window**
   - [C-x |] : **split-window-horizontally**
   - [C-x -] : **split-window-vertically**
