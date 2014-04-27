@@ -1,6 +1,8 @@
 (setq dropbox-dir "~/Dropbox")
 
 (when (file-directory-p dropbox-dir)
-  (find-file "~/Dropbox/Todo/List.org"))
+  (add-hook 'after-init-hook
+	    (lambda ()
+	      (find-file "~/Dropbox/Todo/List.org"))))
 
 (provide 'setup-dropbox)

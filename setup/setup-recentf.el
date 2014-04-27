@@ -11,6 +11,10 @@
 ;; 			))
 
 (add-to-list 'recentf-exclude "bookmarks")
+(add-to-list 'recentf-exclude ".revive.el")
+(add-to-list 'recentf-exclude ".recentf")
+(add-to-list 'recentf-exclude ".windows")
+(add-to-list 'recentf-exclude ".emacs-bmk-bmenu-state.el")
 
 ;; find recent file using ido
 (global-set-key (kbd "C-c f") 'recentf-ido-find-file)

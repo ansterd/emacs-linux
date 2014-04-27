@@ -33,6 +33,10 @@
 (setq url-configuration-directory 
       (concat user-emacs-directory "cache/"))
 
+;; Use operating system's trash
+(setq delete-by-moving-to-trash t)
+
+;; Use y-or-n-p instead of yes-or-no-p
 
 
 (provide 'setup-default)
