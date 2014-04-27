@@ -55,6 +55,7 @@
 		 setup-bookmark
 		 setup-recentf
 		 setup-windmove
+		 setup-buffcycle
 		 ))
 
 ;; setup-icicles

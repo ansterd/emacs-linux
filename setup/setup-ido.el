@@ -14,9 +14,11 @@
 (require 'flx-ido)
 (flx-ido-mode 1)
 
-
 ;; go to symbol like imenu [C-c i]
 (global-set-key (kbd "C-c i") 'ido-goto-symbol) 
+
+;; ignore list
+(add-to-list 'ido-ignore-buffers "*IBuffer*")
 
 ;; sort ido filelist by mtime instead of alphabetically
 (add-hook 'ido-make-file-list-hook 'ido-sort-mtime)
