@@ -3,6 +3,6 @@
 (when (file-directory-p dropbox-dir)
   (add-hook 'after-init-hook
 	    (lambda ()
-	      (find-file "~/Dropbox/Todo/List.org"))))
+	      (find-file "~/Dropbox/Org/Todo.org"))))
 
 (provide 'setup-dropbox)

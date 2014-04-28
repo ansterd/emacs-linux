@@ -35,9 +35,9 @@ Although the extensions listed below are not used,
 They have their own configuration in `setup` directory
 so that you can refer the configurations
 
-- **icicles** (Because of **ido**)
-- **frame-restore** (Because of **revive**)
-- **desktop** (Because of **windows**)
+- **icicles** (replaced with **ido**)
+- **frame-restore** (replaced with **revive**)
+- **desktop** (replaced with **windows**)
 
 ### 3. Things You Should Need To Know
 - `caps lock` key bind with `ESC` because of **EVIL**

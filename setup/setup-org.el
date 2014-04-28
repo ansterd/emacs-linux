@@ -4,10 +4,13 @@
 ;; use ido
 (setq org-completion-use-ido t)
 
+;; use org-log-done
+(setq org-log-done t)
+
 ;; set org-todo-keywords
 (setq org-todo-keywords
-      (quote ((sequence "TODO(t)" "IN-PROGRESS(n)" "|" "DONE(d!)")
-              (sequence "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)"))))
+      (quote ((sequence "TODO(t)" "IN-PROGRESS(n)" "|" "DONE(d)")
+              (sequence "MEETING(m)" "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)"))))
 
 (setq org-todo-keyword-faces
       (quote (("TODO" :foreground "dark blue" :weight bold)
@@ -15,6 +18,7 @@
               ("DONE" :foreground "forest green" :weight bold)
               ("WAITING" :foreground "orange" :weight bold)
               ("HOLD" :foreground "magenta" :weight bold)
+              ("MEETING" :foreground "maroon" :weight bold)
               ("CANCELLED" :foreground "red" :weight bold))))
 
 ;; set org tag list
@@ -22,6 +26,7 @@
 		      ("work" . ?w) 
 		      ("home" . ?h)
 		      ("laptop" . ?l)))
+
 
 ;; define custom key will be used in org-mode
 (define-key org-mode-map (kbd "C-c a") 'org-agenda)
@@ -35,7 +40,15 @@
 (global-set-key (kbd "C-c C-l") 'org-insert-link)
 (global-set-key (kbd "C-c C-o") 'org-open-at-point)
 
+;; set org agenda files
+(setq dropbox-installed-dir "~/Dropbox")
+(when (file-directory-p 
+       (concat dropbox-installed-dir "/Org"))
+  (setq org-agenda-files 
+	(list "~/Dropbox/Org")))
 
-
+;; set org-link-frame-setup 
+;; so that you can open file in current window
+(setq org-link-frame-setup '((file . find-file)))
 
 (provide 'setup-org)
