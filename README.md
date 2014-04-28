@@ -26,10 +26,14 @@ Last Update : 2014-04-21
 - **windows**
 - **revive**
 - **org**
+- **fill-column-indicator**
+
 
 #### Installed But Not Used
 
-Although the extensions listed below are not used, They have their own configuration in `setup` directory so that you can refer the configurations
+Although the extensions listed below are not used,
+They have their own configuration in `setup` directory
+so that you can refer the configurations
 
 - **icicles** (Because of **ido**)
 - **frame-restore** (Because of **revive**)

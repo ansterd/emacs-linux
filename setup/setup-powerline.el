@@ -1,5 +1,6 @@
 (require 'powerline)
-(powerline-center-evil-theme)
+;;(powerline-center-evil-theme)
+(powerline-default-theme)
 
 ;; theme-pink
 (set-face-attribute 'mode-line nil
@@ -16,6 +17,5 @@
                     :foreground "#000"
                     :background "#ffaeb9"
                     :inherit 'mode-line)
-
 
 (provide 'setup-powerline)

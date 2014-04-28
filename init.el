@@ -30,6 +30,7 @@
      frame-restore
      bookmark+
      org
+     fill-column-indicator
      )))
 
 (condition-case nil
@@ -57,6 +58,7 @@
 		 setup-buffcycle
 		 setup-windows
 		 setup-org
+		 setup-80-column
 		 ))
 
 ;; setup-icicles
