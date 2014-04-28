@@ -5,11 +5,12 @@ Last Update : 2014-04-21
 * None
 
 ### 2. Extensions
+
+#### Used
 - **cedet**
 - **evil**
 - **ido** (vertical, at-point, ubiquitous, flx-ido)
 - **icomplete-mode**
-- **icicles**
 - **ace-jump-mode**
 - **smex**
 - **expand-region**
@@ -18,14 +19,21 @@ Last Update : 2014-04-21
 - **powerline**
 - **uniquify**
 - **recentf** (with ido)
-- **desktop**
-- **frame-restore**
 - **bookmark+** (with ido)
 - **windmove** 
 - **windcycle**
 - **buffcycle**
 - **windows**
 - **revive**
+- **org**
+
+#### Installed But Not Used
+
+Although the extensions listed below are not used, They have their own configuration in `setup` directory so that you can refer the configurations
+
+- **icicles** (Because of **ido**)
+- **frame-restore** (Because of **revive**)
+- **desktop** (Because of **windows**)
 
 ### 3. Things You Should Need To Know
 - `caps lock` key bind with `ESC` because of **EVIL**
@@ -72,6 +80,11 @@ Last Update : 2014-04-21
   - [C-c C-w C-n] : **Switch to next window**
   - [C-c C-w C-p] : **Switch to previous window**
   - [C-c C-w !] : **Delete current window**
+
+- org
+  - [C-c l] : **org-store-link**
+  - [C-c C-l] : **org-insert-link**
+  - [C-c C-o] : **org-open-at-point**
 
 ## Todo
 1. semantic/ia

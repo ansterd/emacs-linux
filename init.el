@@ -29,6 +29,7 @@
      f
      frame-restore
      bookmark+
+     org
      )))
 
 (condition-case nil
@@ -55,6 +56,7 @@
 		 setup-windmove
 		 setup-buffcycle
 		 setup-windows
+		 setup-org
 		 ))
 
 ;; setup-icicles
