@@ -3,6 +3,8 @@
 
 (add-to-list 'load-path cedet-root-path)
 (add-to-list 'load-path (concat cedet-root-path "contrib"))
+(add-to-list 'Info-default-directory-list 
+	     (concat cedet-root-path "doc/info"))
 
 (require 'cedet-devel-load)
 (require 'cedet-contrib-load)
