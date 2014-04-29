@@ -32,13 +32,14 @@
 (define-key org-mode-map (kbd "C-c a") 'org-agenda)
 (define-key org-mode-map (kbd "C-c l") 'org-store-link)
 (define-key org-mode-map (kbd "C-c l") 'org-store-link)
-(define-key org-mode-map (kbd "C-c b") 'org-iswitchb)
+(define-key org-mode-map (kbd "C-c o") 'org-iswitchb)
 
 
 ;; use these functions globally
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c C-l") 'org-insert-link)
 (global-set-key (kbd "C-c C-o") 'org-open-at-point)
+(global-set-key (kbd "C-c o") 'org-iswitchb)
 
 ;; set org agenda files
 (setq dropbox-installed-dir "~/Dropbox")

@@ -8,10 +8,14 @@
 
 (setq enable-recursive-minibuffers t)
 
+;; autosave bookmark
+(setq bookmark-save-flag 1)
+
 (require 'bookmark+)
 
 ;; Use bookmark with ido
 (global-set-key (kbd "C-x r b") 'ido-bookmark-jump)
+(global-set-key (kbd "C-c b") 'ido-bookmark-jump)
 
 (require 'ido)
 (defun ido-bookmark-jump (bname)
