@@ -1,0 +1,16 @@
+;; Object dired+-20140425.1452/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "dired+-20140425.1452/"
+  :tables
+  (list
+    (semanticdb-table "dired+-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "dired+-autoloads.el"
+      :pointmax 260
+      :fsize 64043
+      :lastmodtime '(21341 13710 323858 965000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!packages!dired+-20140425.1452!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

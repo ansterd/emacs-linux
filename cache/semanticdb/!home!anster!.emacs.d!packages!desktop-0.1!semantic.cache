@@ -1,0 +1,124 @@
+;; Object desktop-0.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "desktop-0.1/"
+  :tables
+  (list
+    (semanticdb-table "desktop-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "desktop-autoloads.el"
+      :pointmax 263
+      :fsize 6761
+      :lastmodtime '(21338 33297 281886 434000)
+      :unmatched-syntax nil)
+    (semanticdb-table "desktop.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("desktop-file-version" variable (:default-value "206") nil [5722 5890])
+            ("desktop" customgroup (:user-visible-flag t) nil [6110 6189])
+            ("define-minor-mode" code nil nil [6206 6541])
+            ("define-obsolete-variable-alias" code nil nil [6584 6690])
+            ("desktop-save-mode-off" function nil nil [6692 6809])
+            ("desktop-save" variable (:default-value (quote ask-if-new)) nil [6811 7846])
+            ("desktop-load-locked-desktop" variable (:default-value (quote ask)) nil [7848 8332])
+            ("define-obsolete-variable-alias" code nil nil [8334 8451])
+            ("desktop-base-file-name" variable (:default-value (convert-standard-filename ".emacs.desktop")) nil [8453 8632])
+            ("desktop-base-lock-name" variable (:default-value (convert-standard-filename ".emacs.desktop.lock")) nil [8634 8841])
+            ("desktop-path" variable (:default-value (list "." user-emacs-directory "~")) nil [8843 9091])
+            ("desktop-missing-file-warning" variable nil nil [9143 9462])
+            ("desktop-no-desktop-file-hook" variable nil nil [9464 9720])
+            ("desktop-not-loaded-hook" variable nil nil [9722 10055])
+            ("desktop-after-read-hook" variable nil nil [10057 10263])
+            ("desktop-save-hook" variable nil nil [10265 10545])
+            ("desktop-globals-to-save" variable (:default-value (quote (desktop-missing-file-warning tags-file-name tags-table-list search-ring regexp-search-ring register-alist file-name-history))) nil [10547 11152])
+            ("desktop-globals-to-clear" variable (:default-value (quote (kill-ring kill-ring-yank-pointer search-ring search-ring-yank-pointer regexp-search-ring regexp-search-ring-yank-pointer))) nil [11154 11687])
+            ("desktop-clear-preserve-buffers" variable (:default-value (quote ("\\*scratch\\*" "\\*Messages\\*" "\\*server\\*" "\\*tramp/.+\\*" "\\*Warnings\\*"))) nil [11689 12094])
+            ("desktop-locals-to-save" variable (:default-value (quote (desktop-locals-to-save truncate-lines case-fold-search case-replace fill-column overwrite-mode change-log-default-name line-number-mode column-number-mode size-indication-mode buffer-file-coding-system indent-tabs-mode tab-width indicate-buffer-boundaries indicate-empty-lines show-trailing-whitespace))) nil [12111 12778])
+            ("desktop-buffers-not-to-save" variable nil nil [12780 13014])
+            ("desktop-files-not-to-save" variable (:default-value "\\(^/[^/:]*:\\|(ftp)$\\)") nil [13049 13260])
+            ("desktop-modes-not-to-save" variable (:default-value (quote (tags-table-mode))) nil [13332 13492])
+            ("desktop-file-name-format" variable (:default-value (quote absolute)) nil [13494 13835])
+            ("desktop-restore-eager" variable (:default-value t) nil [13837 14103])
+            ("desktop-lazy-verbose" variable (:default-value t) nil [14105 14241])
+            ("desktop-lazy-idle-delay" variable (:default-value 5) nil [14243 14412])
+            ("desktop-save-buffer" variable nil nil [14429 15064])
+            ("make-variable-buffer-local" code nil nil [15065 15114])
+            ("make-obsolete-variable" code nil nil [15115 15221])
+            ("make-obsolete-variable" code nil nil [15222 15329])
+            ("desktop-buffer-mode-handlers" variable nil nil [15346 16514])
+            ("put" code nil nil [16531 16590])
+            ("make-obsolete-variable" code nil nil [16591 16701])
+            ("desktop-minor-mode-table" variable (:default-value (quote ((auto-fill-function auto-fill-mode) (vc-mode nil) (vc-dired-mode nil) (erc-track-minor-mode nil) (savehist-mode nil)))) nil [16703 17428])
+            ("desktop-minor-mode-handlers" variable nil nil [17445 18616])
+            ("put" code nil nil [18633 18691])
+            ("desktop-dirname" variable nil nil [18773 18862])
+            ("desktop-full-file-name" function (:arguments ("dirname")) nil [18864 19096])
+            ("desktop-full-lock-name" function (:arguments ("dirname")) nil [19098 19335])
+            ("desktop-header" variable
+               (:constant-flag t
+                :user-visible-flag t
+                :default-value ";; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+")
+                nil [19337 19583])
+            ("desktop-delay-hook" variable nil nil [19585 19687])
+            ("desktop-file-modtime" variable nil nil [19804 19952])
+            ("desktop-owner" function (:arguments ("dirname")) nil [19954 20518])
+            ("desktop-claim-lock" function (:arguments ("dirname")) nil [20520 20780])
+            ("desktop-release-lock" function (:arguments ("dirname")) nil [20782 21036])
+            ("desktop-truncate" function (:arguments ("list" "n")) nil [21118 21292])
+            ("desktop-clear" function (:user-visible-flag t) nil [21389 22614])
+            ("unless" code nil nil [22696 22763])
+            ("desktop-kill" function nil nil [22765 24035])
+            ("desktop-list*" function (:arguments ("args")) nil [24117 24404])
+            ("desktop-buffer-info" function (:arguments ("buffer")) nil [24486 25776])
+            ("desktop-internal-v2s" function (:arguments ("value")) nil [25858 28382])
+            ("desktop-value-to-string" function (:arguments ("value")) nil [28464 28828])
+            ("desktop-outvar" function (:arguments ("varspec")) nil [28910 29601])
+            ("desktop-save-buffer-p" function (:arguments ("filename" "bufname" "mode" "_dummy")) nil [29683 30804])
+            ("desktop-file-name" function (:arguments ("filename" "dirname")) nil [30886 31554])
+            ("desktop-save" function
+               (:user-visible-flag t
+                :arguments ("dirname" "release"))
+                nil [31652 34542])
+            ("desktop-remove" function (:user-visible-flag t) nil [34639 34951])
+            ("desktop-buffer-args-list" variable nil nil [34953 35036])
+            ("desktop-lazy-timer" variable nil nil [35038 35069])
+            ("desktop-read" function
+               (:user-visible-flag t
+                :arguments ("dirname"))
+                nil [35166 38776])
+            ("desktop-load-default" function nil nil [38914 39145])
+            ("make-obsolete" code nil nil [39146 39224])
+            ("desktop-change-dir" function
+               (:user-visible-flag t
+                :arguments ("dirname"))
+                nil [39321 39737])
+            ("desktop-save-in-desktop-dir" function (:user-visible-flag t) nil [39834 40113])
+            ("desktop-revert" function (:user-visible-flag t) nil [40210 40496])
+            ("desktop-buffer-major-mode" variable nil nil [40498 40532])
+            ("desktop-buffer-locals" variable nil nil [40533 40563])
+            ("auto-insert" variable nil nil [40564 40584])
+            ("desktop-restore-file-buffer" function (:arguments ("buffer-filename" "_buffer-name" "_buffer-misc")) nil [40687 41645])
+            ("desktop-load-file" function (:arguments ("function")) nil [41647 41935])
+            ("desktop-first-buffer" variable nil nil [42145 42174])
+            ("desktop-buffer-ok-count" variable nil nil [42259 42291])
+            ("desktop-buffer-fail-count" variable nil nil [42292 42326])
+            ("desktop-create-buffer" function (:arguments ("file-version" "buffer-filename" "buffer-name" "buffer-majormode" "buffer-minormodes" "buffer-point" "buffer-mark" "buffer-readonly" "buffer-misc" "buffer-locals")) nil [42328 46165])
+            ("desktop-buffer" function (:arguments ("buffer-filename" "buffer-name" "buffer-majormode" "mim" "pt" "mk" "ro" "tl" "fc" "cfs" "cr" "buffer-misc")) nil [46312 46728])
+            ("desktop-append-buffer-args" function (:arguments ("args")) nil [46730 47116])
+            ("desktop-lazy-create-buffer" function nil nil [47118 48001])
+            ("desktop-idle-create-buffers" function nil nil [48003 48526])
+            ("desktop-lazy-complete" function (:user-visible-flag t) nil [48528 48798])
+            ("desktop-lazy-abort" function (:user-visible-flag t) nil [48800 49151])
+            ("add-hook" code nil nil [49564 49873])
+            ("desktop" package nil nil [49875 49893]))          
+      :file "desktop.el"
+      :pointmax 49920
+      :fsize 49919
+      :lastmodtime '(21338 33297 169886 434000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!packages!desktop-0.1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

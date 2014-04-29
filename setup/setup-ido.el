@@ -1,7 +1,27 @@
 (require 'ido)
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
 (ido-mode t)
+(ido-everywhere 1)
+(setq ido-enable-flex-matching t
+      ido-enable-prefix nil
+      ido-case-fold t
+      ido-max-prospects 10
+      ido-create-new-buffer 'always
+      ido-use-filename-at-point 'guess
+      ido-use-url-at-point t
+      ffap-require-prefix t
+      ido-default-file-method 'selected-window
+      ido-default-buffer-method 'selected-window)
+
+(defun ido-imenu ()
+  "Query with `ido-completing-read' a symbol in the buffer's
+imenu index, then jump to that symbol's location."
+  (interactive)
+  (goto-char
+   (let ((lst (nreverse
+               (flatten-assoc-tree
+                (imenu--make-index-alist)
+                'imenu--subalist-p))))
+     (access (ido-completing-read "Symbol: " (mapcar 'car lst)) lst))))
 
 ;; vertical mode
 (require 'ido-vertical-mode)
@@ -13,9 +33,6 @@
 ;; flx-ido
 (require 'flx-ido)
 (flx-ido-mode 1)
-
-;; go to symbol like imenu [C-c i]
-(global-set-key (kbd "C-c i") 'ido-goto-symbol) 
 
 ;; ignore list
 (add-to-list 'ido-ignore-buffers "*IBuffer*")

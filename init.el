@@ -1,5 +1,11 @@
-(add-to-list 'load-path (concat user-emacs-directory "site-lisp"))
-(add-to-list 'load-path (concat user-emacs-directory "setup"))
+
+;; Set Directory Path
+(setq dir/site-lisp (concat user-emacs-directory "site-lisp/")
+      dir/setup (concat user-emacs-directory "setup/")
+      dir/cache (concat user-emacs-directory "cache/"))
+
+(add-to-list 'load-path dir/site-lisp)
+(add-to-list 'load-path dir/setup)
 
 ;; Use common-lisp
 (require 'cl)
@@ -62,8 +68,6 @@
 		 setup-80-column
 		 ))
 
-;; setup-icicles
-;; setup-frame
-;; setup-desktop
-
-;; TODO : semantic
+;; Setup keybinding and alias
+(require 'setup-alias)
+(require 'setup-key)

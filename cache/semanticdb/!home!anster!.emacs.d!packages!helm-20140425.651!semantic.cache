@@ -1,0 +1,16 @@
+;; Object helm-20140425.651/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "helm-20140425.651/"
+  :tables
+  (list
+    (semanticdb-table "helm-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "helm-autoloads.el"
+      :pointmax 254
+      :fsize 46572
+      :lastmodtime '(21338 31404 201882 499000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!packages!helm-20140425.651!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

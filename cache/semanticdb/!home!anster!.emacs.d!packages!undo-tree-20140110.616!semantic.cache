@@ -1,0 +1,16 @@
+;; Object undo-tree-20140110.616/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "undo-tree-20140110.616/"
+  :tables
+  (list
+    (semanticdb-table "undo-tree-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "undo-tree-autoloads.el"
+      :pointmax 269
+      :fsize 1897
+      :lastmodtime '(21338 31326 325882 337000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!packages!undo-tree-20140110.616!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

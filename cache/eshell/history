@@ -1,0 +1,102 @@
+ls
+cd setup/
+ls
+rm setup-session.el 
+ls
+cd ~/.emasc.d
+cd ~/.emacs.d/
+ls
+cd cache/
+ls
+cd desktop/
+ls
+ls -al
+ls
+cd ..
+ls
+cd packages/
+ls
+cd desktop-0.1/
+ls
+cd ..
+rm -rf desktop-0.1/
+ls
+ls
+cd ..
+ls
+rm frame-restore-parameters 
+cd packages/
+ls
+rm -rf frame-restore-20130922.735/
+lcd
+cd ..
+ls
+ls
+cd ..
+ls
+cd setup/
+ls
+cd ..
+cd site-lisp/
+ls
+cd windcycle/
+ls
+ls
+cd ~/.emacs.d/
+ls -al
+cd packages/
+ls
+rm -rf edit-server-20131229.441/
+ls
+cd ..
+cd setup/
+rm setup-chrome.el 
+ls
+cd ..
+cd site-lisp/
+mkdir buffcycle
+ls
+cd ..
+ls
+mkdir windows
+cd windcycle/
+ls
+cd ..
+cd windows/
+ls
+wget http://www.gentei.org/~yuuji/software/windows.el
+ls
+ls
+cd ~/.emacs.d/
+ls
+cd site-lisp/
+ls
+cd windcycle/
+ls
+cd ..
+cd windcycle/
+ls
+cd ..
+cd windows/
+ls
+cd ~/.emacs.d/
+cd site-lisp/
+cd windows/
+ls
+wget http://www.gentei.org/~yuuji/software/revive.el
+ls
+cd ~/.emacs.d/
+ls
+ls
+ls
+clear
+ls
+ls
+touch sample
+ls
+ls
+ls
+ls
+rm Sample.org 
+cd ~/.emacs.d/
+ls

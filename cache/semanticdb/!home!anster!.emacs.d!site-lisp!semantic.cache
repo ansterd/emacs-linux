@@ -1,0 +1,23 @@
+;; Object site-lisp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "site-lisp/"
+  :tables
+  (list
+    (semanticdb-table "buffcycle.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("*buffcycle-ibuffer-time*" variable (:default-value 0.5) nil [980 1017])
+            ("*buffcycle-last-time*" variable (:default-value (float-time)) nil [1018 1061])
+            ("next-buffer-cycle" function nil nil [1063 1600])
+            ("kill-this-buffer-if-not-scratch" function nil nil [1602 1865])
+            ("global-set-key" code nil nil [1897 1948])
+            ("global-set-key" code nil nil [1949 2010])
+            ("buffcycle" package nil nil [2012 2032]))          
+      :file "buffcycle.el"
+      :pointmax 2034
+      :fsize 2033
+      :lastmodtime '(21340 25052 257713 504000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!site-lisp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,27 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables
+  (list
+    (semanticdb-table "init.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [24 197])
+            ("add-to-list" code nil nil [199 237])
+            ("add-to-list" code nil nil [238 272])
+            ("cl" include nil nil [293 306])
+            ("mapc" code nil nil [327 413])
+            ("init-packages" function nil nil [446 780])
+            ("condition-case" code nil nil [782 881])
+            ("mapc" code nil nil [920 1272])
+            ("setup-alias" include nil nil [1304 1326])
+            ("setup-key" include nil nil [1327 1347]))          
+      :file "init.el"
+      :pointmax 1348
+      :fsize 1347
+      :lastmodtime '(21343 58151 211068 813000)
+      :unmatched-syntax nil)
+)
+  :file "!home!anster!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,284 @@
+;; Object windows/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "windows/"
+  :tables
+  (list
+    (semanticdb-table "windows.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("win:max-configs" variable
+               (:user-visible-flag t
+                :default-value 10)
+                nil [22929 23001])
+            ("win:base-key" variable
+               (:user-visible-flag t
+                :default-value 48)
+                nil [23002 23058])
+            ("if" code nil nil [23059 23123])
+            ("win:switch-prefix" variable
+               (:user-visible-flag t
+                :default-value "")
+                nil [23124 23202])
+            ("win:menu-key-stroke" variable
+               (:user-visible-flag t
+                :default-value "")
+                nil [23203 23270])
+            ("win:resume-key-stroke" variable
+               (:user-visible-flag t
+                :default-value "")
+                nil [23271 23347])
+            ("win:resume-local-key-stroke" variable
+               (:user-visible-flag t
+                :default-value "")
+                nil [23348 23436])
+            ("win:switch-task-key-stroke" variable
+               (:user-visible-flag t
+                :default-value "")
+                nil [23437 23518])
+            ("win:quick-selection" variable
+               (:user-visible-flag t
+                :default-value t)
+                nil [23519 23653])
+            ("win:mode-line-format" variable
+               (:user-visible-flag t
+                :default-value "[%c%s%s]")
+                nil [23654 23757])
+            ("win:configuration-file" variable
+               (:user-visible-flag t
+                :default-value (if (eq system-type (quote ms-dos)) "~/_windows" "~/.windows"))
+                nil [23782 23911])
+            ("win:local-config-file" variable
+               (:user-visible-flag t
+                :default-value win:configuration-file)
+                nil [23912 24003])
+            ("win:make-backup-files" variable
+               (:user-visible-flag t
+                :default-value t)
+                nil [24004 24093])
+            ("win:config-loaded" variable nil nil [24094 24177])
+            ("win:no-raise-at-save" variable (:user-visible-flag t) nil [24204 24312])
+            ("win:frame-parameters-to-save-default" variable (:default-value (delq nil (list (quote top) (quote left) (quote minibuffer) (quote vertical-scroll-bars) (if (string< "19.27" emacs-version) (quote menu-bar-lines)) (if (featurep (quote mule)) (quote line-space))))) nil [24324 24795])
+            ("win:frame-parameters-to-save-private" variable (:user-visible-flag t) nil [24796 25016])
+            ("win:auto-position" variable
+               (:user-visible-flag t
+                :default-value (quote absolute))
+                nil [25017 25331])
+            ("win:new-frame-offset-x" variable
+               (:user-visible-flag t
+                :default-value 50)
+                nil [25332 25445])
+            ("win:new-frame-offset-y" variable
+               (:user-visible-flag t
+                :default-value 10)
+                nil [25446 25559])
+            ("win:allocate-frame-hook" variable (:user-visible-flag t) nil [25560 25638])
+            ("win:resumed-frame-offset-x" variable (:user-visible-flag t) nil [25639 25749])
+            ("win:resumed-frame-offset-y" variable (:user-visible-flag t) nil [25750 25860])
+            ("win:mouse-position" variable
+               (:user-visible-flag t
+                :default-value (quote (0 -5)))
+                nil [25861 25958])
+            ("win:title-with-buffer-name" variable
+               (:user-visible-flag t
+                :default-value t)
+                nil [25959 26045])
+            ("win:wipe-also-frames" variable (:user-visible-flag t) nil [26046 26135])
+            ("win:need-uptodate-frame-title" variable
+               (:user-visible-flag t
+                :default-value t)
+                nil [26136 26243])
+            ("win:buffer-depth-per-win" variable
+               (:user-visible-flag t
+                :default-value 5)
+                nil [26244 26371])
+            ("win:names-maxl" variable
+               (:user-visible-flag t
+                :default-value 20)
+                nil [26372 26429])
+            ("win:inhibit-switch-in-minibuffer" variable (:user-visible-flag t) nil [26430 26535])
+            ("win:frame-title-function" variable
+               (:user-visible-flag t
+                :default-value (quote (lambda (index) (format (if (featurep (quote mule)) "mule[%d]" "emacs[%d]") index))))
+                nil [26561 26762])
+            ("win:configs" variable (:default-value (make-vector win:max-configs nil)) nil [26803 26932])
+            ("win:names" variable (:default-value (make-vector win:max-configs "")) nil [26933 26984])
+            ("win:names-prefix" variable (:default-value (make-vector win:max-configs "")) nil [26985 27043])
+            ("win:sizes" variable (:default-value (make-vector win:max-configs nil)) nil [27044 27096])
+            ("win:buflists" variable (:default-value (make-vector win:max-configs nil)) nil [27097 27152])
+            ("let" code nil nil [27153 27287])
+            ("win:current-config" variable nil nil [27289 27349])
+            ("win:last-config" variable nil nil [27350 27421])
+            ("win:switch-map" variable nil nil [27423 27480])
+            ("win:switch-menu-map" variable nil nil [27481 27552])
+            ("win:xemacs-p" variable (:default-value (string-match "XEmacs" emacs-version)) nil [27568 27627])
+            ("win:XEmacs-remake-initial-frame" variable
+               (:user-visible-flag t
+                :default-value win:xemacs-p)
+                nil [27628 27756])
+            ("win:remake-frame" function nil nil [27757 28051])
+            ("if" code nil nil [28077 28613])
+            ("win:make-frame" function (:arguments ("index" "prop")) nil [28615 29387])
+            ("win:use-frame" variable
+               (:user-visible-flag t
+                :default-value (and (string< "18" (substring emacs-version 0 2)) window-system))
+                nil [29405 29540])
+            ("and" code nil nil [29541 29618])
+            ("win:last-key" function nil nil [29650 29797])
+            ("if" code nil nil [29799 33100])
+            ("if" code nil nil [33121 36039])
+            ("win:No-of-windows" function nil nil [36041 36209])
+            ("win:free-window-min" function nil nil [36211 36546])
+            ("win:delete-window" function (:arguments ("n" "killbufmsg" "force")) nil [36548 37666])
+            ("win:store-buffer-list" function (:arguments ("index")) nil [37668 38112])
+            ("win:restore-buffer-list" function (:arguments ("index")) nil [38114 38764])
+            ("win:switch-window" function (:arguments ("to" "preserve" "nosetwc")) nil [38766 40209])
+            ("win-delete-current-window" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [40211 40928])
+            ("win:kill-buffer-with-window" function nil nil [40930 41163])
+            ("win:kill-buffer-with" variable nil nil [41165 41262])
+            ("make-variable-buffer-local" code nil nil [41263 41313])
+            ("win-switch-to-window" function
+               (:user-visible-flag t
+                :arguments ("arg" "window"))
+                nil [41329 45055])
+            ("win-menu" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [45057 45733])
+            ("win-delete-current-window-force" function nil nil [45761 45851])
+            ("win-load-window-buffer" function nil nil [45852 45935])
+            ("win-update-window-buffer" function nil nil [45936 46085])
+            ("win-save-as" function nil nil [46086 46670])
+            ("win-swap-with" function
+               (:user-visible-flag t
+                :arguments ("win"))
+                nil [46672 47686])
+            ("win:read-config-file" function nil nil [47688 48177])
+            ("win-switch-task" function
+               (:user-visible-flag t
+                :arguments ("force-save" "config-file"))
+                nil [48179 48994])
+            ("win-resume-local" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [48996 49192])
+            ("win-resume-menu" function
+               (:user-visible-flag t
+                :arguments ("arg" "key"))
+                nil [49194 50141])
+            ("win-toggle-window" function (:user-visible-flag t) nil [50143 50438])
+            ("win-recent-window" function (:user-visible-flag t) nil [50440 51392])
+            ("win-next-window" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [51394 52023])
+            ("win-prev-window" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [52025 52174])
+            ("win:set-wc" function (:arguments ("num")) nil [52191 52615])
+            ("cond" code nil nil [52617 52911])
+            ("win:store-config" function (:arguments ("index")) nil [52913 53225])
+            ("win:current-window-configuration" function nil nil [53227 53325])
+            ("win:set-window-configuration" function (:arguments ("wc")) nil [53327 53518])
+            ("win:get-frame" function (:arguments ("index")) nil [53520 53754])
+            ("win:set-window-name" function (:arguments ("index")) nil [53756 54014])
+            ("win:mode-string" variable nil nil [54016 54044])
+            ("win:update-mode-line" function (:arguments ("number")) nil [54045 54503])
+            ("win-edit-name-prefix" function
+               (:user-visible-flag t
+                :arguments ("index"))
+                nil [54506 54794])
+            ("win:recover-deleted-frames" function nil nil [54798 55421])
+            ("win:startup-with-window" function nil nil [55438 58182])
+            ("win:revision" variable
+               (:constant-flag t
+                :default-value "$Revision: 2.48 $")
+                nil [58217 58296])
+            ("win:revision-prefix" variable (:default-value ";win;") nil [58297 58333])
+            ("win:frame-parameters" function (:arguments ("frame")) nil [58335 58803])
+            ("win:save-window" function (:arguments ("winnum")) nil [58805 60163])
+            ("win-save-all-configurations" function (:user-visible-flag t) nil [60180 61819])
+            ("win:load-window" function (:arguments ("arg")) nil [61821 62808])
+            ("wipe-windows" function
+               (:user-visible-flag t
+                :arguments ("no-ask"))
+                nil [62825 63496])
+            ("win:numericify" function (:arguments ("obj")) nil [63498 63711])
+            ("win:set-frame-configuration" function (:arguments ("config")) nil [63713 64663])
+            ("win-load-all-configurations" function
+               (:user-visible-flag t
+                :arguments ("preserve"))
+                nil [64680 66863])
+            ("or" code nil nil [66865 66920])
+            ("or" code nil nil [66921 67045])
+            ("win:select-frame" function (:arguments ("num")) nil [67085 68124])
+            ("win:selected-window" function nil nil [68126 68426])
+            ("win:frames-in-nw" variable
+               (:constant-flag t
+                :default-value (and (null window-system) (fboundp (quote window-configuration-frame)) (fboundp (quote make-frame)) (string< "20" emacs-version)))
+                nil [68428 68667])
+            ("win:adjust-window" function
+               (:user-visible-flag t
+                :arguments ("noerror"))
+                nil [68668 69692])
+            ("win:title-mode-line-updater" function nil nil [69694 69984])
+            ("win:title-mode-line-updater2" function nil nil [69986 70312])
+            ("if" code nil nil [70314 70510])
+            ("win:memorized-winconf" variable (:default-value (make-vector win:max-configs nil)) nil [70512 70639])
+            ("win:memorize-current-conf-1" function nil nil [70641 70852])
+            ("win:memorize-current-conf" function (:arguments ("from" "to" "old")) nil [70854 71311])
+            ("win-recover-recent-winconf" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [71313 72119])
+            ("win:memorize-winconf-timing" variable
+               (:user-visible-flag t
+                :default-value (quote save))
+                nil [72121 72321])
+            ("cond" code nil nil [72323 72545])
+            ("win:adjust-names" function nil nil [72618 72984])
+            ("win:other-frame" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [72986 73179])
+            ("mapcar" code nil nil [73180 73295])
+            ("win:frame-window" function (:arguments ("frame")) nil [73297 73548])
+            ("win:allocate-frame" function (:arguments ("index")) nil [73550 75487])
+            ("see-you-again" function (:user-visible-flag t) nil [75527 75778])
+            ("resume-windows" function
+               (:user-visible-flag t
+                :arguments ("preserve"))
+                nil [75795 77318])
+            ("win:switch-menu-buffer" variable (:default-value " * window list *") nil [77353 77403])
+            ("win:switch-menu-saved-config" variable (:default-value (make-vector 2 nil)) nil [77404 77635])
+            ("win-switch-menu-edit-name-prefix" function (:user-visible-flag t) nil [77637 78327])
+            ("win-switch-menu-select" function
+               (:user-visible-flag t
+                :arguments ("kill"))
+                nil [78329 79009])
+            ("win-switch-menu-select-directly" function (:user-visible-flag t) nil [79011 79580])
+            ("win-switch-menu-mark-job" function
+               (:user-visible-flag t
+                :arguments ("unmark"))
+                nil [79582 80014])
+            ("win-switch-menu-unmark-job" function (:user-visible-flag t) nil [80016 80155])
+            ("win-switch-menu-execute-job" function (:user-visible-flag t) nil [80157 81698])
+            ("win-switch-menu-quit" function (:user-visible-flag t) nil [81700 81810])
+            ("win:switch-menu-prepare-menu" function nil nil [81812 82586])
+            ("win-switch-menu" function (:user-visible-flag t) nil [82588 83429])
+            ("win:switch-menu-mode" function nil nil [83431 84087])
+            ("if" code nil nil [84089 84444])
+            ("if" code nil nil [84516 84748])
+            ("windows" package nil nil [84774 84792])
+            ("run-hooks" code nil nil [84793 84819]))          
+      :file "windows.el"
+      :pointmax 92233
+      :fsize 96830
+      :lastmodtime '(20741 15846 0 0)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!site-lisp!windows!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

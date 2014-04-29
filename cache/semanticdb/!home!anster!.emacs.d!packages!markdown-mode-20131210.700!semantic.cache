@@ -1,0 +1,16 @@
+;; Object markdown-mode-20131210.700/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "markdown-mode-20131210.700/"
+  :tables
+  (list
+    (semanticdb-table "markdown-mode-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "markdown-mode-autoloads.el"
+      :pointmax 281
+      :fsize 949
+      :lastmodtime '(21338 31338 625882 363000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!packages!markdown-mode-20131210.700!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

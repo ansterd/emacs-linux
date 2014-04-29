@@ -9,7 +9,7 @@
 
 ;; set org-todo-keywords
 (setq org-todo-keywords
-      (quote ((sequence "TODO(t)" "IN-PROGRESS(n)" "|" "DONE(d)")
+      (quote ((sequence "TODO(t)" "IN-PROGRESS(p)" "|" "DONE(d)")
               (sequence "MEETING(m)" "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)"))))
 
 (setq org-todo-keyword-faces

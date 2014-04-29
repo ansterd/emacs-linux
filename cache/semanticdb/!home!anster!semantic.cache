@@ -1,0 +1,36 @@
+;; Object anster/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "anster/"
+  :tables
+  (list
+    (semanticdb-table ".emacs-bmk-bmenu-state.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file ".emacs-bmk-bmenu-state.el"
+      :pointmax 1031
+      :fsize 988
+      :lastmodtime '(21343 54110 955081 336000)
+      :unmatched-syntax nil)
+    (semanticdb-table ".emacs"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("custom-set-variables" code nil nil [1 334])
+            ("custom-set-faces" code nil nil [335 574])
+            ("load" code nil nil [577 604])
+            ("put" code nil nil [605 651]))          
+      :file ".emacs"
+      :pointmax 652
+      :fsize 651
+      :lastmodtime '(21342 35343 257886 931000)
+      :unmatched-syntax nil)
+    (semanticdb-table ".revive.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file ".revive.el"
+      :pointmax 2028
+      :fsize 2080
+      :lastmodtime '(21341 2083 678513 369000)
+      :unmatched-syntax nil))
+  :file "!home!anster!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

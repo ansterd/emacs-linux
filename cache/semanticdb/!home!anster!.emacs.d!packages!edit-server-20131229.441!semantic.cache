@@ -1,0 +1,16 @@
+;; Object edit-server-20131229.441/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "edit-server-20131229.441/"
+  :tables
+  (list
+    (semanticdb-table "edit-server-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "edit-server-autoloads.el"
+      :pointmax 275
+      :fsize 797
+      :lastmodtime '(21339 56539 729192 594000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!packages!edit-server-20131229.441!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

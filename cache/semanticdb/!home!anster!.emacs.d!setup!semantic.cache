@@ -1,0 +1,375 @@
+;; Object setup/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "setup/"
+  :tables
+  (list
+    (semanticdb-table "setup-desktop.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("desktop" include nil nil [16 34])
+            ("desktop-save-mode" code nil nil [35 56])
+            ("setq" code nil nil [89 160])
+            ("setq" code nil nil [161 202])
+            ("setq" code nil nil [203 243])
+            ("setq" code nil nil [244 290])
+            ("desktop/auto-save" function nil nil [322 512])
+            ("add-hook" code nil nil [513 558])
+            ("setup-desktop" package nil nil [560 584]))          
+      :file "setup-desktop.el"
+      :pointmax 585
+      :fsize 584
+      :lastmodtime '(21341 639 814510 368000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-frame.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("frame-restore" include nil nil [22 46])
+            ("frame-restore-mode" code nil nil [47 67])
+            ("setq" code nil nil [68 179])
+            ("setup-frame" package nil nil [181 203]))          
+      :file "setup-frame.el"
+      :pointmax 204
+      :fsize 203
+      :lastmodtime '(21338 34140 625888 187000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-helm.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("helm-config" include nil nil [1 23])
+            ("global-set-key" code nil nil [41 82])
+            ("setup-helm" package nil nil [84 105]))          
+      :file "setup-helm.el"
+      :pointmax 107
+      :fsize 106
+      :lastmodtime '(21343 54166 903081 162000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-bookmark.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("custom-set-variables" code nil nil [27 91])
+            ("setq" code nil nil [92 172])
+            ("setq" code nil nil [173 247])
+            ("setq" code nil nil [249 286])
+            ("bookmark+" include nil nil [288 308])
+            ("global-set-key" code nil nil [335 386])
+            ("ido" include nil nil [388 402])
+            ("ido-bookmark-jump" function
+               (:user-visible-flag t
+                :arguments ("bname"))
+                nil [403 596])
+            ("bookmark-jump" function (:arguments ("after" "bookmark-jump" "activate")) nil [635 839])
+            ("setup-bookmark" package nil nil [841 866]))          
+      :file "setup-bookmark.el"
+      :pointmax 867
+      :fsize 966
+      :lastmodtime '(21343 51363 707089 851000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-ido.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("ido" include nil nil [1 15])
+            ("ido-mode" code nil nil [16 28])
+            ("ido-everywhere" code nil nil [29 47])
+            ("setq" code nil nil [48 386])
+            ("ido-imenu" function (:user-visible-flag t) nil [388 760])
+            ("ido-vertical-mode" include nil nil [779 807])
+            ("ido-vertical-mode" code nil nil [808 829])
+            ("ido-at-point" include nil nil [860 883])
+            ("flx-ido" include nil nil [896 914])
+            ("flx-ido-mode" code nil nil [915 931])
+            ("add-to-list" code nil nil [948 993])
+            ("add-hook" code nil nil [1051 1102])
+            ("add-hook" code nil nil [1103 1153])
+            ("ido-goto-symbol" function
+               (:user-visible-flag t
+                :arguments ("symbol-list"))
+                nil [1185 2729])
+            ("ido-sort-mtime" function nil nil [2731 3118])
+            ("setup-ido" package nil nil [3120 3140]))          
+      :file "setup-ido.el"
+      :pointmax 3142
+      :fsize 3141
+      :lastmodtime '(21343 59501 759064 627000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-recentf.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("ido" include nil nil [21 35])
+            ("recentf" include nil nil [36 54])
+            ("setq" code nil nil [74 106])
+            ("add-to-list" code nil nil [180 222])
+            ("add-to-list" code nil nil [223 266])
+            ("add-to-list" code nil nil [267 308])
+            ("add-to-list" code nil nil [309 350])
+            ("add-to-list" code nil nil [351 409])
+            ("add-to-list" code nil nil [410 458])
+            ("add-to-list" code nil nil [459 508])
+            ("global-set-key" code nil nil [540 593])
+            ("recentf-mode" code nil nil [595 611])
+            ("recentf-ido-find-file" function (:user-visible-flag t) nil [642 1116])
+            ("setup-recentf" package nil nil [1119 1143]))          
+      :file "setup-recentf.el"
+      :pointmax 1144
+      :fsize 1143
+      :lastmodtime '(21342 32381 13829 281000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-windmove.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("windmove" include nil nil [1 20])
+            ("windmove-default-keybindings" code nil nil [21 57])
+            ("setq" code nil nil [76 155])
+            ("add-to-list" code nil nil [156 200])
+            ("windcycle" include nil nil [201 221])
+            ("setup-windmove" package nil nil [223 248]))          
+      :file "setup-windmove.el"
+      :pointmax 249
+      :fsize 248
+      :lastmodtime '(21339 55382 93190 188000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-cedet.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [2 79])
+            ("setq" code nil nil [80 147])
+            ("add-to-list" code nil nil [149 189])
+            ("add-to-list" code nil nil [190 249])
+            ("add-to-list" code nil nil [250 335])
+            ("cedet-devel-load" include nil nil [337 364])
+            ("cedet-contrib-load" include nil nil [365 394])
+            ("setq" code nil nil [429 507])
+            ("add-to-list" code nil nil [528 598])
+            ("add-to-list" code nil nil [599 674])
+            ("add-to-list" code nil nil [675 743])
+            ("add-to-list" code nil nil [744 817])
+            ("add-to-list" code nil nil [818 895])
+            ("add-to-list" code nil nil [896 969])
+            ("add-to-list" code nil nil [970 1047])
+            ("add-to-list" code nil nil [1131 1206])
+            ("add-to-list" code nil nil [1207 1304])
+            ("semantic/ia" include nil nil [1467 1489])
+            ("semantic/bovine/gcc" include nil nil [1517 1547])
+            ("when" code nil nil [1606 1690])
+            ("semantic-mode" code nil nil [1794 1811])
+            ("global-srecode-minor-mode" code nil nil [1846 1875])
+            ("global-semantic-tag-folding-mode" code nil nil [1899 1935])
+            ("eassist" include nil nil [1962 1980])
+            ("setup-cedet" package nil nil [2124 2146]))          
+      :file "setup-cedet.el"
+      :pointmax 2147
+      :fsize 2146
+      :lastmodtime '(21343 51363 711089 851000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-function.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("kill-other-buffers" function nil nil [1 106])
+            ("setup-function" package nil nil [108 133]))          
+      :file "setup-function.el"
+      :pointmax 134
+      :fsize 133
+      :lastmodtime '(21339 56987 473193 524000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-buffcycle.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 86])
+            ("add-to-list" code nil nil [88 132])
+            ("buffcycle" include nil nil [133 153])
+            ("setup-buffcycle" package nil nil [155 181]))          
+      :file "setup-buffcycle.el"
+      :pointmax 182
+      :fsize 181
+      :lastmodtime '(21340 24856 389713 97000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-windows.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 85])
+            ("add-to-list" code nil nil [87 133])
+            ("windows" include nil nil [135 153])
+            ("win:startup-with-window" code nil nil [154 179])
+            ("define-key" code nil nil [180 221])
+            ("save-current-configuration" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [241 304])
+            ("resume" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [305 349])
+            ("wipe" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [350 390])
+            ("add-hook" code nil nil [392 448])
+            ("add-hook" code nil nil [449 505])
+            ("setup-windows" package nil nil [507 531]))          
+      :file "setup-windows.el"
+      :pointmax 532
+      :fsize 531
+      :lastmodtime '(21341 2877 110515 18000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-dropbox.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 31])
+            ("when" code nil nil [33 161])
+            ("setup-dropbox" package nil nil [163 187]))          
+      :file "setup-dropbox.el"
+      :pointmax 188
+      :fsize 187
+      :lastmodtime '(21342 34821 401876 774000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-ace-jump-mode.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("ace-jump-mode" include nil nil [1 25])
+            ("define-key" code nil nil [85 139])
+            ("define-key" code nil nil [140 201])
+            ("setup-ace-jump-mode" package nil nil [203 233]))          
+      :file "setup-ace-jump-mode.el"
+      :pointmax 234
+      :fsize 233
+      :lastmodtime '(21342 28261 285749 105000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-default.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 62])
+            ("set-language-environment" code nil nil [92 127])
+            ("prefer-coding-system" code nil nil [128 157])
+            ("if" code nil nil [189 241])
+            ("if" code nil nil [242 290])
+            ("setq" code nil nil [321 346])
+            ("setq" code nil nil [347 375])
+            ("setq" code nil nil [412 474])
+            ("set" code nil nil [475 551])
+            ("global-linum-mode" code nil nil [575 596])
+            ("setq" code nil nil [621 653])
+            ("setq" code nil nil [686 714])
+            ("transient-mark-mode" code nil nil [715 738])
+            ("delete-selection-mode" code nil nil [772 797])
+            ("setq" code nil nil [823 903])
+            ("setq" code nil nil [937 971])
+            ("setup-default" package nil nil [1014 1038]))          
+      :file "setup-default.el"
+      :pointmax 1039
+      :fsize 1038
+      :lastmodtime '(21341 9842 211850 925000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-font.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 56])
+            ("when" code nil nil [58 179])
+            ("setup-font" package nil nil [249 270]))          
+      :file "setup-font.el"
+      :pointmax 271
+      :fsize 270
+      :lastmodtime '(21338 30974 109881 605000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-evil.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("evil" include nil nil [1 16])
+            ("evil-mode" code nil nil [17 30])
+            ("setup-evil" package nil nil [226 247]))          
+      :file "setup-evil.el"
+      :pointmax 248
+      :fsize 247
+      :lastmodtime '(21343 51363 711089 851000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-powerline.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("powerline" include nil nil [1 21])
+            ("powerline-default-theme" code nil nil [54 79])
+            ("set-face-attribute" code nil nil [95 240])
+            ("set-face-attribute" code nil nil [242 406])
+            ("set-face-attribute" code nil nil [408 572])
+            ("setup-powerline" package nil nil [574 600]))          
+      :file "setup-powerline.el"
+      :pointmax 601
+      :fsize 600
+      :lastmodtime '(21342 28763 465758 878000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-80-column.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("fill-column-indicator" include nil nil [1 33])
+            ("setq" code nil nil [34 57])
+            ("define-globalized-minor-mode" code nil nil [58 139])
+            ("global-fci-mode" code nil nil [140 159])
+            ("setup-80-column" package nil nil [161 187]))          
+      :file "setup-80-column.el"
+      :pointmax 188
+      :fsize 187
+      :lastmodtime '(21342 28570 817755 129000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-org.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("org" include nil nil [1 15])
+            ("add-to-list" code nil nil [16 70])
+            ("setq" code nil nil [83 114])
+            ("setq" code nil nil [136 157])
+            ("setq" code nil nil [184 365])
+            ("setq" code nil nil [367 820])
+            ("setq" code nil nil [842 935])
+            ("define-key" code nil nil [984 1035])
+            ("define-key" code nil nil [1036 1091])
+            ("define-key" code nil nil [1092 1147])
+            ("define-key" code nil nil [1148 1201])
+            ("global-set-key" code nil nil [1236 1282])
+            ("global-set-key" code nil nil [1283 1332])
+            ("global-set-key" code nil nil [1333 1384])
+            ("global-set-key" code nil nil [1385 1429])
+            ("setq" code nil nil [1455 1495])
+            ("when" code nil nil [1496 1618])
+            ("setq" code nil nil [1696 1745])
+            ("setup-org" package nil nil [1747 1767]))          
+      :file "setup-org.el"
+      :pointmax 1768
+      :fsize 1767
+      :lastmodtime '(21343 52376 251086 712000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-thingatpt.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("thingatpt" include nil nil [1 21])
+            ("eval-after-load" code nil nil [23 112])
+            ("my-isearch-yank-word-or-char-from-beginning" function (:user-visible-flag t) nil [114 487])
+            ("add-hook" code nil nil [489 725])
+            ("setup-thingatpt" package nil nil [727 753]))          
+      :file "setup-thingatpt.el"
+      :pointmax 754
+      :fsize 753
+      :lastmodtime '(21343 51363 711089 851000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-alias.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setup-alias" package nil nil [3 25]))          
+      :file "setup-alias.el"
+      :pointmax 26
+      :fsize 25
+      :lastmodtime '(21343 58472 599067 817000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-key.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("define-key" code nil nil [8 75])
+            ("define-key" code nil nil [76 145])
+            ("define-key" code nil nil [146 211])
+            ("define-key" code nil nil [212 279])
+            ("global-set-key" code nil nil [280 327])
+            ("setup-key" package nil nil [397 417]))          
+      :file "setup-key.el"
+      :pointmax 418
+      :fsize 417
+      :lastmodtime '(21343 59414 399064 898000)
+      :unmatched-syntax nil))
+  :file "!home!anster!.emacs.d!setup!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
