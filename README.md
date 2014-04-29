@@ -40,7 +40,7 @@ so that you can refer the configurations
 - **desktop** (replaced with **windows**)
 
 ### 3. Things You Should Need To Know
-- `~~caps lock` key bind with `ESC` because of **EVIL**~~
+- ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 4. Key Bindings
 - ido
