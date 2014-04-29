@@ -1,5 +1,9 @@
 (require 'thingatpt)
 
+(eval-after-load "thingatpt"
+  '(when (require 'thingatpt+)
+     (tap-redefine-std-fns)))
+
 (defun my-isearch-yank-word-or-char-from-beginning ()
   "Move to beginning of word before yanking word in isearch-mode."
   (interactive)

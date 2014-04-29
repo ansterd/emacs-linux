@@ -31,6 +31,7 @@
      bookmark+
      org
      fill-column-indicator
+     thingatpt+
      )))
 
 (condition-case nil
@@ -59,7 +60,6 @@
 		 setup-windows
 		 setup-org
 		 setup-80-column
-		 setup-remember
 		 ))
 
 ;; setup-icicles
