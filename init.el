@@ -59,6 +59,7 @@
 		 setup-windows
 		 setup-org
 		 setup-80-column
+		 setup-remember
 		 ))
 
 ;; setup-icicles
