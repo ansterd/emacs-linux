@@ -1,6 +1,5 @@
 *.elc
-
-!cache/ido/.gitkeep
+cache/*
 !cache/frame/
 cache/frame/*
 !cache/frame/.gitkeep

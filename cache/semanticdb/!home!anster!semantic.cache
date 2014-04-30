@@ -8,8 +8,8 @@
       :tags nil
       :file ".emacs-bmk-bmenu-state.el"
       :pointmax 1031
-      :fsize 988
-      :lastmodtime '(21343 54110 955081 336000)
+      :fsize 2648
+      :lastmodtime '(21343 37001 91280 653000)
       :unmatched-syntax nil)
     (semanticdb-table ".emacs"
       :major-mode 'emacs-lisp-mode
@@ -20,16 +20,25 @@
             ("put" code nil nil [605 651]))          
       :file ".emacs"
       :pointmax 652
-      :fsize 651
-      :lastmodtime '(21342 35343 257886 931000)
+      :fsize 630
+      :lastmodtime '(21341 55843 343000 293000)
       :unmatched-syntax nil)
-    (semanticdb-table ".revive.el"
-      :major-mode 'emacs-lisp-mode
-      :tags nil
-      :file ".revive.el"
-      :pointmax 2028
-      :fsize 2080
-      :lastmodtime '(21341 2083 678513 369000)
+
+    (semanticdb-table "sample.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("stdio.h" include nil nil [21 39])
+            ("malloc.h" include nil nil [40 59])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [70 75]))                  
+                :type "int")
+                nil [61 176]))          
+      :file "sample.cpp"
+      :pointmax 178
+      :fsize 177
+      :lastmodtime '(21343 40491 23200 410000)
       :unmatched-syntax nil))
   :file "!home!anster!semantic.cache"
   :semantic-tag-version "2.0"

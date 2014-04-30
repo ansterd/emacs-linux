@@ -18,7 +18,7 @@
       :file "setup-desktop.el"
       :pointmax 585
       :fsize 584
-      :lastmodtime '(21341 639 814510 368000)
+      :lastmodtime '(21339 17043 413206 889000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-frame.el"
       :major-mode 'emacs-lisp-mode
@@ -30,7 +30,7 @@
       :file "setup-frame.el"
       :pointmax 204
       :fsize 203
-      :lastmodtime '(21338 34140 625888 187000)
+      :lastmodtime '(21339 17043 413206 889000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-helm.el"
       :major-mode 'emacs-lisp-mode
@@ -41,7 +41,7 @@
       :file "setup-helm.el"
       :pointmax 107
       :fsize 106
-      :lastmodtime '(21343 54166 903081 162000)
+      :lastmodtime '(21344 19094 374019 389000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-bookmark.el"
       :major-mode 'emacs-lisp-mode
@@ -62,7 +62,7 @@
       :file "setup-bookmark.el"
       :pointmax 867
       :fsize 966
-      :lastmodtime '(21343 51363 707089 851000)
+      :lastmodtime '(21343 34911 203328 706000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-ido.el"
       :major-mode 'emacs-lisp-mode
@@ -89,7 +89,7 @@
       :file "setup-ido.el"
       :pointmax 3142
       :fsize 3141
-      :lastmodtime '(21343 59501 759064 627000)
+      :lastmodtime '(21344 19094 374019 389000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-recentf.el"
       :major-mode 'emacs-lisp-mode
@@ -111,7 +111,7 @@
       :file "setup-recentf.el"
       :pointmax 1144
       :fsize 1143
-      :lastmodtime '(21342 32381 13829 281000)
+      :lastmodtime '(21343 10850 84044 391000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-windmove.el"
       :major-mode 'emacs-lisp-mode
@@ -125,7 +125,7 @@
       :file "setup-windmove.el"
       :pointmax 249
       :fsize 248
-      :lastmodtime '(21339 55382 93190 188000)
+      :lastmodtime '(21341 49953 831368 248000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-cedet.el"
       :major-mode 'emacs-lisp-mode
@@ -158,18 +158,9 @@
       :file "setup-cedet.el"
       :pointmax 2147
       :fsize 2146
-      :lastmodtime '(21343 51363 711089 851000)
+      :lastmodtime '(21343 42617 399151 519000)
       :unmatched-syntax nil)
-    (semanticdb-table "setup-function.el"
-      :major-mode 'emacs-lisp-mode
-      :tags 
-        '( ("kill-other-buffers" function nil nil [1 106])
-            ("setup-function" package nil nil [108 133]))          
-      :file "setup-function.el"
-      :pointmax 134
-      :fsize 133
-      :lastmodtime '(21339 56987 473193 524000)
-      :unmatched-syntax nil)
+
     (semanticdb-table "setup-buffcycle.el"
       :major-mode 'emacs-lisp-mode
       :tags 
@@ -180,7 +171,7 @@
       :file "setup-buffcycle.el"
       :pointmax 182
       :fsize 181
-      :lastmodtime '(21340 24856 389713 97000)
+      :lastmodtime '(21343 38887 27237 290000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-windows.el"
       :major-mode 'emacs-lisp-mode
@@ -208,7 +199,7 @@
       :file "setup-windows.el"
       :pointmax 532
       :fsize 531
-      :lastmodtime '(21341 2877 110515 18000)
+      :lastmodtime '(21341 49953 831368 248000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-dropbox.el"
       :major-mode 'emacs-lisp-mode
@@ -219,7 +210,7 @@
       :file "setup-dropbox.el"
       :pointmax 188
       :fsize 187
-      :lastmodtime '(21342 34821 401876 774000)
+      :lastmodtime '(21343 10850 84044 391000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-ace-jump-mode.el"
       :major-mode 'emacs-lisp-mode
@@ -231,7 +222,7 @@
       :file "setup-ace-jump-mode.el"
       :pointmax 234
       :fsize 233
-      :lastmodtime '(21342 28261 285749 105000)
+      :lastmodtime '(21337 56706 884641 63000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-default.el"
       :major-mode 'emacs-lisp-mode
@@ -256,7 +247,7 @@
       :file "setup-default.el"
       :pointmax 1039
       :fsize 1038
-      :lastmodtime '(21341 9842 211850 925000)
+      :lastmodtime '(21341 49953 831368 248000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-font.el"
       :major-mode 'emacs-lisp-mode
@@ -267,7 +258,7 @@
       :file "setup-font.el"
       :pointmax 271
       :fsize 270
-      :lastmodtime '(21338 30974 109881 605000)
+      :lastmodtime '(21336 24508 952994 251000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-evil.el"
       :major-mode 'emacs-lisp-mode
@@ -278,7 +269,7 @@
       :file "setup-evil.el"
       :pointmax 248
       :fsize 247
-      :lastmodtime '(21343 51363 711089 851000)
+      :lastmodtime '(21343 11002 92040 896000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-powerline.el"
       :major-mode 'emacs-lisp-mode
@@ -292,7 +283,7 @@
       :file "setup-powerline.el"
       :pointmax 601
       :fsize 600
-      :lastmodtime '(21342 28763 465758 878000)
+      :lastmodtime '(21343 10850 84044 391000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-80-column.el"
       :major-mode 'emacs-lisp-mode
@@ -305,7 +296,7 @@
       :file "setup-80-column.el"
       :pointmax 188
       :fsize 187
-      :lastmodtime '(21342 28570 817755 129000)
+      :lastmodtime '(21343 10850 84044 391000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-org.el"
       :major-mode 'emacs-lisp-mode
@@ -332,7 +323,7 @@
       :file "setup-org.el"
       :pointmax 1768
       :fsize 1767
-      :lastmodtime '(21343 52376 251086 712000)
+      :lastmodtime '(21344 19094 374019 389000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-thingatpt.el"
       :major-mode 'emacs-lisp-mode
@@ -345,7 +336,7 @@
       :file "setup-thingatpt.el"
       :pointmax 754
       :fsize 753
-      :lastmodtime '(21343 51363 711089 851000)
+      :lastmodtime '(21343 40886 155191 325000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-alias.el"
       :major-mode 'emacs-lisp-mode
@@ -354,7 +345,7 @@
       :file "setup-alias.el"
       :pointmax 26
       :fsize 25
-      :lastmodtime '(21343 58472 599067 817000)
+      :lastmodtime '(21344 19094 374019 389000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-key.el"
       :major-mode 'emacs-lisp-mode
@@ -364,11 +355,21 @@
             ("define-key" code nil nil [146 211])
             ("define-key" code nil nil [212 279])
             ("global-set-key" code nil nil [280 327])
-            ("setup-key" package nil nil [397 417]))          
+            ("setup-key" package nil nil [333 353]))          
       :file "setup-key.el"
-      :pointmax 418
+      :pointmax 354
       :fsize 417
-      :lastmodtime '(21343 59414 399064 898000)
+      :lastmodtime '(21344 19094 374019 389000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-custom.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("kill-other-buffers" function nil nil [1 106])
+            ("setup-function" package nil nil [112 137]))          
+      :file "setup-custom.el"
+      :pointmax 138
+      :fsize 133
+      :lastmodtime '(21341 49953 831368 248000)
       :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!setup!semantic.cache"
   :semantic-tag-version "2.0"
