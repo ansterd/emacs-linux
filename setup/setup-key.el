@@ -5,7 +5,7 @@
 (define-key ido-buffer-completion-map (kbd "<up>") 'ido-prev-match)
 (global-set-key (kbd "C-c i") 'ido-goto-symbol) 
 
-[[https://github.com/tlh/emacs-config/blob/master/tlh-keys.el]]
+;; [[https://github.com/tlh/emacs-config/blob/master/tlh-keys.el]]
 
 
 

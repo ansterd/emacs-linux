@@ -13,7 +13,7 @@
 ;; Setup site-lisp
 (mapc 'require '(
 		 setup-default
-		 setup-function
+		 setup-custom
 		 setup-cedet
 		 setup-package))
 

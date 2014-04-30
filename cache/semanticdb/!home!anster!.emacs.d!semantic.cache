@@ -10,18 +10,17 @@
             ("add-to-list" code nil nil [199 237])
             ("add-to-list" code nil nil [238 272])
             ("cl" include nil nil [293 306])
-            ("mapc" code nil nil [327 413])
-            ("init-packages" function nil nil [446 780])
-            ("condition-case" code nil nil [782 881])
-            ("mapc" code nil nil [920 1272])
-            ("setup-alias" include nil nil [1304 1326])
-            ("setup-key" include nil nil [1327 1347]))          
+            ("mapc" code nil nil [327 411])
+            ("init-packages" function nil nil [444 778])
+            ("condition-case" code nil nil [780 879])
+            ("mapc" code nil nil [918 1270])
+            ("setup-alias" include nil nil [1302 1324])
+            ("setup-key" include nil nil [1325 1345]))          
       :file "init.el"
-      :pointmax 1348
-      :fsize 1347
-      :lastmodtime '(21343 58151 211068 813000)
-      :unmatched-syntax nil)
-)
+      :pointmax 1346
+      :fsize 1345
+      :lastmodtime '(21344 65410 214407 407000)
+      :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")
