@@ -12,6 +12,12 @@
       ido-default-file-method 'selected-window
       ido-default-buffer-method 'selected-window)
 
+(global-set-key (kbd "C-c i") 'ido-goto-symbol)
+(define-key ido-buffer-completion-map (kbd "<down>") 'ido-next-match)
+(define-key ido-buffer-completion-map (kbd "<up>") 'ido-prev-match)
+(define-key ido-file-completion-map (kbd "<down>") 'ido-next-match)
+(define-key ido-file-completion-map (kbd "<up>") 'ido-prev-match)
+
 (defun ido-imenu ()
   "Query with `ido-completing-read' a symbol in the buffer's
 imenu index, then jump to that symbol's location."

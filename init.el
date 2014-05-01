@@ -1,4 +1,3 @@
-
 ;; Set Directory Path
 (setq dir/site-lisp (concat user-emacs-directory "site-lisp/")
       dir/setup (concat user-emacs-directory "setup/")
@@ -70,4 +69,3 @@
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
-(require 'setup-key)

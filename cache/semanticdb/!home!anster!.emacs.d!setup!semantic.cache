@@ -10,39 +10,39 @@
             ("ido-mode" code nil nil [16 28])
             ("ido-everywhere" code nil nil [29 47])
             ("setq" code nil nil [48 386])
-            ("ido-imenu" function (:user-visible-flag t) nil [388 760])
-            ("ido-vertical-mode" include nil nil [779 807])
-            ("ido-vertical-mode" code nil nil [808 829])
-            ("ido-at-point" include nil nil [860 883])
-            ("flx-ido" include nil nil [896 914])
-            ("flx-ido-mode" code nil nil [915 931])
-            ("add-to-list" code nil nil [948 993])
-            ("add-hook" code nil nil [1051 1102])
-            ("add-hook" code nil nil [1103 1153])
+            ("global-set-key" code nil nil [388 435])
+            ("define-key" code nil nil [436 505])
+            ("define-key" code nil nil [506 573])
+            ("define-key" code nil nil [574 641])
+            ("define-key" code nil nil [642 707])
+            ("ido-imenu" function (:user-visible-flag t) nil [709 1081])
+            ("ido-vertical-mode" include nil nil [1100 1128])
+            ("ido-vertical-mode" code nil nil [1129 1150])
+            ("ido-at-point" include nil nil [1181 1204])
+            ("flx-ido" include nil nil [1217 1235])
+            ("flx-ido-mode" code nil nil [1236 1252])
+            ("add-to-list" code nil nil [1269 1314])
+            ("add-hook" code nil nil [1372 1423])
+            ("add-hook" code nil nil [1424 1474])
             ("ido-goto-symbol" function
                (:user-visible-flag t
                 :arguments ("symbol-list"))
-                nil [1185 2729])
-            ("ido-sort-mtime" function nil nil [2731 3118])
-            ("setup-ido" package nil nil [3120 3140]))          
+                nil [1506 3050])
+            ("ido-sort-mtime" function nil nil [3052 3439])
+            ("setup-ido" package nil nil [3441 3461]))          
       :file "setup-ido.el"
-      :pointmax 3142
-      :fsize 3141
-      :lastmodtime '(21343 59501 759064 627000)
+      :pointmax 3463
+      :fsize 3462
+      :lastmodtime '(21345 48584 43848 546000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-key.el"
       :major-mode 'emacs-lisp-mode
       :tags 
-        '( ("define-key" code nil nil [8 75])
-            ("define-key" code nil nil [76 145])
-            ("define-key" code nil nil [146 211])
-            ("define-key" code nil nil [212 279])
-            ("global-set-key" code nil nil [280 327])
-            ("setup-key" package nil nil [400 420]))          
+        '( ("setup-key" package nil nil [70 90]))          
       :file "setup-key.el"
-      :pointmax 421
-      :fsize 420
-      :lastmodtime '(21344 65345 170407 900000)
+      :pointmax 91
+      :fsize 90
+      :lastmodtime '(21345 48630 371848 196000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-alias.el"
       :major-mode 'emacs-lisp-mode
@@ -52,6 +52,205 @@
       :pointmax 26
       :fsize 25
       :lastmodtime '(21343 58472 599067 817000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-custom.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("kill-other-buffers" function nil nil [1 106])
+            ("setup-custom" package nil nil [109 132]))          
+      :file "setup-custom.el"
+      :pointmax 133
+      :fsize 132
+      :lastmodtime '(21345 48544 807848 843000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-windmove.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("windmove" include nil nil [1 20])
+            ("windmove-default-keybindings" code nil nil [21 57])
+            ("setq" code nil nil [76 155])
+            ("add-to-list" code nil nil [156 200])
+            ("windcycle" include nil nil [201 221])
+            ("setup-windmove" package nil nil [223 248]))          
+      :file "setup-windmove.el"
+      :pointmax 249
+      :fsize 248
+      :lastmodtime '(21339 55382 93190 188000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-smex.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("smex" include nil nil [1 16])
+            ("smex-initialize" code nil nil [17 34])
+            ("global-set-key" code nil nil [36 70])
+            ("global-set-key" code nil nil [71 125])
+            ("global-set-key" code nil nil [126 188])
+            ("setup-smex" package nil nil [190 211]))          
+      :file "setup-smex.el"
+      :pointmax 212
+      :fsize 211
+      :lastmodtime '(21345 48623 851848 245000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-cedet.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 78])
+            ("lambda" code nil nil [2899 3073])
+            ("setq" code nil nil [79 146])
+            ("add-to-list" code nil nil [148 188])
+            ("add-to-list" code nil nil [189 248])
+            ("add-to-list" code nil nil [249 334])
+            ("cedet-devel-load" include nil nil [336 363])
+            ("cedet-contrib-load" include nil nil [364 393])
+            ("setq" code nil nil [428 506])
+            ("add-to-list" code nil nil [527 597])
+            ("add-to-list" code nil nil [598 673])
+            ("add-to-list" code nil nil [674 742])
+            ("add-to-list" code nil nil [743 816])
+            ("add-to-list" code nil nil [817 894])
+            ("add-to-list" code nil nil [895 968])
+            ("add-to-list" code nil nil [969 1046])
+            ("add-to-list" code nil nil [1130 1205])
+            ("add-to-list" code nil nil [1206 1303])
+            ("semantic/ia" include nil nil [1466 1488])
+            ("semantic/bovine/gcc" include nil nil [1516 1546])
+            ("semantic-add-system-include" code nil nil [1590 1642])
+            ("when" code nil nil [1656 1805])
+            ("when" code nil nil [1807 1891])
+            ("semantic-mode" code nil nil [1995 2012])
+            ("global-srecode-minor-mode" code nil nil [2032 2061])
+            ("global-semantic-tag-folding-mode" code nil nil [2085 2121])
+            ("eassist" include nil nil [2147 2165])
+            ("global-set-key" code nil nil [2284 2353])
+            ("global-set-key" code nil nil [2354 2407])
+            ("global-set-key" code nil nil [2408 2473])
+            ("global-set-key" code nil nil [2474 2540])
+            ("global-set-key" code nil nil [2541 2596])
+            ("add-hook" code nil nil [2867 3074])
+            ("setq" code nil nil [79 146])
+            ("add-to-list" code nil nil [148 188])
+            ("add-to-list" code nil nil [189 248])
+            ("add-to-list" code nil nil [249 334])
+            ("cedet-devel-load" include nil nil [336 363])
+            ("cedet-contrib-load" include nil nil [364 393])
+            ("setq" code nil nil [428 506])
+            ("add-to-list" code nil nil [527 597])
+            ("add-to-list" code nil nil [598 673])
+            ("add-to-list" code nil nil [674 742])
+            ("add-to-list" code nil nil [743 816])
+            ("add-to-list" code nil nil [817 894])
+            ("add-to-list" code nil nil [895 968])
+            ("add-to-list" code nil nil [969 1046])
+            ("add-to-list" code nil nil [1130 1205])
+            ("add-to-list" code nil nil [1206 1303])
+            ("semantic/ia" include nil nil [1466 1488])
+            ("semantic/bovine/gcc" include nil nil [1516 1546])
+            ("semantic-add-system-include" code nil nil [1590 1642])
+            ("when" code nil nil [1656 1805])
+            ("when" code nil nil [1807 1891])
+            ("semantic-mode" code nil nil [1995 2012])
+            ("global-srecode-minor-mode" code nil nil [2032 2061])
+            ("global-semantic-tag-folding-mode" code nil nil [2085 2121])
+            ("eassist" include nil nil [2147 2165])
+            ("add-hook" code nil nil [2189 2265])
+            ("global-set-key" code nil nil [2284 2353])
+            ("global-set-key" code nil nil [2354 2407])
+            ("global-set-key" code nil nil [2408 2473])
+            ("global-set-key" code nil nil [2474 2540])
+            ("global-set-key" code nil nil [2541 2596])
+            ("add-hook" code nil nil [2867 3074])
+            ("setq" code nil nil [79 146])
+            ("add-to-list" code nil nil [148 188])
+            ("add-to-list" code nil nil [189 248])
+            ("add-to-list" code nil nil [249 334])
+            ("cedet-devel-load" include nil nil [336 363])
+            ("cedet-contrib-load" include nil nil [364 393])
+            ("setq" code nil nil [428 506])
+            ("add-to-list" code nil nil [527 597])
+            ("add-to-list" code nil nil [598 673])
+            ("add-to-list" code nil nil [674 742])
+            ("add-to-list" code nil nil [743 816])
+            ("add-to-list" code nil nil [817 894])
+            ("add-to-list" code nil nil [895 968])
+            ("add-to-list" code nil nil [969 1046])
+            ("add-to-list" code nil nil [1130 1205])
+            ("add-to-list" code nil nil [1206 1303])
+            ("semantic/ia" include nil nil [1466 1488])
+            ("semantic/bovine/gcc" include nil nil [1516 1546])
+            ("semantic-add-system-include" code nil nil [1590 1642])
+            ("when" code nil nil [1656 1805])
+            ("when" code nil nil [1807 1891])
+            ("semantic-mode" code nil nil [1995 2012])
+            ("global-srecode-minor-mode" code nil nil [2032 2061])
+            ("global-semantic-tag-folding-mode" code nil nil [2085 2121])
+            ("eassist" include nil nil [2147 2165])
+            ("add-hook" code nil nil [2189 2266])
+            ("global-set-key" code nil nil [2284 2353])
+            ("global-set-key" code nil nil [2354 2407])
+            ("global-set-key" code nil nil [2408 2473])
+            ("global-set-key" code nil nil [2474 2540])
+            ("global-set-key" code nil nil [2541 2596])
+            ("add-hook" code nil nil [2867 3074]))          
+      :file "setup-cedet.el"
+      :pointmax 3100
+      :fsize 3099
+      :lastmodtime '(21345 63047 99739 24000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-windows.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 85])
+            ("add-to-list" code nil nil [87 133])
+            ("windows" include nil nil [135 153])
+            ("win:startup-with-window" code nil nil [154 179])
+            ("define-key" code nil nil [180 221])
+            ("save-current-configuration" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [241 304])
+            ("resume" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [305 349])
+            ("wipe" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [350 390])
+            ("add-hook" code nil nil [392 448])
+            ("add-hook" code nil nil [449 505])
+            ("setup-windows" package nil nil [507 531]))          
+      :file "setup-windows.el"
+      :pointmax 532
+      :fsize 531
+      :lastmodtime '(21345 63127 511738 415000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-buffcycle.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 86])
+            ("add-to-list" code nil nil [88 132])
+            ("buffcycle" include nil nil [133 153])
+            ("global-unset-key" code nil nil [154 186])
+            ("close-and-kill-this-pane" function (:user-visible-flag t) nil [187 417])
+            ("global-set-key" code nil nil [418 474])
+            ("setup-buffcycle" package nil nil [476 502]))          
+      :file "setup-buffcycle.el"
+      :pointmax 503
+      :fsize 502
+      :lastmodtime '(21345 54808 367801 412000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-evil.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("evil" include nil nil [1 16])
+            ("evil-mode" code nil nil [17 30])
+            ("setq" code nil nil [32 125])
+            ("setq" code nil nil [126 159])
+            ("setup-evil" package nil nil [161 182]))          
+      :file "setup-evil.el"
+      :pointmax 183
+      :fsize 182
+      :lastmodtime '(21345 57224 375783 117000)
       :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!setup!semantic.cache"
   :semantic-tag-version "2.0"

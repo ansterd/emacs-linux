@@ -6,20 +6,19 @@
     (semanticdb-table "init.el"
       :major-mode 'emacs-lisp-mode
       :tags 
-        '( ("setq" code nil nil [24 197])
-            ("add-to-list" code nil nil [199 237])
-            ("add-to-list" code nil nil [238 272])
-            ("cl" include nil nil [293 306])
-            ("mapc" code nil nil [327 411])
-            ("init-packages" function nil nil [444 778])
-            ("condition-case" code nil nil [780 879])
-            ("mapc" code nil nil [918 1270])
-            ("setup-alias" include nil nil [1302 1324])
-            ("setup-key" include nil nil [1325 1345]))          
+        '( ("setq" code nil nil [23 196])
+            ("add-to-list" code nil nil [198 236])
+            ("add-to-list" code nil nil [237 271])
+            ("cl" include nil nil [292 305])
+            ("mapc" code nil nil [326 410])
+            ("init-packages" function nil nil [443 777])
+            ("condition-case" code nil nil [779 878])
+            ("mapc" code nil nil [917 1269])
+            ("setup-alias" include nil nil [1301 1323]))          
       :file "init.el"
-      :pointmax 1346
-      :fsize 1345
-      :lastmodtime '(21344 65410 214407 407000)
+      :pointmax 1324
+      :fsize 1323
+      :lastmodtime '(21345 63231 131737 630000)
       :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!semantic.cache"
   :semantic-tag-version "2.0"

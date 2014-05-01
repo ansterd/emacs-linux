@@ -1,4 +1,3 @@
-
 (setq cedet-root-path (file-name-as-directory "~/.emacs.d/site-lisp/cedet/"))
 (setq cache-root-path (file-name-as-directory "~/.emacs.d/cache/"))
 
@@ -36,8 +35,13 @@
 (require 'semantic/bovine/gcc)
 
 ;; Add C/C++ additional include directory
+(semantic-add-system-include "/usr/include/c++/4.8")
 
-;; Use ectags
+;; Use tags
+(when (cedet-gnu-global-version-check t)
+  (semanticdb-enable-gnu-global-databases 'c-mode t)
+  (semanticdb-enable-gnu-global-databases 'c++-mode t))
+
 (when (cedet-ectag-version-check t)
   (semantic-load-enable-primary-ectags-support))
 ;; http://bbingju.wordpress.com/2013/03/21/emacs-global-gtags-source-navigation/
@@ -45,21 +49,37 @@
 ;; Activate semantic
 (semantic-mode 1)
 
-;; keybinding
-
 ;; Enable srecode
 (global-srecode-minor-mode 1)
 
 ;; Enable tag folding
 (global-semantic-tag-folding-mode t)
 
-
 ;; Load contrib library
 (require 'eassist)
 
 ;; imenu intergration
-;; (defun my-semantic-hook ()
-;;   (imenu-add-to-menubar "TAGS"))
-;; (add-hook 'semantic-init-hooks 'my-semantic-hook)
+(add-hook 'semantic-init-hooks
+  (lambda ()
+  (imenu-add-to-menubar "TAGS")))
+
+;; key bindings
+(global-set-key (kbd "<C-return>") 'semantic-ia-complete-symbol-menu)
+(global-set-key (kbd "C-c j") 'semantic-ia-fast-jump)
+(global-set-key (kbd "C-c y") 'semantic-decoration-include-visit)
+(global-set-key (kbd "C-c p") 'semantic-analyze-proto-impl-toggle)
+(global-set-key (kbd "C-c u") 'senator-fold-tag-toggle)
+;; (global-set-key (kbd "C-c ?") 'semantic-ia-complete-symbol)
+;; (global-set-key (kbd "C-c >") 'semantic-complete-analyze-inline)
+;; (global-set-key (kbd "C-c q") 'semantic-ia-show-doc)
+;; (global-set-key (kbd "C-c s") 'semantic-ia-show-summary)
+
+;; C/C++ key bindings
+(add-hook 'c-mode-common-hook
+  (lambda ()
+    (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp)
+    (local-set-key (kbd "C-c e") 'eassist-list-methods)
+    (local-set-key (kbd "C-c r") 'semantic-symref)))
+
 
 (provide 'setup-cedet)
