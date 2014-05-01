@@ -126,13 +126,15 @@
             ("global-set-key" code nil nil [2408 2473])
             ("global-set-key" code nil nil [2474 2540])
             ("global-set-key" code nil nil [2541 2596])
-            ("add-hook" code nil nil [2967 3067])
-            ("setup-cedet" package nil nil [3069 3091]))          
+            ("global-set-key" code nil nil [2597 2649])
+            ("global-set-key" code nil nil [2650 2697])
+            ("add-hook" code nil nil [2968 3068])
+            ("setup-cedet" package nil nil [3070 3092]))          
       :file "setup-cedet.el"
-      :pointmax 3092
-      :fsize 3091
-      :lastmodtime '(21346 266 682020 399000)
-      :unmatched-syntax '((close-paren 2966 . 2967)))
+      :pointmax 3093
+      :fsize 3092
+      :lastmodtime '(21346 2183 218024 382000)
+      :unmatched-syntax nil)
     (semanticdb-table "setup-windows.el"
       :major-mode 'emacs-lisp-mode
       :tags 
@@ -261,6 +263,16 @@
       :pointmax 188
       :fsize 187
       :lastmodtime '(21345 64114 18016 889000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-auto-complete.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("add-to-list" code nil nil [1 71])
+            ("setup-auto-complete" package nil nil [73 103]))          
+      :file "setup-auto-complete.el"
+      :pointmax 104
+      :fsize 103
+      :lastmodtime '(21346 2312 382024 651000)
       :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!setup!semantic.cache"
   :semantic-tag-version "2.0"

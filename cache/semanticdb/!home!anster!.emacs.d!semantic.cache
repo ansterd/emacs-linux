@@ -13,12 +13,12 @@
             ("mapc" code nil nil [326 410])
             ("init-packages" function nil nil [443 777])
             ("condition-case" code nil nil [779 878])
-            ("mapc" code nil nil [917 1269])
-            ("setup-alias" include nil nil [1301 1323]))          
+            ("mapc" code nil nil [917 1292])
+            ("setup-alias" include nil nil [1324 1346]))          
       :file "init.el"
-      :pointmax 1324
-      :fsize 1323
-      :lastmodtime '(21345 63231 131737 630000)
+      :pointmax 1347
+      :fsize 1346
+      :lastmodtime '(21346 2148 370024 310000)
       :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!semantic.cache"
   :semantic-tag-version "2.0"

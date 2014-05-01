@@ -70,7 +70,7 @@
 (global-set-key (kbd "C-c p") 'semantic-analyze-proto-impl-toggle)
 (global-set-key (kbd "C-c u") 'senator-fold-tag-toggle)
 (global-set-key (kbd "C-c e") 'eassist-list-methods)
-(global-set-key (kbd "C-c r") 'semantic-symref
+(global-set-key (kbd "C-c r") 'semantic-symref)
 ;; (global-set-key (kbd "C-c ?") 'semantic-ia-complete-symbol)
 ;; (global-set-key (kbd "C-c >") 'semantic-complete-analyze-inline)
 ;; (global-set-key (kbd "C-c q") 'semantic-ia-show-doc)

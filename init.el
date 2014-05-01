@@ -47,6 +47,9 @@
 
 ;; Setup packages, builtin libraries
 (mapc 'require '(setup-evil
+		 setup-windmove
+		 setup-buffcycle
+		 setup-windows
 		 setup-ido
 		 setup-icomplete-mode
 		 setup-dropbox
@@ -60,11 +63,9 @@
 		 setup-uniquify
 		 setup-bookmark
 		 setup-recentf
-		 setup-windmove
-		 setup-buffcycle
-		 setup-windows
 		 setup-org
 		 setup-80-column
+		 setup-auto-complete
 		 ))
 
 ;; Setup keybinding and alias

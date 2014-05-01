@@ -94,6 +94,24 @@ so that you can refer the configurations
 - bookmark
   - [C-c b] : **ido-jump-bookmark**
 
+- cedet/semantic
+  - [C-\<return\>] : **semantic-ia-complete-symbol-menu**
+  - [C-c j] : **semantic-ia-fase-jump**
+  - [C-c y] : **semantic-decoration-include-visit**
+  - [C-c p] : **semantic-analyze-proto-impl-toggle**
+  - [C-c r] : **semantic-symref**
+  
+- cedet/senator
+  - [C-c u] : **senator-fold-tag-toggle**
+  - [C-c , n] : **senator-next-tag**
+  - [C-c , p] : **senator-prev-tag**
+  - [C-c , u] : **senator-go-to-up-reference**
+
+- cedet/eassist
+  - [C-c e] : **eassist-list-methods**
+  - [C-c t] : **eassist-switch-h-cpp** (in **c-mode-common-hook** only)
+  
+
 ## Todo
 1. semantic/ia
 2. cedet contrib ctags..
