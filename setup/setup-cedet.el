@@ -69,6 +69,8 @@
 (global-set-key (kbd "C-c y") 'semantic-decoration-include-visit)
 (global-set-key (kbd "C-c p") 'semantic-analyze-proto-impl-toggle)
 (global-set-key (kbd "C-c u") 'senator-fold-tag-toggle)
+(global-set-key (kbd "C-c e") 'eassist-list-methods)
+(global-set-key (kbd "C-c r") 'semantic-symref
 ;; (global-set-key (kbd "C-c ?") 'semantic-ia-complete-symbol)
 ;; (global-set-key (kbd "C-c >") 'semantic-complete-analyze-inline)
 ;; (global-set-key (kbd "C-c q") 'semantic-ia-show-doc)
@@ -77,9 +79,6 @@
 ;; C/C++ key bindings
 (add-hook 'c-mode-common-hook
   (lambda ()
-    (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp)
-    (local-set-key (kbd "C-c e") 'eassist-list-methods)
-    (local-set-key (kbd "C-c r") 'semantic-symref)))
-
+    (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp)))
 
 (provide 'setup-cedet)

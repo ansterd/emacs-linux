@@ -3,7 +3,7 @@
 ;; Copyright (C) 2002-2012 Free Software Foundation, Inc.
 
 ;; Author: anster <anster@anster>
-;; Created: 2014-04-26 00:03:50+0900
+;; Created: 2014-05-01 16:42:27+0900
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
