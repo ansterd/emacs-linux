@@ -38,6 +38,7 @@
      iedit
      auto-complete
      org-ac
+     auto-complete-c-headers
      )))
 
 (condition-case nil
@@ -49,8 +50,8 @@
 ;; Setup packages, builtin libraries
 (mapc 'require '(
 		 ;; site-lisp
-		 setup-cedet
 		 setup-auto-complete	
+		 setup-cedet
 		 
 		 ;; packages
 		 setup-evil
@@ -73,6 +74,9 @@
 		 setup-org
 		 setup-80-column
 		 setup-iedit
+
+		 ;; language
+		 language-c++
 		 ))
 
 ;; Setup keybinding and alias

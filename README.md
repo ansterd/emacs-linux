@@ -28,6 +28,7 @@ Last Update : 2014-04-21
 - **buffcycle**
 - **windows**
 - **revive**
+- **frame-restore**
 - **org** (org-ac)
 - **fill-column-indicator**
 - **iedit**
@@ -39,7 +40,6 @@ They have their own configuration in `setup` directory
 so that you can refer the configurations
 
 - **icicles** (replaced with **ido**)
-- **frame-restore** (replaced with **revive**)
 - **desktop** (replaced with **windows**)
 
 ### 3. Things You Should Need To Know
@@ -53,9 +53,6 @@ so that you can refer the configurations
 - ace-jump-mode
 	- [C-c SPC] : **ace-jump-mode**
 	- [C-u SPC] : **ace-jump-char**
-
-- evil
-  - [capslock] : **evil-force-normal-state**
 
 - expand-region
   - [C-=] : **er/expand-region**
