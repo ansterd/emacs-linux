@@ -79,6 +79,7 @@
 		 setup-iedit
 		 setup-flycheck
 		 setup-smartparens
+		 setup-yasnippet
 		 
 		 ;; language
 		 language-c++

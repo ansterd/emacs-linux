@@ -78,7 +78,7 @@
 ;; (global-set-key (kbd "C-c s") 'semantic-ia-show-summary)
 
 ;; provide semantic source to auto-complete
-;; (add-to-list 'ac-sources 'ac-source-semantic)
+(add-to-list 'ac-sources 'ac-source-semantic)
 
 ;; C/C++ semantic setting
 (defun custom/c-mode-common-hook ()
