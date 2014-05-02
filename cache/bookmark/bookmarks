@@ -2,7 +2,31 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("llvm-example-dir" 0 16
+(#1=(#("init/install-packages" 0 21
+      (bmkp-full-record #1#))
+    (filename . "~/.emacs.d/init.el")
+    (buffer-name . "init.el")
+    (front-context-string . "(packages-instal")
+    (rear-context-string . "t-packages ()\n  ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21346 64157 505810 356000))
+    (created . #2#)
+    (position . 454))
+#1=(#("init/setup-packages" 0 19
+      (bmkp-full-record #1#))
+    (filename . "~/.emacs.d/init.el")
+    (buffer-name . "init.el")
+    (front-context-string . "(\n		 ;; site-lis")
+    (rear-context-string . "(mapc 'require '")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 2)
+    (time 21346 64144 10509 214000)
+    (created 21346 63930 625466 35000)
+    (position . 916))
+#1=(#("llvm-example-dir" 0 16
       (bmkp-full-record #1#))
     (buffer-name . "examples")
     (front-context-string . "BrainF\n  -rw-rw-")

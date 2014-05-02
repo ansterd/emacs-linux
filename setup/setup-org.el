@@ -52,4 +52,8 @@
 ;; so that you can open file in current window
 (setq org-link-frame-setup '((file . find-file)))
 
+;; auto-complete
+(require 'org-ac)
+(org-ac/config-default)
+
 (provide 'setup-org)

@@ -124,16 +124,18 @@
             ("global-set-key" code nil nil [2284 2353])
             ("global-set-key" code nil nil [2354 2407])
             ("global-set-key" code nil nil [2408 2473])
-            ("global-set-key" code nil nil [2474 2540])
-            ("global-set-key" code nil nil [2541 2596])
-            ("global-set-key" code nil nil [2597 2649])
-            ("global-set-key" code nil nil [2650 2697])
-            ("add-hook" code nil nil [2968 3068])
-            ("setup-cedet" package nil nil [3070 3092]))          
+            ("global-set-key" code nil nil [2474 2564])
+            ("global-set-key" code nil nil [2565 2631])
+            ("global-set-key" code nil nil [2632 2687])
+            ("global-set-key" code nil nil [2688 2740])
+            ("global-set-key" code nil nil [2741 2788])
+            ("add-to-list" code nil nil [3081 3126])
+            ("add-hook" code nil nil [3154 3301])
+            ("setup-cedet" package nil nil [3303 3325]))          
       :file "setup-cedet.el"
-      :pointmax 3093
-      :fsize 3092
-      :lastmodtime '(21346 2183 218024 382000)
+      :pointmax 3326
+      :fsize 3325
+      :lastmodtime '(21347 4468 953800 664000)
       :unmatched-syntax nil)
     (semanticdb-table "setup-windows.el"
       :major-mode 'emacs-lisp-mode
@@ -267,12 +269,74 @@
     (semanticdb-table "setup-auto-complete.el"
       :major-mode 'emacs-lisp-mode
       :tags 
-        '( ("add-to-list" code nil nil [1 71])
-            ("setup-auto-complete" package nil nil [73 103]))          
+        '( ("setq" code nil nil [1 72])
+            ("add-to-list" code nil nil [73 115])
+            ("auto-complete-config" include nil nil [117 148])
+            ("ac-config-default" code nil nil [149 168])
+            ("add-to-list" code nil nil [170 254])
+            ("add-hook" code nil nil [265 473])
+            ("setup-auto-complete" package nil nil [475 505]))          
       :file "setup-auto-complete.el"
-      :pointmax 104
-      :fsize 103
-      :lastmodtime '(21346 2312 382024 651000)
+      :pointmax 506
+      :fsize 505
+      :lastmodtime '(21347 2317 241796 191000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-package.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [1 66])
+            ("setq" code nil nil [67 122])
+            ("setq" code nil nil [123 190])
+            ("setq" code nil nil [191 250])
+            ("package" include nil nil [252 270])
+            ("setq" code nil nil [296 517])
+            ("package-initialize" code nil nil [519 539])
+            ("unless" code nil nil [605 734])
+            ("packages-install" function (:arguments ("packages")) nil [736 905])
+            ("setup-package" package nil nil [907 931]))          
+      :file "setup-package.el"
+      :pointmax 932
+      :fsize 931
+      :lastmodtime '(21345 64114 18016 889000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-iedit.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("global-set-key" code nil nil [1 41])
+            ("setup-iedit" package nil nil [43 65]))          
+      :file "setup-iedit.el"
+      :pointmax 69
+      :fsize 68
+      :lastmodtime '(21346 61842 237783 697000)
+      :unmatched-syntax nil)
+    (semanticdb-table "setup-org.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("org" include nil nil [1 15])
+            ("add-to-list" code nil nil [16 70])
+            ("setq" code nil nil [83 114])
+            ("setq" code nil nil [136 157])
+            ("setq" code nil nil [184 365])
+            ("setq" code nil nil [367 820])
+            ("setq" code nil nil [842 935])
+            ("define-key" code nil nil [984 1035])
+            ("define-key" code nil nil [1036 1091])
+            ("define-key" code nil nil [1092 1147])
+            ("define-key" code nil nil [1148 1201])
+            ("global-set-key" code nil nil [1236 1282])
+            ("global-set-key" code nil nil [1283 1332])
+            ("global-set-key" code nil nil [1333 1384])
+            ("global-set-key" code nil nil [1385 1429])
+            ("setq" code nil nil [1455 1495])
+            ("when" code nil nil [1496 1618])
+            ("setq" code nil nil [1696 1745])
+            ("org-ac" include nil nil [1764 1781])
+            ("org-ac/config-default" code nil nil [1782 1805])
+            ("setup-org" package nil nil [1807 1827]))          
+      :file "setup-org.el"
+      :pointmax 1828
+      :fsize 1827
+      :lastmodtime '(21346 64341 705788 892000)
       :unmatched-syntax nil))
   :file "!home!anster!.emacs.d!setup!semantic.cache"
   :semantic-tag-version "2.0"

@@ -67,6 +67,8 @@
 (global-set-key (kbd "<C-return>") 'semantic-ia-complete-symbol-menu)
 (global-set-key (kbd "C-c j") 'semantic-ia-fast-jump)
 (global-set-key (kbd "C-c y") 'semantic-decoration-include-visit)
+(global-set-key (kbd "C-c Y") 
+  'semantic-decoration-unparsed-include-parse-all-includes)
 (global-set-key (kbd "C-c p") 'semantic-analyze-proto-impl-toggle)
 (global-set-key (kbd "C-c u") 'senator-fold-tag-toggle)
 (global-set-key (kbd "C-c e") 'eassist-list-methods)
@@ -76,9 +78,13 @@
 ;; (global-set-key (kbd "C-c q") 'semantic-ia-show-doc)
 ;; (global-set-key (kbd "C-c s") 'semantic-ia-show-summary)
 
-;; C/C++ key bindings
+;; provide semantic source to auto-complete
+(add-to-list 'ac-sources 'ac-source-semantic)
+
+;; C/C++ semantic setting
 (add-hook 'c-mode-common-hook
   (lambda ()
+    (add-to-list 'ac-sources 'ac-source-gtags)
     (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp)))
 
 (provide 'setup-cedet)

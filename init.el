@@ -13,7 +13,6 @@
 (mapc 'require '(
 		 setup-default
 		 setup-custom
-		 setup-cedet
 		 setup-package))
 
 ;; Install packages from MELPA
@@ -22,7 +21,6 @@
    '(evil
      markdown-mode
      ace-jump-mode
-     icicles
      ido-vertical-mode
      ido-at-point
      ido-ubiquitous
@@ -37,6 +35,8 @@
      org
      fill-column-indicator
      thingatpt+
+     iedit
+     org-ac
      )))
 
 (condition-case nil
@@ -46,7 +46,13 @@
    (init-packages)))
 
 ;; Setup packages, builtin libraries
-(mapc 'require '(setup-evil
+(mapc 'require '(
+		 ;; site-lisp
+		 setup-auto-complete
+		 setup-cedet
+		 
+		 ;; packages
+		 setup-evil
 		 setup-windmove
 		 setup-buffcycle
 		 setup-windows
@@ -65,7 +71,7 @@
 		 setup-recentf
 		 setup-org
 		 setup-80-column
-		 setup-auto-complete
+		 setup-iedit
 		 ))
 
 ;; Setup keybinding and alias

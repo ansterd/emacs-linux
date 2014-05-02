@@ -2,12 +2,15 @@
 Last Update : 2014-04-21
 
 ### 1. Language Support
-* None
+
+#### C/C++
+- **auto-complete-c-headers**
 
 ### 2. Extensions
 
 #### Used
 - **cedet**
+- **auto-complete**
 - **evil**
 - **ido** (vertical, at-point, ubiquitous, flx-ido)
 - **icomplete-mode**
@@ -25,9 +28,9 @@ Last Update : 2014-04-21
 - **buffcycle**
 - **windows**
 - **revive**
-- **org**
+- **org** (org-ac)
 - **fill-column-indicator**
-
+- **iedit**
 
 #### Installed But Not Used
 
@@ -91,6 +94,9 @@ so that you can refer the configurations
   - [C-c C-l] : **org-insert-link**
   - [C-c C-o] : **org-open-at-point**
 
+- iedit
+  - [C-;] : **iedit-mode**
+
 - bookmark
   - [C-c b] : **ido-jump-bookmark**
 
@@ -98,6 +104,7 @@ so that you can refer the configurations
   - [C-\<return\>] : **semantic-ia-complete-symbol-menu**
   - [C-c j] : **semantic-ia-fase-jump**
   - [C-c y] : **semantic-decoration-include-visit**
+  - [C-c Y] : **semantic-decoration-unparsed-include-parse-all-includes**
   - [C-c p] : **semantic-analyze-proto-impl-toggle**
   - [C-c r] : **semantic-symref**
   

@@ -15,4 +15,5 @@ packages/
 url/
 .session
 tramp
+frame-restore-parameters
 !.gitkeep

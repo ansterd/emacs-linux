@@ -100,3 +100,6 @@ ls
 rm Sample.org 
 cd ~/.emacs.d/
 ls
+gcc -cx++ -E -v -
+gcc -cx++ -E -v -
+gcc -xc++ -E -v -
