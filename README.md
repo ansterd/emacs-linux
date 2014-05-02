@@ -3,8 +3,9 @@ Last Update : 2014-04-21
 
 ### 1. Language Support
 
-#### C/C++
+#### C/C++ `setup/language-c++.el`
 - **auto-complete-c-headers**
+- **flycheck** (requires **cppcheck**)
 
 ### 2. Extensions
 
@@ -32,6 +33,7 @@ Last Update : 2014-04-21
 - **org** (org-ac)
 - **fill-column-indicator**
 - **iedit**
+- **smartparens**
 
 #### Installed But Not Used
 

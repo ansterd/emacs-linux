@@ -36,7 +36,7 @@
 ;; Use operating system's trash
 (setq delete-by-moving-to-trash t)
 
-;; Use y-or-n-p instead of yes-or-no-p
-
+;; Set return key as newline and indent
+(global-set-key (kbd "RET") 'newline-and-indent)
 
 (provide 'setup-default)

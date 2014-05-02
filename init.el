@@ -39,6 +39,9 @@
      auto-complete
      org-ac
      auto-complete-c-headers
+     flycheck
+     google-c-style
+     smartparens
      )))
 
 (condition-case nil
@@ -74,7 +77,9 @@
 		 setup-org
 		 setup-80-column
 		 setup-iedit
-
+		 setup-flycheck
+		 setup-smartparens
+		 
 		 ;; language
 		 language-c++
 		 ))

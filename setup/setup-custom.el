@@ -19,6 +19,4 @@
          'my-isearch-yank-word-or-char-from-beginning
          isearch-mode-map)))
 
-
-
 (provide 'setup-custom)
