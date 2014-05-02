@@ -12,7 +12,7 @@
 (autoload 'resume "revive" "Resume Emacs" t)
 (autoload 'wipe "revive" "Wipe Emacs" t)
 
-(add-hook 'kill-emacs-hook 'win-save-all-configurations)
-(add-hook 'after-init-hook 'win-load-all-configurations)
+(add-hook 'kill-emacs-hook 'save-current-configuration)
+(add-hook 'after-init-hook 'resume)
 
 (provide 'setup-windows)

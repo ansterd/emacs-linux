@@ -4,9 +4,7 @@ url/
 .session
 tramp
 frame-restore-parameters
-!.gitkeep
-
-cache/
+cache/*
 !cache/frame/
 cache/frame/*
 !cache/frame/.gitkeep
@@ -23,3 +21,4 @@ cache/semanticdb/*
 !cache/auto-complete/
 cache/auto-complete/*
 !cache/auto-complete/.gitkeep
+!.gitkeep

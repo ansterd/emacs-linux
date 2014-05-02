@@ -89,6 +89,7 @@ so that you can refer the configurations
   - [C-c C-w !] : **Delete current window**
 
 - org
+  - [C-c a] : **org-agenda**
   - [C-c o] : **org-iswitch**
   - [C-c l] : **org-store-link**
   - [C-c C-l] : **org-insert-link**
@@ -123,6 +124,5 @@ so that you can refer the configurations
 1. semantic/ia
 2. cedet contrib ctags..
 3. javascript/node/HTML/CSS support
-
 
  

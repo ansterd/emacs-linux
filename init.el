@@ -36,6 +36,7 @@
      fill-column-indicator
      thingatpt+
      iedit
+     auto-complete
      org-ac
      )))
 
@@ -48,17 +49,17 @@
 ;; Setup packages, builtin libraries
 (mapc 'require '(
 		 ;; site-lisp
-		 setup-auto-complete
 		 setup-cedet
+		 setup-auto-complete	
 		 
 		 ;; packages
 		 setup-evil
 		 setup-windmove
 		 setup-buffcycle
 		 setup-windows
+		 setup-frame
 		 setup-ido
 		 setup-icomplete-mode
-		 setup-dropbox
 		 setup-font
 		 setup-ace-jump-mode
 		 setup-smex
