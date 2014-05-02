@@ -13,11 +13,11 @@
 ;; yas with ac
 (add-to-list 'ac-sources 'ac-source-yasnippet)
 
-(global-set-key (kbd "C-c s n") 'create-custom-snippet)
+(global-set-key (kbd "C-c s n") 'custom/create-new-snippet)
 (global-set-key (kbd "C-c s r") 'yas-reload-all)
 
 ;; create snippet function
-(defun create-custom-snippet (snippet-name)
+(defun custom/create-new-snippet (snippet-name)
   (interactive "sSnippet name : ")
   (if (not (file-directory-p (format "~/.emacs.d/snippets/%s" major-mode)))
       (make-directory (format "~/.emacs.d/snippets/%s" major-mode)))

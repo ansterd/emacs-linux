@@ -12,6 +12,7 @@ Last Update : 2014-04-21
 #### Used
 - **cedet** (requires `GNU Global`, `ectags`)
 - **auto-complete**
+- **yasnippet**
 - **evil**
 - **ido** (vertical, at-point, ubiquitous, flx-ido)
 - **icomplete-mode**
@@ -48,6 +49,10 @@ so that you can refer the configurations
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 4. Key Bindings
+- yasnippet
+  - [C-c s n]: **custom/create-new-snippet**
+  - [C-c s r]: **yas-reload-all**
+
 - ido
   - [C-c i]: **ido-goto-symbol**
   - [C-M-i] : **ido-at-point**
