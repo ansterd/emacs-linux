@@ -3,6 +3,8 @@
 (add-to-list 'load-path dir/auto-complete)
 
 (require 'auto-complete-config)
+(setq ac-comphist-file 
+  (concat dir/cache "auto-complete/ac-comphist.dat"))
 (ac-config-default)
 
 (add-to-list 'ac-dictionary-directories 

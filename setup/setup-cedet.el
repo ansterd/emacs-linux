@@ -84,6 +84,7 @@
 ;; C/C++ semantic setting
 (add-hook 'c-mode-common-hook
   (lambda ()
+    (add-to-list 'ac-sources 'ac-source-semantic)
     (add-to-list 'ac-sources 'ac-source-gtags)
     (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp)))
 
