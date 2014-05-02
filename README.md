@@ -5,12 +5,12 @@ Last Update : 2014-04-21
 
 #### C/C++ `setup/language-c++.el`
 - **auto-complete-c-headers**
-- **flycheck** (requires **cppcheck**)
+- **flycheck** (requires `cppcheck`)
 
 ### 2. Extensions
 
 #### Used
-- **cedet**
+- **cedet** (requires `GNU Global`, `ectags`)
 - **auto-complete**
 - **evil**
 - **ido** (vertical, at-point, ubiquitous, flx-ido)
