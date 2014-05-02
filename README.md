@@ -3,7 +3,7 @@ Last Update : 2014-04-21
 
 ### 1. Language Support
 
-#### C/C++ `setup/language-c++.el`
+#### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
 - **flycheck** (requires `cppcheck`)
 
