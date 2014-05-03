@@ -1,5 +1,5 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-04-21
+Last Update : 2014-05-03
 
 ### 1. Language Support
 
@@ -35,6 +35,7 @@ Last Update : 2014-04-21
 - **fill-column-indicator**
 - **iedit**
 - **smartparens**
+- **multiple-cursors**
 
 #### Installed But Not Used
 
@@ -101,6 +102,13 @@ so that you can refer the configurations
 
 - iedit
   - [C-;] : **iedit-mode**
+
+- multiple-cursors
+  - [C-c m n] : **mc/mark-next-like-this**
+  - [C-c m p] : **mc/mark-previous-like-this**
+  - [C-c m a] : **mc/mark-all-like-this**
+  - [C-c m s] : **mc/mark-all-symbols-like-this**
+  - [C-c m t] : **mc/mark-sgml-tag-pair**
 
 - bookmark
   - [C-c b] : **ido-jump-bookmark**

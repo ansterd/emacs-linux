@@ -42,6 +42,7 @@
      flycheck
      google-c-style
      smartparens
+     multiple-cursors
      )))
 
 (condition-case nil
@@ -80,9 +81,11 @@
 		 setup-flycheck
 		 setup-smartparens
 		 setup-yasnippet
+		 setup-multiple-cursors
 		 
 		 ;; language
 		 language-c++
+		 language-html
 		 ))
 
 ;; Setup keybinding and alias
