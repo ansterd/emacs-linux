@@ -25,17 +25,16 @@
                       custom:mc-evil-previous-state)))
       (setq custom:mc-evil-previous-state nil))))
 
-(add-hook 'multiple-cursors-mode-enabled-hook
-          'custom:mc-evil-switch-to-insert-state)
-(add-hook 'multiple-cursors-mode-disabled-hook
-          'custom:mc-evil-back-to-previous-state)
-
 (defun custom:rrm-evil-switch-state ()
   (if rectangular-region-mode
       (custom:mc-evil-switch-to-insert-state)
     ;; (custom:mc-evil-back-to-previous-state)  ; does not work...
     (setq custom:mc-evil-previous-state nil)))
 
+(add-hook 'multiple-cursors-mode-enabled-hook
+          'custom:mc-evil-switch-to-insert-state)
+(add-hook 'multiple-cursors-mode-disabled-hook
+          'custom:mc-evil-back-to-previous-state)
 (add-hook 'rectangular-region-mode-hook 'custom:rrm-evil-switch-state)
 
 (provide 'setup-multiple-cursors)

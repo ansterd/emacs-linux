@@ -1,13 +1,23 @@
 # Emacs 24.3 config on Ubuntu 14.04
 Last Update : 2014-05-03
 
-### 1. Language Support
+### 1. Installation Guide
+
+```
+$ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/
+$ cd ~/.emacs.d/site-lisp/cedet
+$ make clean-all && make
+$ cd ~/.emacs.d/site-lisp/cedet/contrib
+$ make
+```
+
+### 2. Language Support
 
 #### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
 - **flycheck** (requires `cppcheck`)
 
-### 2. Extensions
+### 3. Extensions
 
 #### Used
 - **cedet** (requires `GNU Global`, `ectags`)
@@ -46,10 +56,10 @@ so that you can refer the configurations
 - **icicles** (replaced with **ido**)
 - **desktop** (replaced with **windows**)
 
-### 3. Things You Should Need To Know
+### 4. Things You Should Need To Know
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
-### 4. Key Bindings
+### 5. Key Bindings
 - yasnippet
   - [C-c s n]: **custom/create-new-snippet**
   - [C-c s r]: **yas-reload-all**
@@ -131,10 +141,3 @@ so that you can refer the configurations
   - [C-c e] : **eassist-list-methods**
   - [C-c t] : **eassist-switch-h-cpp** (in **c-mode-common-hook** only)
   
-
-## Todo
-1. semantic/ia
-2. cedet contrib ctags..
-3. javascript/node/HTML/CSS support
-
- 
