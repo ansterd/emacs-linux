@@ -18,6 +18,20 @@
 (setq evil-replace-state-cursor '("red" bar))
 (setq evil-operator-state-cursor '("red" hollow))
 
+;; evil-plugin: evil-nerd-commenter
+(evilnc-default-hotkeys)
+
+;; evil-plugin: evil-exchange
+(require 'evil-exchange)
+(evil-exchange-install)
+
+;; evil-plugin: evil-leader
+(global-evil-leader-mode)
+
+(evil-leader/set-key "k" 'kill-other-buffers)
+;; (evil-leader/set-key-for-mode
+;;     'emacs-lisp-mode "b" 'byte-compile-file)
+
 ;; evil-plugin : surround
 (require 'surround)
 (global-surround-mode 1)

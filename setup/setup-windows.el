@@ -3,9 +3,6 @@
 
 (add-to-list 'load-path windows-installed-dir)
 
-(require 'windows)
-(win:startup-with-window)
-(define-key ctl-x-map "C" 'see-you-again)
 
 ;; Use revive.el 
 (autoload 'save-current-configuration "revive" "Save status" t)
@@ -14,5 +11,9 @@
 
 (add-hook 'kill-emacs-hook 'save-current-configuration)
 (add-hook 'after-init-hook 'resume)
+
+(require 'windows)
+(win:startup-with-window)
+(define-key ctl-x-map "C" 'see-you-again)
 
 (provide 'setup-windows)

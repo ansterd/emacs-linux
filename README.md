@@ -23,7 +23,7 @@ $ make
 - **cedet** (requires `GNU Global`, `ectags`)
 - **auto-complete**
 - **yasnippet**
-- **evil** (surround, numbers, matchit)
+- **evil** (surround, numbers, matchit, leader, exchange, nerd-commenter)
 - **ido** (vertical, at-point, ubiquitous, flx-ido)
 - **icomplete-mode**
 - **ace-jump-mode**
@@ -47,6 +47,7 @@ $ make
 - **smartparens**
 - **multiple-cursors**
 
+
 #### Installed But Not Used
 
 Although the extensions listed below are not used,
@@ -60,6 +61,18 @@ so that you can refer the configurations
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 5. Key Bindings
+- evil/evil-nerd-commenter
+  - [,,j] : **evilnc-comment-or-uncomment-lines**
+  - [2,ci] : **evilnc-comment-or-uncomment-lines**
+  - [2,cc] : **evilnc-copy-and-comment-lines**
+
+- evil/evil-exchange
+  - [gx \<textobject\>] : **evil-exchange-key**
+  - [gX] : **evil-exchange-cancle-key**
+  - [gxx] : **evil-exchange-current-line-key**
+
+- evil/evil-leader
+  - [\\ k] : **kill-other-buffer**
 
 - evil/surround
   - [ds \<textobject\>]: **delete surrounding things**
@@ -69,7 +82,7 @@ so that you can refer the configurations
 
 - evil/evil-matchit
   - [%]: **evilmi-jump-item**
-  - [,si]: **evilmi-slsect-item**
+  - [,si]: **evilmi-select-item**
   - [,di]: **evilmi-delete-item**
   
 - evil/evil-numbers

@@ -46,6 +46,10 @@
      surround
      evil-numbers
      evil-matchit
+     evil-leader
+     evil-exchange
+     evil-nerd-commenter
+     magit
      )))
 
 (condition-case nil
@@ -85,6 +89,7 @@
 		 setup-smartparens
 		 setup-yasnippet
 		 setup-multiple-cursors
+		 setup-magit
 		 
 		 ;; language
 		 language-c++
