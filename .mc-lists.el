@@ -10,6 +10,7 @@
 	evil-insert
 	evil-normal-state
 	evil-yank
+	org-self-insert-command
 	))
 
 (setq mc/cmds-to-run-once

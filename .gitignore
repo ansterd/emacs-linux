@@ -23,7 +23,16 @@ cache/desktop/*
 cache/frame/*
 !cache/frame/.gitkeep
 
+!cache/frame/
+cache/frame/*
+!cache/frame/.gitkeep
+
 !cache/bookmark/
 cache/bookmark/*
 !cache/bookmark/.gitkeep
 !cache/bookmark/bookmarks
+
+!cache/multiple-cursors/
+cache/multiple-cursors/*
+!cache/multiple-cursors/.gitkeep
+!cache/multiple-cursors/.mc-lists.el

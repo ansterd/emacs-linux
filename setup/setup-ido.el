@@ -44,6 +44,7 @@ imenu index, then jump to that symbol's location."
 (add-to-list 'ido-ignore-buffers "*IBuffer*")
 (add-to-list 'ido-ignore-buffers "*CEDET Global*")
 (add-to-list 'ido-ignore-buffers "\.org$")
+(add-to-list 'ido-ignore-buffers "^\*Flycheck")
 
 ;; sort ido filelist by mtime instead of alphabetically
 (add-hook 'ido-make-file-list-hook 'ido-sort-mtime)

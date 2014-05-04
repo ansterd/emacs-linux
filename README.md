@@ -23,7 +23,7 @@ $ make
 - **cedet** (requires `GNU Global`, `ectags`)
 - **auto-complete**
 - **yasnippet**
-- **evil**
+- **evil** (surround, numbers, matchit)
 - **ido** (vertical, at-point, ubiquitous, flx-ido)
 - **icomplete-mode**
 - **ace-jump-mode**
@@ -60,6 +60,22 @@ so that you can refer the configurations
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 5. Key Bindings
+
+- evil/evil-matchit
+  - [ds \<textobject\>]: **evilmi-jump-item**
+  - [cs \<textobject\>]: **evilmi-slsect-item**
+  - [yss \<textobject\>]: **evilmi-delete-item**
+  - [ysis]: **evilmi-delete-item**
+
+- evil/evil-matchit
+  - [%]: **evilmi-jump-item**
+  - [,si]: **evilmi-slsect-item**
+  - [,di]: **evilmi-delete-item**
+  
+- evil/evil-numbers
+  - [C-c +]: **evil-numbers/inc-at-pt**
+  - [C-c -]: **evil-numbers/dec-at-pt**
+
 - yasnippet
   - [C-c s n]: **custom/create-new-snippet**
   - [C-c s r]: **yas-reload-all**

@@ -44,6 +44,8 @@
      smartparens
      multiple-cursors
      surround
+     evil-numbers
+     evil-matchit
      )))
 
 (condition-case nil
@@ -59,11 +61,11 @@
 		 setup-cedet
 		 
 		 ;; packages
+		 setup-windows
 		 setup-evil
 		 setup-windmove
 		 setup-buffcycle
-		 setup-windows
-		 setup-frame
+		;; setup-frame
 		 setup-ido
 		 setup-icomplete-mode
 		 setup-font
