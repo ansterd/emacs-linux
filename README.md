@@ -1,5 +1,5 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-05-03
+Last Update : 2014-05-04
 
 ### 1. Installation Guide
 
