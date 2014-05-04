@@ -6,7 +6,7 @@
 (global-set-key (kbd "C-c m s") 'mc/mark-all-symbols-like-this)
 (global-set-key (kbd "C-c m t") 'mc/mark-sgml-tag-pair)
 
-(setq mc/list-file "~/.emacs.d/multiple-cursor/.mc-lists.el")
+(setq mc/list-file "~/.emacs.d/multiple-cursors/.mc-lists.el")
 
 (defvar custom:mc-evil-previous-state nil)
 
