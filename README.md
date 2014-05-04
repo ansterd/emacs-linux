@@ -61,11 +61,11 @@ so that you can refer the configurations
 
 ### 5. Key Bindings
 
-- evil/evil-matchit
-  - [ds \<textobject\>]: **evilmi-jump-item**
-  - [cs \<textobject\>]: **evilmi-slsect-item**
-  - [yss \<textobject\>]: **evilmi-delete-item**
-  - [ysis]: **evilmi-delete-item**
+- evil/surround
+  - [ds \<textobject\>]: **delete surrounding things**
+  - [cs \<textobject\>]: **change surrounding things**
+  - [ys \<textobject\>]: **insert surrounding things**
+  - [cd(ys)]\[\[i\]wWs][bBrt or a special character\]
 
 - evil/evil-matchit
   - [%]: **evilmi-jump-item**
