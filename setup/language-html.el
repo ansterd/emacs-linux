@@ -2,7 +2,6 @@
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 
-
 (defun custom:wrap-web-mode-element-close ()
   (interactive)
   (web-mode-element-close))
@@ -23,5 +22,12 @@
   (auto-complete-mode 1))
 
 (add-hook 'web-mode-hook 'custom:web-mode-config)
+(add-hook 'web-mode-hook 'emmet-mode)
+
+;; css
+(defun custom:css-mode-config ()
+  (rainbow-mode))
+
+(add-hook 'css-mode-hook 'custom:css-mode-config)
 
 (provide 'language-html)

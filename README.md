@@ -39,6 +39,8 @@ $ rake convert_bundles
 #### XHTML (see `setup/language-html.el`)
 - **web-mode**
 - **flycheck** (requires `tidy`)
+- **emmet**
+- **rainbow-mode**
 
 ### 3. Extensions
 

@@ -52,6 +52,8 @@
      ggtags
      ecb
      web-mode
+     emmet-mode
+     rainbow-mode
      )))
 
 (condition-case nil
@@ -67,6 +69,7 @@
 		 setup-cedet
 		 
 		 ;; packages
+		 setup-theme
 		 setup-evil
 		 setup-desktop
 		 setup-revive-plus

@@ -12,10 +12,11 @@
 	  eshell
 	  ))
 
-(setq evil-emacs-state-cursor '("red" box)) (setq evil-normal-state-cursor '("black" box))
-(setq evil-insert-state-cursor '("red" bar))
-(setq evil-replace-state-cursor '("red" bar))
-(setq evil-operator-state-cursor '("red" hollow))
+;; evil-color
+;; (setq evil-emacs-state-cursor '("red" box)) (setq evil-normal-state-cursor '("black" box))
+;; (setq evil-insert-state-cursor '("red" bar))
+;; (setq evil-replace-state-cursor '("red" bar))
+;; (setq evil-operator-state-cursor '("red" hollow))
 
 ;; evil-plugin: evil-nerd-commenter
 (evilnc-default-hotkeys)
