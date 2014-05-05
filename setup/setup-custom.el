@@ -1,6 +1,6 @@
 (defun kill-other-buffers ()
   (interactive)
-  (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
+  (wipe))
 
 (defun untabify-buffer ()
   (interactive)
@@ -14,8 +14,8 @@
   "Perform a bunch of operations on the whitespace content of a buffer.
 Including indent-buffer, which should not be called automatically on save."
   (interactive)
-      (untabify-buffer)
-          (delete-trailing-whitespace)
+  (untabify-buffer)
+  (delete-trailing-whitespace)
   (indent-buffer))
 
 (defun custom:isearch-yank-word-or-char-from-beginning ()

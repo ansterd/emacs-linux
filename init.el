@@ -12,7 +12,6 @@
 ;; Setup site-lisp
 (mapc 'require '(
 		 setup-default
-		 setup-custom
 		 setup-package))
 
 ;; Install packages from MELPA
@@ -51,6 +50,7 @@
      evil-nerd-commenter
      magit
      ggtags
+     ecb
      )))
 
 (condition-case nil
@@ -94,6 +94,7 @@
 		 setup-magit
 		 setup-ggtags
 		 setup-sr-speedbar
+		 setup-ecb
 		 
 		 ;; language
 		 language-c++
@@ -102,3 +103,4 @@
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
+(require 'setup-custom)

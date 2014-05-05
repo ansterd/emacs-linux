@@ -64,6 +64,7 @@ $ rake convert_bundles
 - **iedit**
 - **smartparens**
 - **multiple-cursors**
+- **ecb**
 
 #### Installed But Not Used
 
@@ -78,6 +79,14 @@ so that you can refer the configurations
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 5. Key Bindings
+
+- ecb
+  -[C-c w t] : **ecb-toggle-ecb-windows**
+  -[C-c w c] : **ecb-toggle-ecb-compile**
+  -[C-c w d] : **ecb-goto-window-directories**
+  -[C-c w s] : **ecb-goto-window-sources**
+  -[C-c w m] : **ecb-goto-window-methods**
+  -[C-c w h] : **ecb-goto-window-history**
 
 - sr-speedbar
  - [C-c p] : **sr-speedbar-toggle**

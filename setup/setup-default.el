@@ -39,4 +39,9 @@
 ;; Set return key as newline and indent
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+;; Use key "C-c C-S-e" to open init.el
+(global-set-key (kbd "C-c C-e") (lambda ()
+				    (interactive)
+				    (find-file "~/.emacs.d/init.el")))
+
 (provide 'setup-default)
