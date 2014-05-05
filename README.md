@@ -3,12 +3,30 @@ Last Update : 2014-05-04
 
 ### 1. Installation Guide
 
+#### Dependency
+```
+$ sudo apt-get install cppcheck
+$ sudo apt-get install ruby
+$ sudo gem install plist trollop
+$ sudo apt-get install rake
+$ sudo apt-get install cscope
+$ sudo apt-get install ctags
+$ #install GNU Global withou apt-get
+```
+
+#### Get Emacs Configuration
 ```
 $ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/
+$ cd ~/.emacs.d/
+$ git submodule update --init --recursive
+$
 $ cd ~/.emacs.d/site-lisp/cedet
 $ make clean-all && make
 $ cd ~/.emacs.d/site-lisp/cedet/contrib
 $ make
+$
+$ cd ~/.emacs.d/site-lisp/yasnippet/yasmate
+$ rake convert_bundles
 ```
 
 ### 2. Language Support
@@ -16,11 +34,12 @@ $ make
 #### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
 - **flycheck** (requires `cppcheck`)
+- **ggtags** (requires `GNU Global`, `ctags`, `cscope`)
 
 ### 3. Extensions
 
 #### Used
-- **cedet** (requires `GNU Global`, `ectags`)
+- **cedet** 
 - **auto-complete**
 - **yasnippet**
 - **evil** (surround, numbers, matchit, leader, exchange, nerd-commenter)
@@ -46,7 +65,6 @@ $ make
 - **smartparens**
 - **multiple-cursors**
 
-
 #### Installed But Not Used
 
 Although the extensions listed below are not used,
@@ -61,6 +79,19 @@ so that you can refer the configurations
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 5. Key Bindings
+
+- ggtags
+  - [M-\[] : Find references
+  - [M-.] : Find tag
+  - [M-,] : Continue find tag
+  - [C-t] : Pop tag mark
+  - [C-c M-j] : Visit project ROOT (**dired mode**)
+
+- ggtags/navigation-mode
+  - [M-n] : Move to the next match
+  - [M-p] : Move to the previous match
+  - [RET] : Exit navigation mode
+
 - evil/evil-nerd-commenter
   - [,,j] : **evilnc-comment-or-uncomment-lines**
   - [2,ci] : **evilnc-comment-or-uncomment-lines**

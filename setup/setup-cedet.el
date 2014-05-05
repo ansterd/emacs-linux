@@ -80,13 +80,5 @@
 ;; provide semantic source to auto-complete
 (add-to-list 'ac-sources 'ac-source-semantic)
 
-;; C/C++ semantic setting
-(defun custom/c-mode-common-hook ()
-   (add-to-list 'ac-sources 'ac-source-semantic)
-   (add-to-list 'ac-sources 'ac-source-gtags) 
-    (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp))
-
-(add-hook 'c++-mode-hook 'custom/c-mode-common-hook)
-(add-hook 'c-mode-hook 'custom/c-mode-common-hook)
 
 (provide 'setup-cedet)

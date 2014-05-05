@@ -50,4 +50,7 @@
 (require 'evil-matchit)
 (global-evil-matchit-mode 1)
 
+;; unmap key "M-." for ggtags. Use "." instead
+(define-key evil-normal-state-map (kbd "M-.") nil)
+
 (provide 'setup-evil)

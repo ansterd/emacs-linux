@@ -1,8 +1,4 @@
 ls
-cd setup/
-ls
-rm setup-session.el 
-ls
 cd ~/.emasc.d
 cd ~/.emacs.d/
 ls
@@ -114,4 +110,19 @@ ls
 git clone https://github.com/martialboniou/revive-plus
 cd ..
 cd site-lisp/
+ls
+ls
+cd ..
+ls
+cd IRReader/
+ls
+cd ..
+ls
+cd ..
+ls
+cd include/
+ls
+cd llvm-c/
+cd ..
+cd llvm
 ls

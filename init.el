@@ -50,6 +50,7 @@
      evil-exchange
      evil-nerd-commenter
      magit
+     ggtags
      )))
 
 (condition-case nil
@@ -66,6 +67,7 @@
 		 
 		 ;; packages
 		 setup-evil
+		 setup-desktop
 		 setup-revive-plus
 		 setup-frame
 		 setup-windmove
@@ -90,6 +92,7 @@
 		 setup-yasnippet
 		 setup-multiple-cursors
 		 setup-magit
+		 setup-ggtags
 		 
 		 ;; language
 		 language-c++
