@@ -1,5 +1,5 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-05-04
+Last Update : 2014-05-05
 
 ### 1. Installation Guide
 
@@ -11,7 +11,7 @@ $ sudo gem install plist trollop
 $ sudo apt-get install rake
 $ sudo apt-get install cscope
 $ sudo apt-get install ctags
-$ #install GNU Global withou apt-get
+$ #install GNU Global without apt-get
 ```
 
 #### Get Emacs Configuration
