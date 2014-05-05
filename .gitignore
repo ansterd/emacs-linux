@@ -27,6 +27,10 @@ cache/frame/*
 cache/frame/*
 !cache/frame/.gitkeep
 
+!cache/revive/
+cache/revive/*
+!cache/revive/.gitkeep
+
 !cache/bookmark/
 cache/bookmark/*
 !cache/bookmark/.gitkeep
