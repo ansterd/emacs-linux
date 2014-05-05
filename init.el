@@ -51,6 +51,7 @@
      magit
      ggtags
      ecb
+     web-mode
      )))
 
 (condition-case nil
