@@ -104,3 +104,14 @@ gcc -cx++ -E -v -
 gcc -cx++ -E -v -
 gcc -xc++ -E -v -
 ls
+ls
+cd ..
+ls
+cd ~/.emacs.d/
+ls
+cd site-lisp/
+ls
+git clone https://github.com/martialboniou/revive-plus
+cd ..
+cd site-lisp/
+ls

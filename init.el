@@ -65,11 +65,11 @@
 		 setup-cedet
 		 
 		 ;; packages
-		 setup-windows
 		 setup-evil
+		 setup-revive-plus
+		 setup-frame
 		 setup-windmove
 		 setup-buffcycle
-		;; setup-frame
 		 setup-ido
 		 setup-icomplete-mode
 		 setup-font

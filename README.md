@@ -38,8 +38,7 @@ $ make
 - **windmove** 
 - **windcycle**
 - **buffcycle**
-- **windows**
-- **revive**
+- **revive** (revive+)
 - **frame-restore**
 - **org** (org-ac)
 - **fill-column-indicator**
@@ -55,7 +54,8 @@ They have their own configuration in `setup` directory
 so that you can refer the configurations
 
 - **icicles** (replaced with **ido**)
-- **desktop** (replaced with **windows**)
+- **desktop** (replaced with **revive+**)
+- **windows** (replaced with **revive+**)
 
 ### 4. Things You Should Need To Know
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
