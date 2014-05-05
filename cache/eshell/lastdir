@@ -2,7 +2,6 @@
 /home/anster/.emacs.d/cache/desktop
 /home/anster/.emacs.d/packages/desktop-0.1
 /home/anster/.emacs.d/packages
-/home/anster/.emacs.d/setup
 /home/anster/.emacs.d/site-lisp/windows
 /home/anster/.emacs.d/site-lisp/windcycle
 /home/anster/.emacs.d/site-lisp/windows
@@ -23,4 +22,6 @@
 /home/anster/.emacs.d/site-lisp
 /home/anster/.emacs.d/site-lisp/sr-speedbar
 ~
+/home/anster/.emacs.d
+/home/anster/.emacs.d/setup
 /home/anster/.emacs.d

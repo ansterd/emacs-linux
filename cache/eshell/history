@@ -1,9 +1,5 @@
 ls
 cd ..
-rm -rf desktop-0.1/
-ls
-ls
-cd ..
 ls
 rm frame-restore-parameters 
 cd packages/
@@ -125,4 +121,8 @@ cd sr-speedbar/
 ls
 ls
 cd ~/.emacs.d/
+ls
+ls
+cd ..
+rm -rf elpa/
 ls

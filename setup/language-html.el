@@ -9,6 +9,7 @@
 
 (defadvice custom:wrap-web-mode-element-close
   (after insert-newline activate)
+  (indent-according-to-mode)
   (insert "\n"))
 
 (define-key web-mode-map (kbd "C-c /")

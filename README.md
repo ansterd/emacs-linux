@@ -89,6 +89,7 @@ so that you can refer the configurations
   - [C-c C-s] : Insert web-mode snippet
   - [C-c C-w] : detect suspicious whitespaces
   - [C-c /] : **web-mode-element-close**
+  - [C-c C-d d] : Show tag mismatch
 
 - flycheck
   - [M-g n] : Goto next error
