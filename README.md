@@ -39,7 +39,7 @@ $ rake convert_bundles
 ### 3. Extensions
 
 #### Used
-- **cedet** 
+- **cedet** (sr-speedbar)
 - **auto-complete**
 - **yasnippet**
 - **evil** (surround, numbers, matchit, leader, exchange, nerd-commenter)
@@ -72,13 +72,15 @@ They have their own configuration in `setup` directory
 so that you can refer the configurations
 
 - **icicles** (replaced with **ido**)
-- **desktop** (replaced with **revive+**)
 - **windows** (replaced with **revive+**)
 
 ### 4. Things You Should Need To Know
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 5. Key Bindings
+
+- sr-speedbar
+ - [C-c p] : **sr-speedbar-toggle**
 
 - ggtags
   - [M-\[] : Find references

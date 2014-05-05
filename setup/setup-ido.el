@@ -42,7 +42,8 @@ imenu index, then jump to that symbol's location."
 
 ;; ignore list
 (add-to-list 'ido-ignore-buffers "*IBuffer*")
-(add-to-list 'ido-ignore-buffers "*CEDET Global*")
+(add-to-list 'ido-ignore-buffers "^\*CEDET")
+(add-to-list 'ido-ignore-buffers "^\*SPEEDBAR")
 (add-to-list 'ido-ignore-buffers "\.org$")
 (add-to-list 'ido-ignore-buffers "^\*Flycheck")
 (add-to-list 'ido-ignore-buffers "^\*ggtags")

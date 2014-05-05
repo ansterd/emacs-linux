@@ -93,6 +93,7 @@
 		 setup-multiple-cursors
 		 setup-magit
 		 setup-ggtags
+		 setup-sr-speedbar
 		 
 		 ;; language
 		 language-c++

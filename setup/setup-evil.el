@@ -12,8 +12,7 @@
 	  eshell
 	  ))
 
-(setq evil-emacs-state-cursor '("red" box))
-(setq evil-normal-state-cursor '("black" box))
+(setq evil-emacs-state-cursor '("red" box)) (setq evil-normal-state-cursor '("black" box))
 (setq evil-insert-state-cursor '("red" bar))
 (setq evil-replace-state-cursor '("red" bar))
 (setq evil-operator-state-cursor '("red" hollow))
@@ -52,5 +51,9 @@
 
 ;; unmap key "M-." for ggtags. Use "." instead
 (define-key evil-normal-state-map (kbd "M-.") nil)
+
+;; unmap key "C-c p" for sr-speedbar toggle
+(define-key evil-normal-state-map (kbd "C-c p") nil)
+(define-key evil-insert-state-map (kbd "C-c p") nil)
 
 (provide 'setup-evil)

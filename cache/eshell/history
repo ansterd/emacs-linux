@@ -1,19 +1,4 @@
 ls
-cd ~/.emasc.d
-cd ~/.emacs.d/
-ls
-cd cache/
-ls
-cd desktop/
-ls
-ls -al
-ls
-cd ..
-ls
-cd packages/
-ls
-cd desktop-0.1/
-ls
 cd ..
 rm -rf desktop-0.1/
 ls
@@ -125,4 +110,19 @@ ls
 cd llvm-c/
 cd ..
 cd llvm
+ls
+ls
+cd ~/.emacs.d/
+ls
+ls
+ls
+ls
+cd site-lisp/
+ls
+mkdir sr-speedbar
+ls
+cd sr-speedbar/
+ls
+ls
+cd ~/.emacs.d/
 ls
