@@ -1,25 +1,4 @@
 ls
-rm -rf frame-restore-20130922.735/
-lcd
-cd ..
-ls
-ls
-cd ..
-ls
-cd setup/
-ls
-cd ..
-cd site-lisp/
-ls
-cd windcycle/
-ls
-ls
-cd ~/.emacs.d/
-ls -al
-cd packages/
-ls
-rm -rf edit-server-20131229.441/
-ls
 cd ..
 cd setup/
 rm setup-chrome.el 
@@ -125,4 +104,25 @@ ls
 cd ~/.emacs.d/
 ls
 cd dict/
+ls
+ls
+cd ..
+cd ..
+ls
+cd ~/.emacs.d/
+ls
+cd site-lisp/
+ls
+cd cedet/
+ls
+ls
+cd lisp/
+ls
+cd cedet/
+ls
+cd semantic/
+ls
+cd ..
+ls
+cd ..
 ls

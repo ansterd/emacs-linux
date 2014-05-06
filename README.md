@@ -11,7 +11,10 @@ $ sudo gem install plist trollop
 $ sudo apt-get install rake
 $ sudo apt-get install cscope
 $ sudo apt-get install ctags
-$ #install GNU Global without apt-get
+$ # install GNU Global without apt-get
+$ sudo npm install jshint -g
+$ # install tidy-html5 without apt-get
+$ sudo npm install tern -g
 ```
 
 #### Get Emacs Configuration
@@ -42,6 +45,13 @@ $ rake convert_bundles
 - **emmet**
 - **rainbow-mode**
 
+#### Javasript, Node.js (see `setup/language-javascript.el`)
+- **js2-mode**
+- **flycheck** (require `jshint`)
+- **js2-refactor**
+- **tern** (with tern-auto-complete)
+- **json-mode**
+
 ### 3. Extensions
 
 #### Used
@@ -71,6 +81,7 @@ $ rake convert_bundles
 - **smartparens**
 - **multiple-cursors**
 - **ecb**
+- **smart-forward**
 
 #### Installed But Not Used
 
@@ -85,6 +96,13 @@ so that you can refer the configurations
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
 ### 5. Key Bindings
+
+- smart-forward
+  - [M--] : **smart-up**
+  - [M-=] : **smart-down**
+
+- tern
+  - [C-c j] : **tern-find-definition**
 
 - web-mode
   - [C-c C-f] : Fold and unfold code

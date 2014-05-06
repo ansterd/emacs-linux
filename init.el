@@ -55,6 +55,12 @@
      emmet-mode
      rainbow-mode
      flycheck-pos-tip
+     js2-mode
+     js2-refactor
+     json-mode
+     tern
+     tern-auto-complete
+     smart-forward
      )))
 
 (condition-case nil
@@ -99,7 +105,7 @@
 		 setup-magit
 		 setup-ggtags
 		 setup-sr-speedbar
-		 setup-ecb
+		 ;; setup-ecb
 		 
 		 ;; language
 		 language-c++
@@ -111,3 +117,6 @@
 ;; Setup keybinding and alias
 (require 'setup-alias)
 (require 'setup-custom)
+
+;; turn off debug option after loading emacs
+(setq debug-on-error nil)

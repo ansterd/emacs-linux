@@ -17,6 +17,8 @@
   'custom:wrap-web-mode-element-close)
 
 (defun custom:web-mode-config ()
+  (add-to-list 'ac-sources 'ac-source-semantic)
+  (add-to-list 'ac-sources 'ac-source-semantic-raw)
   (add-to-list 'ac-sources 'ac-source-yasnippet)
   (yas-activate-extra-mode 'html-mode)
   (yas-activate-extra-mode 'nxml-mode)

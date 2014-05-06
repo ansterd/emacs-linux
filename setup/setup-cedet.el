@@ -33,6 +33,9 @@
 ;; semantic C/C++ Setting
 (require 'semantic/bovine/gcc)
 
+;; semantic for javascript
+(require 'semantic/wisent)
+
 ;; Add C/C++ additional include directory
 (semantic-add-system-include "/usr/include/c++/4.8")
 
@@ -77,8 +80,6 @@
 ;; (global-set-key (kbd "C-c q") 'semantic-ia-show-doc)
 ;; (global-set-key (kbd "C-c s") 'semantic-ia-show-summary)
 
-;; provide semantic source to auto-complete
 (add-to-list 'ac-sources 'ac-source-semantic)
-
 
 (provide 'setup-cedet)

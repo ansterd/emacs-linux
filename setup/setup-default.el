@@ -1,7 +1,16 @@
 (setq cache-directory (concat user-emacs-directory "cache/"))
 
+;; Use debug
+(setq debug-on-error t)
+
 ;; Setup Keyboard, Language
 (set-language-environment "Korean")
+
+;; Set locale as UTF-8
+(setq locale-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 
 ;; Disable toolbar, scrollbar
@@ -43,5 +52,7 @@
 (global-set-key (kbd "C-c C-e") (lambda ()
 				    (interactive)
 				    (find-file "~/.emacs.d/init.el")))
+
+
 
 (provide 'setup-default)

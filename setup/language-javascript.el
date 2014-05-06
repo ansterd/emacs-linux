@@ -1,41 +1,55 @@
 ;; Javascript & Node.js
-;; (require 'auto-complete)
-;; (require 'auto-complete-config)
 
-;; (autoload 'js2-mode "js2-mode" nil t)
-;; (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(require 'auto-complete)
 
-;; (defun custom:javascript-mode-config ()
-;;   (yas-activate-extra-mode 'js-mode)
-;;   (fci-mode 1)
-;;   (add-to-list 'ac-sources 'ac-source-semantic)
-;;   (add-to-list 'ac-sources 'ac-source-yasnippet))
+;; tern
+(autoload 'tern-mode "tern.el" nil t)
+(eval-after-load 'tern
+  '(progn
+     (require 'tern-auto-complete)
+     (setq tern-ac-on-dot t)
+     (tern-ac-setup)))
 
-;; (custom-set-variables  
-;;  '(js2-basic-offset 2)
-;;  '(js2-bounce-indent-p nil))
+(require 'js2-mode)
+(define-key js2-mode-map (kbd "C-c j") 'tern-find-definition)
 
-;; (setq-default js2-global-externs '("jQuery"
-;; 				   "$"
-;; 				   "module"
-;; 				   "require"
-;; 				   "buster"
-;; 				   "sinon"
-;; 				   "assert"
-;; 				   "refute"
-;; 				   "setTimeout"
-;; 				   "clearTimeout"
-;; 				   "setInterval"
-;; 				   "clearInterval"
-;; 				   "location"
-;; 				   "__dirname"
-;; 				   "console"
-;; 				   "JSON"))
+(autoload 'js2-mode "js2-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
-;; (add-hook 'js2-mode-hook 'custom:javascript-mode-config)
-;; ;; js2-refactor
-;; (require 'js2-refactor)
-;; (js2r-add-keybindings-with-prefix "C-c C-m")
+(custom-set-variables  
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p nil))
+
+(setq-default js2-global-externs '("jQuery"
+				   "$"
+				   "module"
+				   "require"
+				   "buster"
+				   "sinon"
+				   "assert"
+				   "refute"
+				   "setTimeout"
+				   "clearTimeout"
+				   "setInterval"
+				   "clearInterval"
+				   "location"
+				   "__dirname"
+				   "console"
+				   "JSON"))
+
+;; js2-refactor
+(require 'js2-refactor)
+(js2r-add-keybindings-with-prefix "C-c C-m")
+
+(defun custom:js2-mode-config ()
+  (yas-activate-extra-mode 'js-mode)
+  (tern-mode t)
+  (fci-mode 1)
+  (add-to-list 'ac-sources 'ac-source-yasnippet)
+  (add-to-list 'ac-sources 'ac-source-semantic)
+  (add-to-list 'ac-sources 'ac-source-semantic-raw))
+
+(add-hook 'js2-mode-hook 'custom:js2-mode-config)
 
 
 (provide 'language-javascript)
