@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("init/install-packages" 0 21
+(#1=(#("README.md/Key Binding" 0 21
+      (bmkp-full-record #1#))
+    (filename . "~/.emacs.d/README.md")
+    (buffer-name . "README.md")
+    (front-context-string . "### 5. Key Bindi")
+    (rear-context-string . " of **EVIL**~~\n\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(21353 4320 324747 659000))
+    (created . #2#)
+    (position . 2245))
+#1=(#("init/install-packages" 0 21
       (bmkp-full-record #1#))
     (end-position . 438)
     (filename . "~/.emacs.d/init.el")

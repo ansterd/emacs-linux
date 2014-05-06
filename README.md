@@ -30,6 +30,8 @@ $ make
 $
 $ cd ~/.emacs.d/site-lisp/yasnippet/yasmate
 $ rake convert_bundles
+$
+$ cp ~/.emacs.d/.ctags  ~/.ctags
 ```
 
 ### 2. Language Support
@@ -47,10 +49,11 @@ $ rake convert_bundles
 
 #### Javasript, Node.js (see `setup/language-javascript.el`)
 - **js2-mode**
-- **flycheck** (require `jshint`)
+- **flycheck** (requires `jshint`)
 - **js2-refactor**
-- **tern** (with tern-auto-complete)
+- **tern** (with tern-auto-complete, requires `tern`)
 - **json-mode**
+- **etags** 
 
 ### 3. Extensions
 
@@ -82,6 +85,7 @@ $ rake convert_bundles
 - **multiple-cursors**
 - **ecb**
 - **smart-forward**
+- **etags** (etags-select, etags-table)
 
 #### Installed But Not Used
 
@@ -97,12 +101,20 @@ so that you can refer the configurations
 
 ### 5. Key Bindings
 
+- etags-select
+  - [C-c t s] : Find etags file recursively visit parent directory
+  - [C-c t b] : Build etags TAGS file in current directory
+  - [M-\]] : Find tag using ido
+  - [M-?] : **etags-select-find-tag-at-point**
+
 - smart-forward
   - [M--] : **smart-up**
   - [M-=] : **smart-down**
 
 - tern
   - [C-c j] : **tern-find-definition**
+  - [M-.] : **tern-find-definition**
+  - [M-,] : **tern-pop-find-definition**
 
 - web-mode
   - [C-c C-f] : Fold and unfold code

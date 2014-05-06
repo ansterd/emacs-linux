@@ -61,6 +61,8 @@
      tern
      tern-auto-complete
      smart-forward
+     etags-select
+     etags-table
      )))
 
 (condition-case nil
