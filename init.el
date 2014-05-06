@@ -54,6 +54,7 @@
      web-mode
      emmet-mode
      rainbow-mode
+     flycheck-pos-tip
      )))
 
 (condition-case nil
