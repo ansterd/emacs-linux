@@ -2,7 +2,9 @@
 (add-to-list 'load-path "~/.emacs.d/themes")
 (require 'tomorrow-night-eighties-theme)
 
-(set-face-foreground 'highlight (face-background 'lazy-highlight))
-(set-face-background 'highlight (face-foreground 'lazy-highlight))
+;; (set-face-foreground 'highlight (face-background 'lazy-highlight))
+(set-face-attribute 'highlight nil
+		     :background
+		     "#515151")
 
 (provide 'setup-theme)

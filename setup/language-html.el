@@ -15,7 +15,6 @@
   'custom:wrap-web-mode-element-close)
 
 (defun custom:web-mode-config ()
-  (global-fci-mode 0)
   (add-to-list 'ac-sources 'ac-source-yasnippet)
   (yas-activate-extra-mode 'html-mode)
   (yas-activate-extra-mode 'nxml-mode)
