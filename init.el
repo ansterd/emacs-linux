@@ -105,6 +105,7 @@
 		 setup-magit
 		 setup-ggtags
 		 setup-sr-speedbar
+		 setup-etags
 		 ;; setup-ecb
 		 
 		 ;; language

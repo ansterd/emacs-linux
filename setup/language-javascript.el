@@ -10,11 +10,17 @@
      (setq tern-ac-on-dot t)
      (tern-ac-setup)))
 
+
+;; js2-mode
 (require 'js2-mode)
 (define-key js2-mode-map (kbd "C-c j") 'tern-find-definition)
 
 (autoload 'js2-mode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+
+;; advice for tern-find-definition
+(defadvice tern-find-definition (before set-mark-before-turn-jump)
+  (set-mark-command))
 
 (custom-set-variables  
  '(js2-basic-offset 2)
