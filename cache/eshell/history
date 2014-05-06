@@ -1,9 +1,4 @@
 ls
-cd ..
-ls
-rm frame-restore-parameters 
-cd packages/
-ls
 rm -rf frame-restore-20130922.735/
 lcd
 cd ..
@@ -125,4 +120,9 @@ ls
 ls
 cd ..
 rm -rf elpa/
+ls
+ls
+cd ~/.emacs.d/
+ls
+cd dict/
 ls

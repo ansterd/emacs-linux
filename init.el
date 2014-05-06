@@ -105,6 +105,7 @@
 		 language-c++
 		 language-html
 		 language-lisp
+		 language-javascript
 		 ))
 
 ;; Setup keybinding and alias

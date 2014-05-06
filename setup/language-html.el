@@ -2,6 +2,8 @@
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 
+(add-to-list 'ac-modes 'web-mode)
+
 (defun custom:wrap-web-mode-element-close ()
   (interactive)
   (web-mode-element-close))
