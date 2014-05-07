@@ -11,9 +11,9 @@ $ sudo gem install plist trollop
 $ sudo apt-get install rake
 $ sudo apt-get install cscope
 $ sudo apt-get install ctags
-$ # install GNU Global without apt-get (see [ggtags](https://github.com/leoliu/ggtags))
+$ # install GNU Global without apt-get (see https://github.com/leoliu/ggtags)
 $ sudo npm install jshint -g
-$ # install tidy-html5 without apt-get (see [tidy-html5](https://github.com/w3c/tidy-html5))
+$ # install tidy-html5 without apt-get (see https://github.com/w3c/tidy-html5)
 $ sudo npm install tern -g
 ```
 
