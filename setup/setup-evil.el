@@ -57,4 +57,13 @@
 (define-key evil-normal-state-map (kbd "C-c p") nil)
 (define-key evil-insert-state-map (kbd "C-c p") nil)
 
+;; unmap C-p, C-n for move cursor
+(define-key evil-insert-state-map (kbd "C-p") nil)
+(define-key evil-insert-state-map (kbd "C-n") nil)
+
+;; unmap C-w, C-y, C-d
+(define-key evil-insert-state-map (kbd "C-w") 'kill-region)
+(define-key evil-insert-state-map (kbd "C-y") 'yank)
+(define-key evil-insert-state-map (kbd "C-d") 'delete-char)
+
 (provide 'setup-evil)

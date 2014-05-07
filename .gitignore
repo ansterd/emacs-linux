@@ -4,6 +4,7 @@ url/
 .session
 tramp
 frame-restore-parameters
+.tern-port
 
 cache/*
 

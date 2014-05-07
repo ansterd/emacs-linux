@@ -54,4 +54,10 @@
 (add-hook 'js2-mode-hook 'custom:js2-mode-config)
 (add-hook 'js2-mode-hook 'ac-js2-mode)
 (setq ac-js2-evaluate-calls t)
+
+;; Make .tern-project file 
+
+(defun make-tern-project ()
+  (shell-command "cp ~/.emacs.d/config/.tern-project ."))
+
 (provide 'language-javascript)

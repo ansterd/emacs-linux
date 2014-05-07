@@ -54,6 +54,8 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **tern** (with tern-auto-complete, requires `tern`)
 - **json-mode**
 - **etags** 
+- **ac-js2**
+- **skerew-mode**
 
 ### 3. Extensions
 

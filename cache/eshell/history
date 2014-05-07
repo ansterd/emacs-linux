@@ -1,27 +1,3 @@
-mkdir windows
-cd windcycle/
-ls
-cd ..
-cd windows/
-ls
-wget http://www.gentei.org/~yuuji/software/windows.el
-ls
-ls
-cd ~/.emacs.d/
-ls
-cd site-lisp/
-ls
-cd windcycle/
-ls
-cd ..
-cd windcycle/
-ls
-cd ..
-cd windows/
-ls
-cd ~/.emacs.d/
-cd site-lisp/
-cd windows/
 ls
 wget http://www.gentei.org/~yuuji/software/revive.el
 ls
@@ -125,4 +101,28 @@ mv sample.js js/
 ls
 cd js/
 ctags -e -R .
+ls
+ls
+cd ..
+cd ..
+cd Workspace/
+ls
+cd js/
+ls
+cd js
+ls
+cd js
+ls
+ls
+cd ..
+cd ..
+cd Workspace/js/
+cp ~/.emacs.d/config/.tern-project .
+ls
+ls -al
+ls
+cd ..
+ls
+ls
+cd ..
 ls

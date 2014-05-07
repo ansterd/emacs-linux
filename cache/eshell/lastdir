@@ -1,8 +1,3 @@
-/home/anster/.emacs.d/cache
-/home/anster/.emacs.d/cache/desktop
-/home/anster/.emacs.d/packages/desktop-0.1
-/home/anster/.emacs.d/packages
-/home/anster/.emacs.d/site-lisp/windows
 /home/anster/.emacs.d/site-lisp/windcycle
 /home/anster/.emacs.d/site-lisp/windows
 /home/anster/.emacs.d/site-lisp/windows
@@ -17,7 +12,6 @@
 /home/anster/Github/llvm/include/llvm
 /home/anster/.emacs.d/site-lisp/sr-speedbar
 ~
-/home/anster/.emacs.d/setup
 /home/anster/.emacs.d/dict
 /home/anster/.emacs.d/site-lisp
 /home/anster/.emacs.d/site-lisp/cedet
@@ -26,7 +20,14 @@
 /home/anster/.emacs.d/site-lisp/cedet/lisp/cedet
 /home/anster/.emacs.d/site-lisp/cedet/lisp
 ~/.emacs.d/setup
+/home/anster/.emacs.d/setup
+/home/anster/Workspace
+/home/anster/Workspace/js
+/home/anster/Workspace/js
+/home/anster/.emacs.d/config
 /home/anster/.emacs.d
 /home/anster
-/home/anster/Workspace
+/home/anster/Workspace/js
+/home/anster/Workspace/js
+/home/anster/Workspace/js/basic
 /home/anster/Workspace/js
