@@ -17,6 +17,8 @@
 (add-to-list 'recentf-exclude ".emacs-bmk-bmenu-state.el")
 (add-to-list 'recentf-exclude "org-loaddefs.el")
 (add-to-list 'recentf-exclude "org-autoloads.el")
+(add-to-list 'recentf-exclude "org$")
+(add-to-list 'recentf-exclude "TAGS")
 
 ;; find recent file using ido
 (global-set-key (kbd "C-c f") 'recentf-ido-find-file)

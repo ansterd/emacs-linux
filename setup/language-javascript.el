@@ -42,14 +42,16 @@
 (require 'js2-refactor)
 (js2r-add-keybindings-with-prefix "C-c C-m")
 
+(require 'ac-js2)
+
 (defun custom:js2-mode-config ()
   (yas-activate-extra-mode 'js-mode)
   (tern-mode t)
   (fci-mode 1)
-  (tags-table-mode)
-  (add-to-list 'ac-sources 'ac-source-yasnippet)
-  (add-to-list 'ac-sources 'ac-source-semantic)
-  (add-to-list 'ac-sources 'ac-source-semantic-raw))
+  ;; (tags-table-mode)
+  (add-to-list 'ac-sources 'ac-source-yasnippet))
 
 (add-hook 'js2-mode-hook 'custom:js2-mode-config)
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(setq ac-js2-evaluate-calls t)
 (provide 'language-javascript)
