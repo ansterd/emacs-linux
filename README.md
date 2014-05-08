@@ -13,6 +13,7 @@ $ sudo apt-get install cscope
 $ sudo apt-get install ctags
 $ # install GNU Global without apt-get (see https://github.com/leoliu/ggtags)
 $ sudo npm install jshint -g
+$ sudo npm install jsonlint -g
 $ # install tidy-html5 without apt-get (see https://github.com/w3c/tidy-html5)
 $ sudo npm install tern -g
 ```
