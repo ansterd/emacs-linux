@@ -56,8 +56,11 @@
 (setq ac-js2-evaluate-calls t)
 
 ;; Make .tern-project file 
-
 (defun make-tern-project ()
   (shell-command "cp ~/.emacs.d/config/.tern-project ."))
+
+;; skewer mode setup
+;; (require 'skewer-mode)
+;; (skewer-setup)
 
 (provide 'language-javascript)

@@ -17,4 +17,7 @@
   (forward-line -1)
   (indent-according-to-mode))
 
+;; No smartparens in REPL
+(add-to-list 'sp-ignore-modes-list 'slime-repl-mode)
+
 (provide 'setup-smartparens)

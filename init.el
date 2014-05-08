@@ -64,6 +64,7 @@
      smart-forward
      etags-select
      etags-table
+     ac-slime
      )))
 
 (condition-case nil

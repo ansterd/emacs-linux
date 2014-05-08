@@ -16,6 +16,8 @@ $ sudo npm install jshint -g
 $ sudo npm install jsonlint -g
 $ # install tidy-html5 without apt-get (see https://github.com/w3c/tidy-html5)
 $ sudo npm install tern -g
+$ # install sbcl
+$ # install slime using quicklisp
 ```
 
 #### Get Emacs Configuration
@@ -57,6 +59,9 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **ectags** 
 - **ac-js2**
 - **skerew-mode**
+
+#### Lisp (see `setup/language-lisp.el`)
+- **ac-slime**
 
 ### 3. Extensions
 
