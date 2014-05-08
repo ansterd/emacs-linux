@@ -4,16 +4,17 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (#1=(#("README.md/Key Binding" 0 21
       (bmkp-full-record #1#))
+    (end-position . 2462)
     (filename . "~/.emacs.d/README.md")
     (buffer-name . "README.md")
     (front-context-string . "### 5. Key Bindi")
     (rear-context-string . " of **EVIL**~~\n\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(21353 4320 324747 659000))
-    (created . #2#)
-    (position . 2245))
+    (visits . 1)
+    (time 21354 61167 891014 344000)
+    (created 21353 4320 324747 659000)
+    (position . 2462))
 #1=(#("init/install-packages" 0 21
       (bmkp-full-record #1#))
     (end-position . 438)

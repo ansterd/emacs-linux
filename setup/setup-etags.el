@@ -1,4 +1,5 @@
 (require 'etags-select)
+(require 'etags-table)
 
 (defun custom:ido-find-tag ()
   (interactive)
@@ -30,16 +31,27 @@
   ;; (setq tags-table-list (custom:find-etags-file)))
   (setq tags-table-list (cons (custom:find-etags-file) tags-table-list)))
 
+;; TODO : set language-force option depend on Major-mode
 (defun custom:build-ectags-for-javascript ()
   (interactive)
-  (shell-command
-   "ctags -e -R --extra=+fq --exclude=db --exclude=test --exclude=.git --exclude=public -f TAGS ."))
+  (shell-command "ctags -e -R --extra=+fq -f .TAGS .")
+  (shell-command "uniq .TAGS > TAGS")
+  (shell-command "rm .TAGS"))
 
 ;; delay search the TAGS file after open the source file
 ;; (add-hook 'find-file-hook 'custom:set-etags-file-path)
 
-;; (global-set-key (kbd "C-c t s") 'custom:set-etags-file-path)
-(global-set-key (kbd "C-c t b") 'custom:build-ectags-for-javascript)
-(global-set-key (kbd "M-]") 'helm-etags-select)
+(global-set-key (kbd "C-c t r") 'tags-reset-tags-tables)
+(global-set-key (kbd "C-c t m") 'custom:build-ectags-for-javascript)
+
+;; helm-etags-plus
+(add-to-list 'load-path "~/.emacs.d/site-lisp/helm-etags-plus")
+(require 'helm-etags+)
+
+(global-set-key (kbd "C-c t f") 'helm-etags+-history-go-forward)
+(global-set-key (kbd "C-c t b") 'helm-etags+-history-go-back)
+(global-set-key (kbd "C-c t h") 'helm-etags+-history)
+(global-set-key (kbd "M-]") 'helm-etags+-select)
+
 
 (provide 'setup-etags)

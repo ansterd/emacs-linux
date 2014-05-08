@@ -53,7 +53,7 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **js2-refactor**
 - **tern** (with tern-auto-complete, requires `tern`)
 - **json-mode**
-- **etags** 
+- **ectags** 
 - **ac-js2**
 - **skerew-mode**
 
@@ -87,7 +87,7 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **multiple-cursors**
 - **ecb**
 - **smart-forward**
-- **etags** (etags-select, etags-table)
+- **etags** (etags-select, etags-table, helm-etags+-select)
 
 #### Installed But Not Used
 
@@ -103,11 +103,13 @@ so that you can refer the configurations
 
 ### 5. Key Bindings
 
-- etags-select
-  - [C-c t s] : Find etags file recursively visit parent directory
-  - [C-c t b] : Build etags TAGS file in current directory
-  - [M-\]] : Find tag using ido
-  - [M-?] : **etags-select-find-tag-at-point**
+- etags/helm-etags+-select
+  - [C-c t h] : **helm-etags-history**
+  - [C-c t f] : **helm-etags-history-go-forward**
+  - [C-c t b] : **helm-etags-history-go-back**
+  - [C-c t r] : Reset tags table
+  - [C-c t m] : etags TAGS file in current directory
+  - [M-\]] : Set TAGS file and Find tag using `helm` 
 
 - smart-forward
   - [M--] : **smart-up**
