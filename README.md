@@ -1,8 +1,16 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-05-05
+Last Update : 2014-05-10
 
+#### Todo
+1. Semantic C++ Header file support
+2. Paredit
+3. js2-refactor
+4. Scala / Python Support
+
+<br>
 ### 1. Installation Guide
 
+<br>
 #### Dependency
 ```
 $ sudo apt-get install cppcheck
@@ -20,6 +28,7 @@ $ # install sbcl
 $ # install slime using quicklisp
 ```
 
+<br>
 #### Get Emacs Configuration
 ```
 $ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/
@@ -37,19 +46,23 @@ $
 $ cp ~/.emacs.d/.ctags  ~/.ctags
 ```
 
+<br>
 ### 2. Language Support
 
+<br>
 #### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
 - **flycheck** (requires `cppcheck`)
 - **ggtags** (requires `GNU Global`, `ctags`, `cscope`)
 
+<br>
 #### XHTML (see `setup/language-html.el`)
 - **web-mode**
 - **flycheck** (requires `tidy`)
 - **emmet**
 - **rainbow-mode**
 
+<br>
 #### Javasript, Node.js (see `setup/language-javascript.el`)
 - **js2-mode**
 - **flycheck** (requires `jshint`)
@@ -60,11 +73,14 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **ac-js2**
 - **skerew-mode**
 
+<br>
 #### Lisp (see `setup/language-lisp.el`)
 - **ac-slime**
 
+<br>
 ### 3. Extensions
 
+<br>
 #### Used
 - **cedet** (sr-speedbar)
 - **auto-complete**
@@ -95,6 +111,7 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **smart-forward**
 - **etags** (etags-select, etags-table, helm-etags+-select)
 
+<br>
 #### Installed But Not Used
 
 Although the extensions listed below are not used,
@@ -104,9 +121,11 @@ so that you can refer the configurations
 - **icicles** (replaced with **ido**)
 - **windows** (replaced with **revive+**)
 
+<br>
 ### 4. Things You Should Need To Know
 - ~~`caps lock` key bind with `ESC` because of **EVIL**~~
 
+<br>
 ### 5. Key Bindings
 
 - etags/helm-etags+-select
