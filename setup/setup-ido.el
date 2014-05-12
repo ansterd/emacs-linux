@@ -8,6 +8,7 @@
       ido-create-new-buffer 'always
       ido-use-filename-at-point 'guess
       ido-use-url-at-point t
+      ido-enable-tramp-completion nil
       ffap-require-prefix t
       ido-default-file-method 'selected-window
       ido-default-buffer-method 'selected-window)

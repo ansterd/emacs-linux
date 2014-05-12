@@ -1,81 +1,3 @@
-ls
-cd ~/.emacs.d/
-ls
-ls
-ls
-clear
-ls
-ls
-touch sample
-ls
-ls
-ls
-ls
-rm Sample.org 
-cd ~/.emacs.d/
-ls
-gcc -cx++ -E -v -
-gcc -cx++ -E -v -
-gcc -xc++ -E -v -
-ls
-ls
-cd ..
-ls
-cd ~/.emacs.d/
-ls
-cd site-lisp/
-ls
-git clone https://github.com/martialboniou/revive-plus
-cd ..
-cd site-lisp/
-ls
-ls
-cd ..
-ls
-cd IRReader/
-ls
-cd ..
-ls
-cd ..
-ls
-cd include/
-ls
-cd llvm-c/
-cd ..
-cd llvm
-ls
-ls
-cd ~/.emacs.d/
-ls
-ls
-ls
-ls
-cd site-lisp/
-ls
-mkdir sr-speedbar
-ls
-cd sr-speedbar/
-ls
-ls
-cd ~/.emacs.d/
-ls
-ls
-cd ..
-rm -rf elpa/
-ls
-ls
-cd ~/.emacs.d/
-ls
-cd dict/
-ls
-ls
-cd ..
-cd ..
-ls
-cd ~/.emacs.d/
-ls
-cd site-lisp/
-ls
 cd cedet/
 ls
 ls
@@ -126,3 +48,81 @@ cd ..
 ls
 ls
 cd ..
+cd ..
+cd ..
+ls
+ls
+ls
+cd ..
+ls
+cd anster/
+ls
+ls
+ls
+ls
+which express
+express -v
+express -v
+express passport-demo
+ls
+cd passport-demo/
+ls
+node app.js 
+ls
+clear
+ls
+cd passport-demo/
+npm init
+ls
+npm install --save
+ls
+ls
+ls
+ls
+ls
+ls
+node app.js 
+ls
+ls
+cd ..
+ls
+rm -rf passport-demo/
+git clone https://github.com/ansterd/express4-template
+ls
+mv express4-template/ passport-demo
+cd passport-demo/
+ls
+node install --save
+npm install --save
+└── mongodb@1.4.3 (kerberos@0.0.3, bson@0.2.7)
+ls
+sudo npm install -g grunt-cli
+ls
+ls
+ls
+ls
+mkdir lib
+cd lib/
+ls
+cd /home
+ls
+cd anster/
+ls
+cd /
+ls
+cd home
+ls
+cd anster/
+ls
+ls
+cd home/
+ls
+cd anster/
+ls
+cd planner/
+ls
+cd ..
+ls
+cd passport-demo/
+ls
+which node

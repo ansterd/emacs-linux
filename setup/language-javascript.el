@@ -1,5 +1,10 @@
 ;; Javascript & Node.js
 
+;; json-mode
+(defun custom:json-mode-hook ()
+   (setq tab-width 2))
+(add-hook 'json-mode-hook 'custom:json-mode-hook)
+
 (require 'auto-complete)
 
 ;; tern

@@ -16,6 +16,9 @@
 (global-set-key (kbd "C-c s n") 'custom/create-new-snippet)
 (global-set-key (kbd "C-c s r") 'yas-reload-all)
 
+;; Use shift-TAB as yas-expand
+(define-key yas-minor-mode-map (kbd "<S-iso-lefttab>") 'yas-expand)
+
 ;; create snippet function
 (defun custom/create-new-snippet (snippet-name)
   (interactive "sSnippet name : ")

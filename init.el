@@ -110,8 +110,9 @@
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
-		 ;; setup-ecb
-		 
+		 setup-tramp
+		 setup-ecb
+		
 		 ;; language
 		 language-c++
 		 language-html
@@ -125,3 +126,4 @@
 
 ;; turn off debug option after loading emacs
 (setq debug-on-error nil)
+
