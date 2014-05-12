@@ -210,6 +210,7 @@ so that you can refer the configurations
 - yasnippet
   - [C-c s n]: **custom/create-new-snippet**
   - [C-c s r]: **yas-reload-all**
+  - [S-TAB] : **yas-expand**
 
 - ido
   - [C-c i]: **ido-goto-symbol**
