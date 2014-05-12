@@ -110,7 +110,7 @@
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
-		 ;; setup-ecb
+		 setup-ecb
 		 
 		 ;; language
 		 language-c++

@@ -1,11 +1,3 @@
-ls
-cd ~/.emacs.d/
-ls
-ls
-ls
-clear
-ls
-ls
 touch sample
 ls
 ls
@@ -126,3 +118,11 @@ cd ..
 ls
 ls
 cd ..
+ls
+flext test.lex 
+flex test.lex 
+ls
+gcc -o test lex.yy.c -lfl
+ls -l
+./test 
+ls
