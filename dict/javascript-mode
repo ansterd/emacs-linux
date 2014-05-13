@@ -147,3 +147,6 @@ watch
 while
 window
 with
+NODE_ENV
+process
+env
