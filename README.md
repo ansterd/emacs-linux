@@ -6,6 +6,8 @@ Last Update : 2014-05-10
 2. Paredit
 3. js2-refactor
 4. Scala / Python Support
+5. Autoload
+6. Cask, Grail, Pallet. (See [Here](https://github.com/mathrick/emacs-config))
 
 <br>
 ### 1. Installation Guide
