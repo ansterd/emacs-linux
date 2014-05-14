@@ -18,7 +18,7 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 
 ;; Disable backup, auto-save
-(setq backup-inhibited t)
+(setq make-backup-files nil)
 (setq auto-save-default nil)
 
 ;; Set eshell, auto-save directory
