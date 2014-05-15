@@ -50,6 +50,7 @@ imenu index, then jump to that symbol's location."
 (add-to-list 'ido-ignore-buffers "^\*ggtags")
 (add-to-list 'ido-ignore-buffers "^\*helm")
 (add-to-list 'ido-ignore-buffers "^\*Compile-Log")
+(add-to-list 'ido-ignore-buffers ".tern-port")
 
 ;; sort ido filelist by mtime instead of alphabetically
 (add-hook 'ido-make-file-list-hook 'ido-sort-mtime)

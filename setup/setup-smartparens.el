@@ -10,6 +10,9 @@
 (sp-local-pair 'js2-mode "{" nil :post-handlers
 	       '((custom:create-newline-and-enter-sexp "RET")))
 
+(sp-local-pair 'css-mode "{" nil :post-handlers
+	       '((custom:create-newline-and-enter-sexp "RET")))
+
 (defun custom:create-newline-and-enter-sexp (&rest _ignored)
   "Open a new brace or bracket expression, with relevant newlines and indent. "
   (newline)
