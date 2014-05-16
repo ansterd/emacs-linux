@@ -94,7 +94,7 @@
 		 setup-smex
 		 setup-expand-region
 		 setup-helm
-		 setup-thingatpt
+		 ;; setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
 		 setup-bookmark
@@ -105,16 +105,16 @@
 		 setup-flycheck
 		 setup-smartparens
 		 setup-yasnippet
-		 setup-multiple-cursors
+		 ;; setup-multiple-cursors
 		 setup-magit
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
-		 setup-tramp
-		 setup-ecb
+		 ;; setup-tramp
+		 ;; setup-ecb
 		
 		 ;; language
-		 language-c++
+		 ;; language-c++
 		 language-html
 		 language-lisp
 		 language-javascript
