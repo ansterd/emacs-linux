@@ -5,8 +5,11 @@ url/
 tramp
 frame-restore-parameters
 .tern-port
+projectile.cache
+projectile-bookmarks.eld
 
 cache/*
+
 
 !cache/auto-complete/
 cache/auto-complete/*

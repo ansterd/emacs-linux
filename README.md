@@ -112,6 +112,8 @@ $ cp ~/.emacs.d/.ctags  ~/.ctags
 - **ecb**
 - **smart-forward**
 - **etags** (etags-select, etags-table, helm-etags+-select)
+- **projectile** 
+- **perspective** (persp-projectile)
 
 <br>
 #### Installed But Not Used
@@ -129,6 +131,17 @@ so that you can refer the configurations
 
 <br>
 ### 5. Key Bindings
+
+- perspective
+  - [C-x x n] : **persp-next**
+  - [C-x x s] : **persp-switch**
+
+- projectile
+  - [C-c p] : prefix for projectile
+  - [C-c p f] : find project file
+  - [C-c p i] : invalidate cache
+  - [C-c p d] : find project directory
+  - [C-c p s] : switch porject
 
 - etags/helm-etags+-select
   - [C-c t h] : **helm-etags-history**
@@ -167,7 +180,7 @@ so that you can refer the configurations
   - [C-c w h] : **ecb-goto-window-history**
 
 - sr-speedbar
-  - [C-c p] : **sr-speedbar-toggle**
+  - [C-c C-w] : **sr-speedbar-toggle**
 
 - ggtags
   - [M-\[] : Find references
@@ -196,7 +209,7 @@ so that you can refer the configurations
 
 - evil/surround
   - [ds \<textobject\>]: **delete surrounding things**
-  - [cs \<textobject\>]: **change surrounding things**
+  - [cs \<texobject\>]: **change surrounding things**
   - [ys \<textobject\>]: **insert surrounding things**
   - [cd(ys)]\[\[i\]wWs][bBrt or a special character\]
 

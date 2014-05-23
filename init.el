@@ -27,8 +27,7 @@
      smex
      expand-region
      helm
-     powerline
-     f
+     powerline f
      frame-restore
      bookmark+
      org
@@ -40,6 +39,7 @@
      auto-complete-c-headers
      flycheck
      google-c-style
+
      smartparens
      multiple-cursors
      surround
@@ -65,6 +65,8 @@
      etags-select
      etags-table
      ac-slime
+     projectile
+     perspective
      )))
 
 (condition-case nil
@@ -112,6 +114,8 @@
 		 setup-etags
 		 ;; setup-tramp
 		 ;; setup-ecb
+		 setup-perspective
+		 setup-projectile
 		
 		 ;; language
 		 ;; language-c++
