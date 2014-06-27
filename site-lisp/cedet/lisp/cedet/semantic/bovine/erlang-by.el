@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002, 2003 Vladimir G. Sekissov
 
-;; Author: anster <anster@anster>
-;; Created: 2014-05-01 16:42:38+0900
+;; Author: anster <anster@labtop>
+;; Created: 2014-05-24 22:26:31+0900
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

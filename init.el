@@ -67,6 +67,7 @@
      ac-slime
      projectile
      perspective
+     nginx-mode
      )))
 
 (condition-case nil
@@ -112,10 +113,11 @@
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
-		 ;; setup-tramp
+		 setup-tramp
 		 ;; setup-ecb
 		 setup-perspective
 		 setup-projectile
+		 setup-nginx
 		
 		 ;; language
 		 ;; language-c++
@@ -131,3 +133,19 @@
 ;; turn off debug option after loading emacs
 (setq debug-on-error nil)
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file nil)
+ '(ecb-options-version "2.40")
+ '(flycheck-display-errors-function (function flycheck-pos-tip-error-messages))
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2003, 2004, 2009 Eric M. Ludlam
 
-;; Author: anster <anster@anster>
-;; Created: 2014-05-01 16:42:54+0900
+;; Author: anster <anster@labtop>
+;; Created: 2014-05-24 22:26:49+0900
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

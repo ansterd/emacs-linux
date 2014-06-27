@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2005-2012 Free Software Foundation, Inc.
 
-;; Author: anster <anster@anster>
-;; Created: 2014-05-01 16:42:29+0900
+;; Author: anster <anster@labtop>
+;; Created: 2014-05-24 22:26:20+0900
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
