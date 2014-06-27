@@ -68,6 +68,13 @@
      projectile
      perspective
      nginx-mode
+
+     ;; php
+     php-mode
+     php-extras
+     php-auto-yasnippets
+     php-boris-minor-mode
+     php-eldoc
      )))
 
 (condition-case nil
@@ -124,6 +131,7 @@
 		 language-html
 		 language-lisp
 		 language-javascript
+		 language-php
 		 ))
 
 ;; Setup keybinding and alias

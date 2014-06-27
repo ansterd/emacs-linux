@@ -1,19 +1,18 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-05-24
+Last Update : 2014-06-28
 
 #### Todo
-1. Semantic C++ Header file support
+1. Autoload
 2. Paredit
 3. js2-refactor
-4. Scala / Python Support
-5. Autoload
-6. Cask, Grail, Pallet. (See [Here](https://github.com/mathrick/emacs-config))
+4. Cask, Grail, Pallet. (See [Here](https://github.com/mathrick/emacs-config))
+5. Scala / Python Support
+6. Semantic C++ Header file support
 
 <br>
 ### 1. Installation Guide
 
-<br>
-#### Dependency
+#### C++ Development
 ```
 $ sudo apt-get install cppcheck
 $ sudo apt-get install ruby
@@ -23,12 +22,32 @@ $ sudo apt-get install cscope
 $ sudo apt-get install ctags
 $ # sudo apt-get install libncurses5-dev
 $ # install GNU Global without apt-get (see https://github.com/leoliu/ggtags)
+```
+
+
+#### Web Development
+
+```
+$ sudo npm install tern -g
 $ sudo npm install jshint -g
 $ sudo npm install jsonlint -g
 $ # install tidy-html5 without apt-get (see https://github.com/w3c/tidy-html5)
-$ sudo npm install tern -g
+```
+
+#### Lisp Development
+```
 $ # install sbcl
 $ # install slime using quicklisp
+```
+
+#### PHP Development
+```
+$ sudo apt-get install php-pear
+$ sudo apt-get install php5-dev
+$ pear install PHP_CodeSniffer ;; for flycheck
+$ curl -L -O https://github.com/d11wtq/boris/releases/download/v1.0.8/boris.phar
+$ chmod +x boris.phar
+$ sudo mv boris.phar /usr/local/bin/boris
 ```
 
 <br>
@@ -52,6 +71,14 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 
 <br>
 ### 2. Language Support
+
+#### PHP (see `setup/language-php.el`)
+- **php-mode** 
+- **php-eldoc** 
+- **php-boris-minor-mode** 
+- **php-extras** 
+- **php-auto-yasnippets** 
+- **flycheck** (requires `phpcs`)
 
 <br>
 #### C/C++ (see `setup/language-c++.el`)
