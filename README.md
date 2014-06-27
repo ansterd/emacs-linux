@@ -1,5 +1,5 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-05-10
+Last Update : 2014-05-24
 
 #### Todo
 1. Semantic C++ Header file support
@@ -21,6 +21,7 @@ $ sudo gem install plist trollop
 $ sudo apt-get install rake
 $ sudo apt-get install cscope
 $ sudo apt-get install ctags
+$ # sudo apt-get install libncurses5-dev
 $ # install GNU Global without apt-get (see https://github.com/leoliu/ggtags)
 $ sudo npm install jshint -g
 $ sudo npm install jsonlint -g
@@ -37,6 +38,7 @@ $ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/
 $ cd ~/.emacs.d/
 $ git submodule update --init --recursive
 $
+$ sudo apt-get install texinfo
 $ cd ~/.emacs.d/site-lisp/cedet
 $ make clean-all && make
 $ cd ~/.emacs.d/site-lisp/cedet/contrib
@@ -45,7 +47,7 @@ $
 $ cd ~/.emacs.d/site-lisp/yasnippet/yasmate
 $ rake convert_bundles
 $
-$ cp ~/.emacs.d/.ctags  ~/.ctags
+$ cp ~/.emacs.d/config/.ctags  ~/.ctags
 ```
 
 <br>
