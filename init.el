@@ -36,9 +36,7 @@
      iedit
      auto-complete
      org-ac
-     auto-complete-c-headers
      flycheck
-     google-c-style
 
      smartparens
      multiple-cursors
@@ -68,13 +66,6 @@
      projectile
      perspective
      nginx-mode
-
-     ;; php
-     php-mode
-     php-extras
-     php-auto-yasnippets
-     php-boris-minor-mode
-     php-eldoc
      )))
 
 (condition-case nil
@@ -120,18 +111,15 @@
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
-		 setup-tramp
 		 ;; setup-ecb
 		 setup-perspective
 		 setup-projectile
 		 setup-nginx
 		
 		 ;; language
-		 ;; language-c++
 		 language-html
 		 language-lisp
 		 language-javascript
-		 language-php
 		 ))
 
 ;; Setup keybinding and alias
