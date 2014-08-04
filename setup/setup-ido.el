@@ -1,5 +1,8 @@
 (require 'ido)
 
+;; do not confirm a new file or buffer
+(setq confirm-nonexistent-file-or-buffer nil)
+
 (ido-mode t)
 (ido-everywhere 1)
 (setq ido-enable-flex-matching t
@@ -7,9 +10,10 @@
       ido-case-fold t
       ido-max-prospects 10
       ido-create-new-buffer 'always
+      ;; ido-confirm-unique-completion nil
       ido-use-filename-at-point 'guess
       ido-use-url-at-point t
-      ;; ido-enable-tramp-completion nil
+      ido-enable-tramp-completion nil
       ffap-require-prefix t
       ido-default-file-method 'selected-window
       ido-default-buffer-method 'selected-window)

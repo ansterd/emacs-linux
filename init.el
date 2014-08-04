@@ -49,16 +49,8 @@
      magit
      ggtags
      ecb
-     web-mode
-     emmet-mode
      rainbow-mode
      flycheck-pos-tip
-     js2-mode
-     js2-refactor
-     json-mode
-     ac-js2
-     tern
-     tern-auto-complete
      smart-forward
      etags-select
      etags-table
@@ -66,6 +58,17 @@
      projectile
      perspective
      nginx-mode
+
+     web-mode
+     emmet-mode
+     js2-mode
+     js2-refactor
+     json-mode
+     ac-js2
+     tern
+     tern-auto-complete
+     jade-mode
+     less-css-mode
      )))
 
 (condition-case nil
@@ -115,12 +118,15 @@
 		 setup-perspective
 		 setup-projectile
 		 setup-nginx
+		 setup-tramp
 		
 		 ;; language
 		 language-html
 		 language-lisp
 		 language-javascript
 		 ))
+
+
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
