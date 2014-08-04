@@ -1,8 +1,8 @@
 (require 'tramp)
 (setq tramp-default-method "ftp")
-(tramp-unload-tramp)
+;; (tramp-unload-tramp)
 ;; (setq password-cache t)
-;;(setq password-cache-expiry 3600)
+;; (setq password-cache-expiry 3600)
 
 ;; Guard to ensure that TRAMP is available
 ;; (if (locate-library "tramp")

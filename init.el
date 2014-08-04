@@ -127,8 +127,6 @@
 		 language-javascript
 		 ))
 
-
-
 ;; Setup keybinding and alias
 (require 'setup-alias)
 (require 'setup-custom)
