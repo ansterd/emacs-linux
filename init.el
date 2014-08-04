@@ -58,6 +58,7 @@
      projectile
      perspective
      nginx-mode
+     ag
 
      web-mode
      emmet-mode
