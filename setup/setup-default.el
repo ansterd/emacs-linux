@@ -17,9 +17,13 @@
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 
-;; Disable backup, auto-save
+;; Set backup, auto-save
 (setq make-backup-files nil)
+(setq backup-inhibited t)
 (setq auto-save-default nil)
+
+;; Disable making .# files
+(setq create-lockfiles nil)
 
 ;; Set eshell, auto-save directory
 (setq eshell-directory-name (concat cache-directory "eshell"))
