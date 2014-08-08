@@ -4,7 +4,9 @@
    (setq tab-width 2))
 (add-hook 'json-mode-hook 'custom:json-mode-hook)
 
+;; enable auto-complete in coffee-mode
 (require 'auto-complete)
+(add-to-list 'ac-modes 'coffee-mode)
 
 (defun custom:js2-mode-config ()
   (yas-activate-extra-mode 'coffee-mode)
