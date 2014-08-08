@@ -34,6 +34,11 @@ $ sudo npm install jsonlint -g
 $ # install tidy-html5 without apt-get (see https://github.com/w3c/tidy-html5)
 ```
 
+#### Coffeescript development
+``
+$ sudo npm install coffeelint -g
+```
+
 #### Lisp Development
 ```
 $ # install sbcl
@@ -103,6 +108,10 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 - **ectags** 
 - **ac-js2**
 - **skerew-mode**
+
+#### Coffeescript (see `setup/language-coffee.el`)
+ - **coffee-mode**
+ - **flycheck** (require `coffeelint`)
 
 <br>
 #### Lisp (see `setup/language-lisp.el`)

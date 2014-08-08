@@ -70,6 +70,8 @@
      tern-auto-complete
      jade-mode
      less-css-mode
+
+     coffee-mode
      )))
 
 (condition-case nil
@@ -125,6 +127,7 @@
 		 language-html
 		 language-lisp
 		 language-javascript
+		 language-coffee
 		 ))
 
 ;; Setup keybinding and alias
