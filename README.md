@@ -77,14 +77,6 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 <br>
 ### 2. Language Support
 
-#### PHP (see `setup/language-php.el`)
-- **php-mode** 
-- **php-eldoc** 
-- **php-boris-minor-mode** 
-- **php-extras** 
-- **php-auto-yasnippets** 
-- **flycheck** (requires `phpcs`)
-
 <br>
 #### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
