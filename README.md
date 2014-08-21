@@ -1,5 +1,5 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-06-28
+Last Update : 2014-08-22
 
 #### Todo
 1. Autoload
@@ -7,7 +7,6 @@ Last Update : 2014-06-28
 3. js2-refactor
 4. Cask, Grail, Pallet. (See [Here](https://github.com/mathrick/emacs-config))
 5. Scala / Python Support
-6. Semantic C++ Header file support
 
 <br>
 ### 1. Installation Guide
@@ -44,6 +43,21 @@ $ sudo npm install coffeelint -g
 $ # install sbcl
 $ # install slime using quicklisp
 ```
+
+
+#### Scala Developement
+
+install **Scala** and **SBT**
+
+```
+$ wget www.scala-lang.org/files/archive/scala-2.11.2.deb
+$ sudo dpkg -i scala-2.11.2.deb
+
+$ wget http://dl.bintray.com/sbt/debian/sbt-0.13.5.deb
+$ sudo dpkg -i sbt-0.13.5.deb
+```
+
+
 
 #### PHP Development
 ```

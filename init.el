@@ -128,6 +128,7 @@
 		 language-lisp
 		 language-javascript
 		 language-coffee
+		 language-scala
 		 ))
 
 ;; Setup keybinding and alias
