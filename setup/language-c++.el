@@ -1,6 +1,11 @@
 (require 'auto-complete)
 (require 'auto-complete-config)
 
+;; install packages
+(require 'setup-package)
+
+(packages-install '(auto-complete-c-headers))
+
 (defun c++/ac-c-headers ()
   (require 'auto-complete-c-headers)
   (add-to-list 'ac-sources 'ac-source-c-headers)
