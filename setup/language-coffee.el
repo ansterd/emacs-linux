@@ -1,7 +1,9 @@
 ;; coffee script
 
 (defun custom:json-mode-hook ()
-   (setq tab-width 2))
+  (flycheck-mode 1)
+  (setq tab-width 2))
+
 (add-hook 'json-mode-hook 'custom:json-mode-hook)
 
 ;; enable auto-complete in coffee-mode

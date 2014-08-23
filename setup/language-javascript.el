@@ -53,6 +53,7 @@
   (yas-activate-extra-mode 'js-mode)
   (tern-mode t)
   (fci-mode 1)
+  (flycheck-mode 1)
   ;; (tags-table-mode)
   (add-to-list 'ac-sources 'ac-source-yasnippet))
 

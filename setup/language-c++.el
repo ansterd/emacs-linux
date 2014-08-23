@@ -14,7 +14,7 @@
 
 (defun language/c-mode-common-hook ()
   (c++/ac-c-headers))
-  ;;(c-toggle-auto-state 1))
+;;(c-toggle-auto-state 1))
 
 (add-hook 'c-mode-common-hook 'language/c-mode-common-hook)
 
@@ -22,14 +22,13 @@
 ;; (add-hook 'c-mode-common-hook 'google-set-c-style)
 ;; (add-hook 'c-mode-common-hook 'google-make-newline-indent)
 
-
 ;; C/C++ semantic setting
 (defun custom/c-mode-common-hook ()
-   ;; (add-to-list 'ac-sources 'ac-source-semantic)
-   (add-to-list 'ac-sources 'ac-source-gtags) 
-   (add-to-list 'ac-sources 'ac-source-semantic) 
-   (add-to-list 'ac-sources 'ac-source-semantic-raw) 
-    (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp))
+  ;; (add-to-list 'ac-sources 'ac-source-semantic)
+  (add-to-list 'ac-sources 'ac-source-gtags) 
+  (add-to-list 'ac-sources 'ac-source-semantic) 
+  (add-to-list 'ac-sources 'ac-source-semantic-raw) 
+  (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp))
 
 (add-hook 'c++-mode-hook 'custom/c-mode-common-hook)
 (add-hook 'c-mode-hook 'custom/c-mode-common-hook)

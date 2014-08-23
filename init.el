@@ -36,7 +36,6 @@
      iedit
      auto-complete
      org-ac
-     flycheck
 
      smartparens
      multiple-cursors
@@ -50,6 +49,7 @@
      ggtags
      ecb
      rainbow-mode
+     flycheck
      flycheck-pos-tip
      smart-forward
      etags-select
