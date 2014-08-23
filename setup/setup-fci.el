@@ -5,4 +5,4 @@
 ;; (global-fci-mode t)
 (setq fci-rule-color "cadet blue")
 
-(provide 'setup-80-column)
+(provide 'setup-fci)

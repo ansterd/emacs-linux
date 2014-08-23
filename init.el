@@ -107,7 +107,7 @@
 		 setup-bookmark
 		 setup-recentf
 		 setup-org
-		 setup-80-column
+		 setup-fci
 		 setup-iedit
 		 setup-flycheck
 		 setup-smartparens
