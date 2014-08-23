@@ -49,8 +49,6 @@
      ggtags
      ecb
      rainbow-mode
-     flycheck
-     flycheck-pos-tip
      smart-forward
      etags-select
      etags-table
