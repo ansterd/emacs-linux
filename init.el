@@ -117,7 +117,7 @@
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
-		 ;; setup-ecb
+		 setup-ecb
 		 setup-perspective
 		 setup-projectile
 		 setup-nginx
@@ -129,6 +129,7 @@
 		 language-javascript
 		 language-coffee
 		 language-scala
+		 language-c++
 		 ))
 
 ;; Setup keybinding and alias
