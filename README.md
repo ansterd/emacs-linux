@@ -23,7 +23,6 @@ $ # sudo apt-get install libncurses5-dev
 $ # install GNU Global without apt-get (see https://github.com/leoliu/ggtags)
 ```
 
-
 #### Web Development
 
 ```
@@ -34,7 +33,7 @@ $ # install tidy-html5 without apt-get (see https://github.com/w3c/tidy-html5)
 ```
 
 #### Coffeescript development
-``
+```
 $ sudo npm install coffeelint -g
 ```
 
