@@ -1,6 +1,10 @@
+
 (packages-install '(magit
 		    git-gutter+
 		    git-gutter-fringe+))
+
+;; set fringe size
+(setq-default left-fringe-width 15)
 
 (require 'magit)
 (require 'git-gutter+)
