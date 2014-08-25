@@ -23,7 +23,7 @@
      ido-vertical-mode
      ido-at-point
      ido-ubiquitous
-     flx-ido
+
      smex
      expand-region
      helm
@@ -45,7 +45,6 @@
      evil-leader
      evil-exchange
      evil-nerd-commenter
-     magit
      ggtags
      ecb
      rainbow-mode
@@ -111,7 +110,7 @@
 		 setup-smartparens
 		 setup-yasnippet
 		 ;; setup-multiple-cursors
-		 setup-magit
+		 setup-git
 		 setup-ggtags
 		 setup-sr-speedbar
 		 setup-etags
