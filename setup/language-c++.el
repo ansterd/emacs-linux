@@ -27,7 +27,8 @@
   ;; (add-to-list 'ac-sources 'ac-source-semantic)
   (add-to-list 'ac-sources 'ac-source-gtags) 
   (add-to-list 'ac-sources 'ac-source-semantic) 
-  (add-to-list 'ac-sources 'ac-source-semantic-raw) 
+  (add-to-list 'ac-sources 'ac-source-semantic-raw)
+  (setq ac-auto-start nil)
   (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp))
 
 (add-hook 'c++-mode-hook 'custom/c-mode-common-hook)
