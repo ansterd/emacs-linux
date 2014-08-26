@@ -22,6 +22,10 @@
 (autoload 'js2-mode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
+;; setup auto indent after inserting {
+(sp-local-pair 'js2-mode "{" nil :post-handlers
+	       '((custom:create-newline-and-enter-sexp "RET")))
+
 (custom-set-variables  
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p nil))

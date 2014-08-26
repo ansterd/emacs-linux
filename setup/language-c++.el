@@ -22,12 +22,22 @@
 ;; (add-hook 'c-mode-common-hook 'google-set-c-style)
 ;; (add-hook 'c-mode-common-hook 'google-make-newline-indent)
 
+;; auto indent after inserting {
+(sp-local-pair 'c++-mode "{" nil :post-handlers
+	       '((custom:create-newline-and-enter-sexp "RET")))
+
+(sp-local-pair 'c-mode "{" nil :post-handlers
+	       '((custom:create-newline-and-enter-sexp "RET")))
+
+
 ;; C/C++ semantic setting
 (defun custom/c-mode-common-hook ()
   ;; (add-to-list 'ac-sources 'ac-source-semantic)
   (add-to-list 'ac-sources 'ac-source-gtags) 
   (add-to-list 'ac-sources 'ac-source-semantic) 
   (add-to-list 'ac-sources 'ac-source-semantic-raw)
+  (lambda ()
+    (ggtags-mode 1))
   (setq ac-auto-start nil)
   (local-set-key (kbd "C-c t") 'eassist-switch-h-cpp))
 
