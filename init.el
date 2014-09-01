@@ -123,7 +123,9 @@
 
 ;; language
 
-(eval-after-load "scala-mode" '(require 'language-scala))
+(require 'language-scala)
+
+;; todo refac
 (eval-after-load "coffee-mode" '(require 'language-coffee))
 (eval-after-load "web-mode" '(require 'language-html))
 (eval-after-load "js2-mode" '(require 'language-javascript))
