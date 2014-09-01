@@ -60,13 +60,14 @@
 
      web-mode
      emmet-mode
+     jade-mode
+     
      js2-mode
      js2-refactor
      json-mode
      ac-js2
      tern
      tern-auto-complete
-     jade-mode
 
      coffee-mode
      )))
@@ -125,10 +126,10 @@
 (require 'language-scala)
 (require 'language-css)
 
-(eval-after-load "coffee-mode" '(require 'language-coffee))
 (eval-after-load "web-mode" '(require 'language-html))
 
 ;; todo refac
+(eval-after-load "coffee-mode" '(require 'language-coffee))
 (eval-after-load "js2-mode" '(require 'language-javascript))
 (eval-after-load "c-mode" '(require 'language-c++))
 (eval-after-load "c++-mode" '(require 'language-c++))

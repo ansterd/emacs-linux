@@ -15,8 +15,6 @@
 (define-key web-mode-map (kbd "C-c /")
   'custom:wrap-web-mode-element-close)
 
-(require 'evil)
-
 (defun custom:web-mode-config ()
   (add-to-list 'ac-sources 'ac-source-semantic)
   (add-to-list 'ac-sources 'ac-source-semantic-raw)
@@ -27,14 +25,5 @@
 
 (add-hook 'web-mode-hook 'custom:web-mode-config)
 (add-hook 'web-mode-hook 'emmet-mode)
-
-;; css
-(defun custom:css-mode-config ()
-  (rainbow-mode))
-
-(add-hook 'css-mode-hook 'custom:css-mode-config)
-
-
-
 
 (provide 'language-html)

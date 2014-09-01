@@ -1,5 +1,4 @@
 ;; coffee script
-
 (defun custom:json-mode-hook ()
   (flycheck-mode 1)
   (setq tab-width 2))
