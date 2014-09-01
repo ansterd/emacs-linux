@@ -23,6 +23,7 @@
      ido-vertical-mode
      ido-at-point
      ido-ubiquitous
+     flx-ido
 
      smex
      expand-region
