@@ -67,7 +67,6 @@
      tern
      tern-auto-complete
      jade-mode
-     less-css-mode
 
      coffee-mode
      )))
@@ -124,16 +123,17 @@
 ;; language
 
 (require 'language-scala)
+(require 'language-css)
 
-;; todo refac
 (eval-after-load "coffee-mode" '(require 'language-coffee))
 (eval-after-load "web-mode" '(require 'language-html))
+
+;; todo refac
 (eval-after-load "js2-mode" '(require 'language-javascript))
 (eval-after-load "c-mode" '(require 'language-c++))
 (eval-after-load "c++-mode" '(require 'language-c++))
 (eval-after-load "lisp-mode" '(require 'language-lisp))
 (eval-after-load "elisp-mode" '(require 'language-lisp))
-(eval-after-load "css-mode" '(require 'language-css))
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
