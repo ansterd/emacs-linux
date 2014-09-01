@@ -10,6 +10,10 @@
   (flycheck-mode 1)
   (eldoc-mode))
 
+;; disable flycheck docs warning
+(eval-after-load 'flycheck
+  '(setq flycheck-checkers (delq 'emacs-lisp-checkdoc flycheck-checkers)))
+
 (add-hook 'emacs-lisp-mode-hook 'custom:elisp-config)
 
 (add-hook 'lisp-mode-hook 'custom:common-lisp-config)
