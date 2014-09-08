@@ -54,7 +54,6 @@ $ wget http://dl.bintray.com/sbt/debian/sbt-0.13.5.deb
 $ sudo dpkg -i sbt-0.13.5.deb
 ```
 
-<br>
 #### Get Emacs Configuration
 ```
 $ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/
@@ -76,20 +75,17 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 <br/>
 ### 2. Language Support
 
-<br/>
 #### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
 - **flycheck** (requires `cppcheck`)
 - **ggtags** (requires `GNU Global`, `ctags`, `cscope`)
 
-<br/>
 #### XHTML (see `setup/language-html.el`)
 - **web-mode**
 - **flycheck** (requires `tidy`)
 - **emmet**
 - **rainbow-mode**
 
-<br/>
 #### Javasript, Node.js (see `setup/language-javascript.el`)
 - **js2-mode**
 - **flycheck** (requires `jshint`)
@@ -100,16 +96,13 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 - **ac-js2**
 - **skerew-mode**
 
-<br/>
 #### Coffeescript (see `setup/language-coffee.el`)
  - **coffee-mode**
  - **flycheck** (require `coffeelint`)
 
-<br/>
 #### Lisp (see `setup/language-lisp.el`)
 - **ac-slime**
 
-<br/>
 #### Scala (see `setup/language-scala.el`)
 - **scala-mode2**
 - **ensime**
