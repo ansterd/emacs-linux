@@ -2,11 +2,10 @@
 Last Update : 2014-08-22
 
 #### Todo
-1. Autoload
 2. Paredit
 3. js2-refactor
 4. Cask, Grail, Pallet. (See [Here](https://github.com/mathrick/emacs-config))
-5. Scala / Python Support
+5. Python Support
 
 <br>
 ### 1. Installation Guide
@@ -43,7 +42,6 @@ $ # install sbcl
 $ # install slime using quicklisp
 ```
 
-
 #### Scala Developement
 
 install **Scala** and **SBT**
@@ -54,18 +52,6 @@ $ sudo dpkg -i scala-2.11.2.deb
 
 $ wget http://dl.bintray.com/sbt/debian/sbt-0.13.5.deb
 $ sudo dpkg -i sbt-0.13.5.deb
-```
-
-
-
-#### PHP Development
-```
-$ sudo apt-get install php-pear
-$ sudo apt-get install php5-dev
-$ pear install PHP_CodeSniffer ;; for flycheck
-$ curl -L -O https://github.com/d11wtq/boris/releases/download/v1.0.8/boris.phar
-$ chmod +x boris.phar
-$ sudo mv boris.phar /usr/local/bin/boris
 ```
 
 <br>
@@ -87,23 +73,23 @@ $
 $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 ```
 
-<br>
+<br/>
 ### 2. Language Support
 
-<br>
+<br/>
 #### C/C++ (see `setup/language-c++.el`)
 - **auto-complete-c-headers**
 - **flycheck** (requires `cppcheck`)
 - **ggtags** (requires `GNU Global`, `ctags`, `cscope`)
 
-<br>
+<br/>
 #### XHTML (see `setup/language-html.el`)
 - **web-mode**
 - **flycheck** (requires `tidy`)
 - **emmet**
 - **rainbow-mode**
 
-<br>
+<br/>
 #### Javasript, Node.js (see `setup/language-javascript.el`)
 - **js2-mode**
 - **flycheck** (requires `jshint`)
@@ -114,13 +100,19 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 - **ac-js2**
 - **skerew-mode**
 
+<br/>
 #### Coffeescript (see `setup/language-coffee.el`)
  - **coffee-mode**
  - **flycheck** (require `coffeelint`)
 
-<br>
+<br/>
 #### Lisp (see `setup/language-lisp.el`)
 - **ac-slime**
+
+<br/>
+#### Scala (see `setup/language-scala.el`)
+- **scala-mode2**
+- **ensime**
 
 <br>
 ### 3. Extensions
