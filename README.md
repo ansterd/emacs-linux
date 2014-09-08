@@ -1,13 +1,6 @@
 # Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-08-22
+Last Update : 2014-09-07
 
-#### Todo
-2. Paredit
-3. js2-refactor
-4. Cask, Grail, Pallet. (See [Here](https://github.com/mathrick/emacs-config))
-5. Python Support
-
-<br>
 ### 1. Installation Guide
 
 #### C++ Development
