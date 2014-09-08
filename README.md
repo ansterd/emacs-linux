@@ -117,7 +117,6 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 <br>
 ### 3. Extensions
 
-<br>
 #### Used
 - **cedet** (sr-speedbar)
 - **auto-complete**
@@ -150,7 +149,6 @@ $ cp ~/.emacs.d/config/.ctags  ~/.ctags
 - **projectile** 
 - **perspective** (persp-projectile)
 
-<br>
 #### Installed But Not Used
 
 Although the extensions listed below are not used,
