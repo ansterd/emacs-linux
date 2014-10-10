@@ -47,6 +47,13 @@ $ wget http://dl.bintray.com/sbt/debian/sbt-0.13.5.deb
 $ sudo dpkg -i sbt-0.13.5.deb
 ```
 
+#### SML Development
+
+```
+$ ;; install sml
+$ ;; configure sml bin path in setup/language-sml.el 
+```
+
 #### Get Emacs Configuration
 ```
 $ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/

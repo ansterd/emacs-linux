@@ -125,14 +125,14 @@
 (require 'language-scala)
 (require 'language-css)
 (require 'language-lisp)
+(require 'language-sml)
 
-(eval-after-load "web-mode" '(require 'language-html))
-(eval-after-load "coffee-mode" '(require 'language-coffee))
-(eval-after-load "js2-mode" '(require 'language-javascript))
-
-;; todo refac
-(eval-after-load "c-mode" '(require 'language-c++))
-(eval-after-load "c++-mode" '(require 'language-c++))
+;; TODO: refac
+;; (eval-after-load "web-mode" '(require 'language-html))
+;; (eval-after-load "coffee-mode" '(require 'language-coffee))
+;; (eval-after-load "js2-mode" '(require 'language-javascript))
+;; (eval-after-load "c-mode" '(require 'language-c++))
+;; (eval-after-load "c++-mode" '(require 'language-c++))
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
