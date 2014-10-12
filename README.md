@@ -35,6 +35,11 @@ $ # install sbcl
 $ # install slime using quicklisp
 ```
 
+#### Python Development
+```
+$ sudo pip install jedi elpy rope
+```
+
 #### Scala Developement
 
 install **Scala** and **SBT**

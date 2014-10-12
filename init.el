@@ -9,7 +9,7 @@
 ;; Use common-lisp
 (require 'cl)
 
-;; Setup site-lisp
+;; Setup site-lisp 
 (mapc 'require '(setup-default
 		 setup-package))
 
@@ -28,13 +28,13 @@
 
 ;; Setup packages, builtin libraries
 (mapc 'require '(
+		 ;; site-lisp. these packages should be loaded earlier
+		 setup-cedet
+		 setup-auto-complete	
+
 		 ;; visual
 		 setup-theme
 		 setup-font
-		 
-		 ;; site-lisp. these packages should be loaded earlier
-		 setup-auto-complete	
-		 setup-cedet
 		 
 		 ;; ELPA packages
 		 setup-evil
@@ -57,13 +57,13 @@
 		 setup-smartparens
 		 setup-yasnippet
 		 setup-git
-		 ;; setup-sr-speedbar
-		 ;; setup-helm
-		 ;; setup-etags
-		 ;; setup-ecb
+		 setup-sr-speedbar
+		 setup-ecb
+		 setup-helm
+		 setup-etags
 		 setup-perspective
 		 setup-projectile
-		 ;; setup-tramp
+		 setup-tramp
 		 ))
 
 ;; programming languages

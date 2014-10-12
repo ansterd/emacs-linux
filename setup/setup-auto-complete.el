@@ -13,6 +13,7 @@
 (define-key ac-completing-map "\C-p" 'ac-previous)
 
 (ac-config-default)
+(add-to-list 'ac-sources 'ac-source-semantic)
 
 (provide 'setup-auto-complete)
 

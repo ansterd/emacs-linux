@@ -42,10 +42,12 @@
 ;; Use tags
 (when (cedet-gnu-global-version-check t)
   (semanticdb-enable-gnu-global-databases 'c-mode t)
-  (semanticdb-enable-gnu-global-databases 'c++-mode t))
+  (semanticdb-enable-gnu-global-databases 'c++-mode t)
+  (semanticdb-enable-gnu-global-databases 'python-mode t)
+  )
 
-(when (cedet-ectag-version-check t)
-  (semantic-load-enable-primary-ectags-support))
+;; (when (cedet-ectag-version-check t)
+;;   (semantic-load-enable-primary-ectags-support))
 ;; http://bbingju.wordpress.com/2013/03/21/emacs-global-gtags-source-navigation/
 
 ;; Activate semantic
@@ -55,7 +57,7 @@
 (global-srecode-minor-mode 1)
 
 ;; Enable tag folding
-(global-semantic-tag-folding-mode t)
+;; (global-semantic-tag-folding-mode t)
 
 ;; Load contrib library
 (require 'eassist)
@@ -79,7 +81,5 @@
 ;; (global-set-key (kbd "C-c >") 'semantic-complete-analyze-inline)
 ;; (global-set-key (kbd "C-c q") 'semantic-ia-show-doc)
 ;; (global-set-key (kbd "C-c s") 'semantic-ia-show-summary)
-
-(add-to-list 'ac-sources 'ac-source-semantic)
 
 (provide 'setup-cedet)
