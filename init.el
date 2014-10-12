@@ -26,20 +26,16 @@
      flx-ido
 
      smex
-     ;; expand-region
-     ;; helm
      powerline f
      frame-restore
      bookmark+
      org
      fill-column-indicator
      thingatpt+
-     ;; iedit
      auto-complete
      org-ac
 
      smartparens
-     ;; multiple-cursors
      surround
      evil-numbers
      evil-matchit
@@ -55,7 +51,6 @@
      ac-slime
      projectile
      perspective
-     nginx-mode
      ag
 
      web-mode
@@ -97,36 +92,33 @@
 		 setup-font
 		 setup-ace-jump-mode
 		 setup-smex
-		 ;; setup-expand-region
-		 ;; setup-helm
-		 ;; setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
 		 setup-bookmark
 		 setup-recentf
 		 setup-org
 		 setup-fci
-		 ;; setup-iedit
 		 setup-flycheck
 		 setup-smartparens
 		 setup-yasnippet
-		 ;; setup-multiple-cursors
 		 setup-git
 		 ;; setup-sr-speedbar
 		 ;; setup-etags
 		 ;; setup-ecb
 		 setup-perspective
 		 setup-projectile
-		 ;; setup-nginx
 		 ;; setup-tramp
 		 ))
 
-;; language
+;; programming language
 (require 'language-scala)
 (require 'language-css)
 (require 'language-lisp)
 (require 'language-sml)
 (require 'language-python)
+
+;; specific extensions
+(require 'language-nginx)
 
 ;; TODO: refac
 ;; (eval-after-load "web-mode" '(require 'language-html))
