@@ -1,4 +1,5 @@
-(packages-install '(less-css-mode))
+(packages-install '(less-css-mode
+		    rainbow-mode))
 
 (eval-after-load "css-mode"
   '(progn

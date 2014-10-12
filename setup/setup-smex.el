@@ -1,3 +1,5 @@
+(packages-install '(smex))
+
 (require 'smex)
 (smex-initialize)
 

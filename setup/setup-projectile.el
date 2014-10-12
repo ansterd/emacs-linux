@@ -1,3 +1,5 @@
+(packages-install '(projectile))
+
 (require 'projectile)
 
 ;; Global mode

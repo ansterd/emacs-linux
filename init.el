@@ -10,47 +10,18 @@
 (require 'cl)
 
 ;; Setup site-lisp
-(mapc 'require '(
-		 setup-default
+(mapc 'require '(setup-default
 		 setup-package))
 
 ;; Install packages from MELPA
 (defun init-packages ()
   (packages-install
-   '(evil
-     markdown-mode
-     ace-jump-mode
-     ido-vertical-mode
-     ido-at-point
-     ido-ubiquitous
-     flx-ido
-
-     smex
-     powerline f
+   '(
+     s
+     f
      frame-restore
      bookmark+
-     org
-     fill-column-indicator
-     thingatpt+
-     auto-complete
-     org-ac
 
-     smartparens
-     surround
-     evil-numbers
-     evil-matchit
-     evil-leader
-     evil-exchange
-     evil-nerd-commenter
-     ggtags
-     ecb
-     rainbow-mode
-     smart-forward
-     etags-select
-     etags-table
-     ac-slime
-     projectile
-     perspective
      ag
 
      web-mode
@@ -64,7 +35,6 @@
      tern
      tern-auto-complete
 
-     coffee-mode
      )))
 
 (condition-case nil
@@ -81,6 +51,8 @@
 		 
 		 ;; packages
 		 setup-theme
+		 setup-font
+		 
 		 setup-evil
 		 setup-desktop
 		 setup-revive-plus
@@ -89,7 +61,6 @@
 		 setup-buffcycle
 		 setup-ido
 		 setup-icomplete-mode
-		 setup-font
 		 setup-ace-jump-mode
 		 setup-smex
 		 setup-powerline
@@ -103,6 +74,7 @@
 		 setup-yasnippet
 		 setup-git
 		 ;; setup-sr-speedbar
+		 ;; setup-helm
 		 ;; setup-etags
 		 ;; setup-ecb
 		 setup-perspective
@@ -117,12 +89,15 @@
 (require 'language-sml)
 (require 'language-python)
 
-;; specific extensions
-(require 'language-nginx)
+;; TODO: refactoring
+;; '(require 'language-coffee)
 
-;; TODO: refac
+;; specific extensions
+(require 'extension-nginx)
+(require 'extension-markdown)
+(require 'extension-json)
+
 ;; (eval-after-load "web-mode" '(require 'language-html))
-;; (eval-after-load "coffee-mode" '(require 'language-coffee))
 ;; (eval-after-load "js2-mode" '(require 'language-javascript))
 ;; (eval-after-load "c-mode" '(require 'language-c++))
 ;; (eval-after-load "c++-mode" '(require 'language-c++))

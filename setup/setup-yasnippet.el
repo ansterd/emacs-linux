@@ -1,14 +1,9 @@
-;; (setq dir/yas-root-path
-;;       (concat user-emacs-directory "site-lisp/yasnippet/"))
-
-;; (add-to-list 'load-path dir/yas-root-path)
+(packages-install '(yasnippet))
 
 (require 'yasnippet)
 
-;; (setq yas-snippet-dirs
-;;       '("~/.emacs.d/site-lisp/yasnippet/snippets"
-;; 	"~/.emacs.d/site-lisp/yasnippet/yasmate/snippets"
-;; 	"~/.emacs.d/snippets"))
+;; add snippet dir
+;;(add-to-list 'yas-snippet-dirs "~/.emacs.d/snippets")
 
 ;; yas with ac
 (add-to-list 'ac-sources 'ac-source-yasnippet)

@@ -1,3 +1,11 @@
+(packages-install '(evil
+		    surround
+		    evil-numbers
+		    evil-matchit
+		    evil-leader
+		    evil-exchange
+		    evil-nerd-commenter))
+
 (require 'evil)
 (evil-mode 1)
 

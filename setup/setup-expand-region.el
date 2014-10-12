@@ -1,3 +1,6 @@
+(packages-install '(expand-region
+		    smart-forward))
+
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 

@@ -1,3 +1,6 @@
+(packages-install '(etags-select
+		    etags-table))
+
 (require 'etags-select)
 (require 'etags-table)
 

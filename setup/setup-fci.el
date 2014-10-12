@@ -1,3 +1,5 @@
+(packages-install '(fill-column-indicator))
+
 (require 'fill-column-indicator)
 (setq fci-rule-width 2)
 (define-globalized-minor-mode

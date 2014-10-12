@@ -1,3 +1,5 @@
+(packages-install '(ace-jump-mode))
+
 (require 'ace-jump-mode)
 
 ;; ace-jump-mode : [C-c SPC]

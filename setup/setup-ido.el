@@ -1,3 +1,8 @@
+(packages-install '(ido-vertical-mode
+		    ido-at-point
+		    ido-ubiquitous
+		    flx-ido))
+
 (require 'ido)
 
 ;; do not confirm a new file or buffer

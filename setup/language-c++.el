@@ -1,3 +1,5 @@
+(packages-install '(ggtags))
+
 (require 'auto-complete)
 (require 'auto-complete-config)
 

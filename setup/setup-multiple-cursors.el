@@ -1,3 +1,4 @@
+(packages-install '(multiple-cursors))
 (require 'multiple-cursors)
 
 (global-set-key (kbd "C-c m n") 'mc/mark-next-like-this)

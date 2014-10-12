@@ -1,3 +1,5 @@
+(packages-install '(ecb))
+
 (require 'ecb)
 
 (add-hook 'kill-emacs-hook 'ecb-store-window-sizes)

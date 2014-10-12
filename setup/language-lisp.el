@@ -1,3 +1,5 @@
+(packages-install '(ac-slime))
+
 ;; Common Lisp and Elisp
 (defun custom:lisp-config()
   ;; (fci-mode 1)

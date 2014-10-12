@@ -1,3 +1,5 @@
+(packages-install '(powerline))
+
 (require 'powerline)
 ;;(powerline-center-evil-theme)
 (powerline-default-theme)
