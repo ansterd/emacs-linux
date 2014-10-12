@@ -1,3 +1,5 @@
+(packages-install '(bookmark+))
+
 ;; Set bookmark save path
 (custom-set-variables 
  '(bmkp-last-as-first-bookmark-file nil))

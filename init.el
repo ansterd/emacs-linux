@@ -16,25 +16,14 @@
 ;; Install packages from MELPA
 (defun init-packages ()
   (packages-install
-   '(
-     s
-     f
-     frame-restore
-     bookmark+
+   
+   '(s f ag;; these packages don't have config file
 
-     ag
-
-     web-mode
-     emmet-mode
-     jade-mode
-     
      js2-mode
      js2-refactor
-     json-mode
      ac-js2
      tern
      tern-auto-complete
-
      )))
 
 (condition-case nil
@@ -88,19 +77,21 @@
 (require 'language-lisp)
 (require 'language-sml)
 (require 'language-python)
+(require 'language-jade)
+
+(require 'language-html)
+;; (eval-after-load "js2-mode" '(require 'language-javascript))
 
 ;; TODO: refactoring
 ;; '(require 'language-coffee)
+;; (eval-after-load "c-mode" '(require 'language-c++))
+;; (eval-after-load "c++-mode" '(require 'language-c++))
 
 ;; specific extensions
 (require 'extension-nginx)
 (require 'extension-markdown)
 (require 'extension-json)
 
-;; (eval-after-load "web-mode" '(require 'language-html))
-;; (eval-after-load "js2-mode" '(require 'language-javascript))
-;; (eval-after-load "c-mode" '(require 'language-c++))
-;; (eval-after-load "c++-mode" '(require 'language-c++))
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
