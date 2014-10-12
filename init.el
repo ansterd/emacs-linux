@@ -16,15 +16,9 @@
 ;; Install packages from MELPA
 (defun init-packages ()
   (packages-install
-   
-   '(s f ag;; these packages don't have config file
-
-     js2-mode
-     js2-refactor
-     ac-js2
-     tern
-     tern-auto-complete
-     )))
+   '(s ;; these packages don't have config file
+     f
+     ag))) 
 
 (condition-case nil
     (init-packages)
@@ -34,14 +28,15 @@
 
 ;; Setup packages, builtin libraries
 (mapc 'require '(
-		 ;; site-lisp
-		 setup-auto-complete	
-		 setup-cedet
-		 
-		 ;; packages
+		 ;; visual
 		 setup-theme
 		 setup-font
 		 
+		 ;; site-lisp. these packages should be loaded earlier
+		 setup-auto-complete	
+		 setup-cedet
+		 
+		 ;; ELPA packages
 		 setup-evil
 		 setup-desktop
 		 setup-revive-plus
@@ -71,27 +66,26 @@
 		 ;; setup-tramp
 		 ))
 
-;; programming language
+;; programming languages
 (require 'language-scala)
-(require 'language-css)
 (require 'language-lisp)
 (require 'language-sml)
-(require 'language-python)
-(require 'language-jade)
 
-(require 'language-html)
-;; (eval-after-load "js2-mode" '(require 'language-javascript))
+(require 'language-python)
+
+(require 'language-html) ;; html, web, emmet mode
+(require 'language-javascript) ;; javascript, nodejs, tern
+(require 'language-jade)
+(require 'language-css)
 
 ;; TODO: refactoring
-;; '(require 'language-coffee)
-;; (eval-after-load "c-mode" '(require 'language-c++))
-;; (eval-after-load "c++-mode" '(require 'language-c++))
+;; (require 'language-coffee)
+;; (require 'language-c++)) ;; c-mode, c++-mode
 
-;; specific extensions
+;; file extensions
 (require 'extension-nginx)
 (require 'extension-markdown)
 (require 'extension-json)
-
 
 ;; Setup keybinding and alias
 (require 'setup-alias)
