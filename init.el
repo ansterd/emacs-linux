@@ -26,20 +26,20 @@
      flx-ido
 
      smex
-     expand-region
-     helm
+     ;; expand-region
+     ;; helm
      powerline f
      frame-restore
      bookmark+
      org
      fill-column-indicator
      thingatpt+
-     iedit
+     ;; iedit
      auto-complete
      org-ac
 
      smartparens
-     multiple-cursors
+     ;; multiple-cursors
      surround
      evil-numbers
      evil-matchit
@@ -97,8 +97,8 @@
 		 setup-font
 		 setup-ace-jump-mode
 		 setup-smex
-		 setup-expand-region
-		 setup-helm
+		 ;; setup-expand-region
+		 ;; setup-helm
 		 ;; setup-thingatpt
 		 setup-powerline
 		 setup-uniquify
@@ -106,19 +106,19 @@
 		 setup-recentf
 		 setup-org
 		 setup-fci
-		 setup-iedit
+		 ;; setup-iedit
 		 setup-flycheck
 		 setup-smartparens
 		 setup-yasnippet
 		 ;; setup-multiple-cursors
 		 setup-git
-		 setup-sr-speedbar
-		 setup-etags
+		 ;; setup-sr-speedbar
+		 ;; setup-etags
 		 ;; setup-ecb
 		 setup-perspective
 		 setup-projectile
-		 setup-nginx
-		 setup-tramp
+		 ;; setup-nginx
+		 ;; setup-tramp
 		 ))
 
 ;; language
@@ -126,6 +126,7 @@
 (require 'language-css)
 (require 'language-lisp)
 (require 'language-sml)
+(require 'language-python)
 
 ;; TODO: refac
 ;; (eval-after-load "web-mode" '(require 'language-html))

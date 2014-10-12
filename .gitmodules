@@ -1,6 +1,3 @@
-[submodule "yasnippet"]
-        path = site-lisp/yasnippet
-        url = https://github.com/capitaomorte/yasnippet
 [submodule "site-lisp/revive-plus"]
 	path = site-lisp/revive-plus
 	url = https://github.com/martialboniou/revive-plus

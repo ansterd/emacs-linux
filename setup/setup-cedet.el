@@ -21,8 +21,8 @@
 (add-to-list 'semantic-default-submodes 'global-semantic-idle-scheduler-mode)
 ;; (add-to-list 'semantic-default-submodes 'global-semantic-idle-completions-mode)
 ;; (add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode)
-(add-to-list 'semantic-default-submodes 
-	     'global-semantic-idle-local-symbol-highlight-mode)
+;; (add-to-list 'semantic-default-submodes 
+;;	     'global-semantic-idle-local-symbol-highlight-mode)
 
 ;; Add system include directory
 ;; (semantic-add-system-include emacs-builtin-package-directory 'emacs-lisp-mode)
