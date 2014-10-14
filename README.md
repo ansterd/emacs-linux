@@ -59,6 +59,11 @@ $ ;; install sml
 $ ;; configure sml bin path in setup/language-sml.el 
 ```
 
+### Octave Development
+
+see `setup/language-octave-mode.el`
+
+
 #### Get Emacs Configuration
 ```
 $ git clone --recursive git://github.com/ansterd/emacs-linux ~/.emacs.d/

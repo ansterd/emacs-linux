@@ -72,6 +72,7 @@
 (require 'language-sml)
 
 (require 'language-python)
+(require 'language-octave)
 
 (require 'language-html) ;; html, web, emmet mode
 (require 'language-javascript) ;; javascript, nodejs, tern
@@ -81,6 +82,7 @@
 ;; TODO: refactoring
 ;; (require 'language-coffee)
 ;; (require 'language-c++)) ;; c-mode, c++-mode
+
 
 ;; file extensions
 (require 'extension-nginx)
