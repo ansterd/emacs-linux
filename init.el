@@ -79,6 +79,8 @@
 (require 'language-jade)
 (require 'language-css)
 
+(require 'language-mysql)
+
 ;; TODO: refactoring
 ;; (require 'language-coffee)
 ;; (require 'language-c++)) ;; c-mode, c++-mode
