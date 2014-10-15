@@ -79,7 +79,7 @@
 (require 'language-jade)
 (require 'language-css)
 
-(require 'language-mysql)
+(require 'language-sql)
 
 ;; TODO: refactoring
 ;; (require 'language-coffee)
