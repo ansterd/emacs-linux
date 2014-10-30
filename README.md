@@ -63,6 +63,11 @@ $ ;; configure sml bin path in setup/language-sml.el
 
 see `setup/language-octave-mode.el`
 
+### Haskell Developemnt
+
+install cabel, haskell-platform
+
+`$ cabal update && cabal install ghc-mod`
 
 #### Get Emacs Configuration
 ```

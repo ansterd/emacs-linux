@@ -70,6 +70,7 @@
 (require 'language-scala)
 (require 'language-lisp)
 (require 'language-sml)
+(require 'language-haskell)
 
 (require 'language-python)
 (require 'language-octave)
