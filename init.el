@@ -61,7 +61,7 @@
 		 setup-ecb
 		 setup-helm
 		 setup-etags
-		 setup-perspective
+		 ;; setup-perspective
 		 setup-projectile
 		 setup-tramp
 		 ))

@@ -1,5 +1,9 @@
-# Emacs 24.3 config on Ubuntu 14.04
-Last Update : 2014-09-07
+# Emacs 24.4 config on Ubuntu 14.04
+
+Last Update : 2015-02-19
+
+*!!persp-mode is incompatible with emacs 24.4*
+
 
 ### 1. Installation Guide
 
